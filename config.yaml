@@ -1,0 +1,7 @@
+theme:  "forestry-docs"
+baseurl: "docs.forestry.io"
+languageCode: "en-us"
+title: "The Forestry Field Guide"
+taxonomies:
+  category:  "categories"
+  tag:  "tags"
