@@ -1,0 +1,3 @@
+- run `gulp` from the command line
+  - Will listen for changes, and automatically update all the browsers when changes are made.
+  - You can use multiple devices or browsers at once, and they will be all kept in sync (even scrolling)
