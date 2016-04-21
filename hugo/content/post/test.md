@@ -6,4 +6,3 @@ thumbnail = ""
 title = "test"
 
 +++
-
