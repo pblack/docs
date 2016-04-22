@@ -1,4 +1,4 @@
-theme:  "forestry-docs"
+theme:  "forestry-doc-theme"
 baseurl: "docs.forestry.io"
 languageCode: "en-us"
 title: "The Forestry Field Guide"
