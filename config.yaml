@@ -8,7 +8,7 @@ menu.main:
 pluralizelisttitles: false
 sitemap:
   ChangeFreq: ''
-  Priority: "-1"
   Filename: sitemap.xml
+  Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
