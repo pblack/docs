@@ -1,15 +1,14 @@
-theme:  "forestry-doc-theme"
-baseurl: "forestry.io/docs"
-languageCode: "en-us"
-title: "The Forestry Field Guide"
-taxonomies:
-  category:  "categories"
-  tag:  "tags"
+---
+baseurl: forestry.io/docs
+languagecode: en-us
 menu.main:
-  name : "Sermons"
-  url : "/sermon"
-  weight : 1
-menu.main:
-  name : "Events"
-  url : "/event"
-  weight : 2
+  name: Events
+  url: "/event"
+  weight: '2'
+pluralizelisttitles: false
+sitemap:
+  ChangeFreq: ''
+  Priority: "-1"
+  Filename: sitemap.xml
+theme: forestry-doc-theme
+title: The Forestry Field Guide
