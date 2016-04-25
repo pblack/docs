@@ -5,7 +5,16 @@
 - `npm install`
 - 'git clone git@github.com:forestryio/forestry-doc-theme.git hugo/themes/forestry-doc-theme' to the `./themes/` directory
 
-## run
+## gulp commands
 
-- `gulp` to start the watch task
-- `hugo server` will start the hugo server on localhost
+- `gulp`
+  - The default task. Will server hugo project through browserSync, and automatically reload changes in the browser.
+- `gulp draft`
+  - Same as default, except drafts will be included.
+- `gulp build`
+  - Build the website for deployment
+- `gulp build:draft`
+  - Same as build, except drafts are included.
+
+#### Limitations
+- Currently only watching for "change" file system events. If you add a new file you need to restart gulp for the changes to happen.
