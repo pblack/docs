@@ -116,7 +116,7 @@ gulp.task('server:draft', ['build:draft'], function() {
         gulp.start('hugo:draft', done);
         console.log("Changes to contet detected")
     }));
-  watch(['./themes/**/*.scss', './themes/**/*.js'], batch(function (events, done) {
+  watch(['./themes/**/*.scss', './themes/**/*.js', './themes/**/*.html', './themes/**/*.md'], batch(function (events, done) {
         gulp.start('build:draft', done);
         console.log("Changes to theme detected")
     }));
