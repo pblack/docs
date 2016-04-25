@@ -15,6 +15,7 @@
   - Build the website for deployment
 - `gulp build:draft`
   - Same as build, except drafts are included.
-
-#### Limitations
-- Currently only watching for "change" file system events. If you add a new file you need to restart gulp for the changes to happen.
+- `gulp js`
+  - Build all the js files in the theme
+- `gulp scss`
+  - Build all the scss files in the theme

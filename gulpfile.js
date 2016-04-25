@@ -38,7 +38,7 @@ gulp.task('js', function() {
 // Build CSS
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 gulp.task('scss', function() {
-  return gulp.src('./themes/forestry-doc-theme/src/scss/main.scss')
+  return gulp.src('./themes/forestry-doc-theme/src/sass/main.scss')
   .pipe(sass({ style: 'expanded' }))
   .pipe(autoprefixer("last 2 version"))
   .pipe(rename({suffix: '.min'}))
