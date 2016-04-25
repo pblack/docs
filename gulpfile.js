@@ -6,6 +6,8 @@ var gutil = require('gulp-util');
 var path = require('path');
 var del = require('del');
 var runSequence = require('gulp-run-sequence');
+var watch = require('gulp-watch');
+var batch = require('gulp-batch');
 
 // Dev tools
 var browserSync = require("browser-sync");
@@ -36,21 +38,13 @@ gulp.task('js', function() {
 // Build CSS
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 gulp.task('scss', function() {
-  return gulp.src('./themes/forestry-doc-theme/src/**/*.scss')
+  return gulp.src('./themes/forestry-doc-theme/src/scss/main.scss')
   .pipe(sass({ style: 'expanded' }))
   .pipe(autoprefixer("last 2 version"))
   .pipe(rename({suffix: '.min'}))
-//  .pipe(minifycss())
-  .pipe(gulp.dest('./themes/forestry-doc-theme/static/css'))
+  .pipe(minifycss())
+  .pipe(gulp.dest('./themes/forestry-doc-theme/static/css/'))
   .pipe(browserSync.stream());
-});
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// watch for changes
-////////////////////////////////////////////////////////////////////////////////////////////////////
-gulp.task('watch', function() {
-  gulp.watch('./themes/**/*.scss', ['scss']);
-  gulp.watch('./themes/**/*.js', ['js']);
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -76,6 +70,7 @@ function hugo(drafts) {
 // compile website with drafts
 gulp.task('hugo:draft', ['hugo:delete'], function(){
   hugo(true);
+  browserSync.reload();
 });
 
 // clear the previous compiled version
@@ -87,6 +82,7 @@ gulp.task('hugo:delete', function() {
 // compiple site without drafts
 gulp.task('hugo', ['hugo:delete'], function() {
   hugo(false);
+  browserSync.reload();
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -114,8 +110,16 @@ gulp.task('server:draft', ['build:draft'], function() {
     },
     open: false
   });
-  gulp.watch(['./archetypes/**/*', './content/**/*', './layouts/**/*'], ['hugo:draft', browserSync.reload])
-  gulp.watch(['./themes/**/*.scss', './themes/**/*.js'], ['build:draft', browserSync.reload])
+  // gulp.watch(['./archetypes/**/*', './content/**/*', './layouts/**/*'], ['hugo:draft', browserSync.reload])
+  // gulp.watch(['./themes/**/*.scss', './themes/**/*.js'], ['build:draft', browserSync.reload])
+  watch(['./archetypes/**/*', './content/**/*', './layouts/**/*'], batch(function (events, done) {
+        gulp.start('hugo:draft', done);
+        console.log("Changes to contet detected")
+    }));
+  watch(['./themes/**/*.scss', './themes/**/*.js'], batch(function (events, done) {
+        gulp.start('build:draft', done);
+        console.log("Changes to theme detected")
+    }));
 });
 
 // serve without drafts
@@ -126,8 +130,17 @@ gulp.task('server', ['build'], function() {
     },
     open: false
   });
-  gulp.watch(['./archetypes/**/*', 'content/**/*', './layouts/**/*'], ['hugo', browserSync.reload])
-  gulp.watch(['./themes/**/*.scss', './themes/**/*.js', `./themes/**/*.md`, `./themes/**/*.html`], ['build', browserSync.reload])
+  // gulp.watch(['./archetypes/**/*', 'content/**/*', './layouts/**/*'], ['hugo', browserSync.reload])
+  // gulp.watch(['./themes/**/*.scss', './themes/**/*.js', `./themes/**/*.md`, `./themes/**/*.html`], ['build', browserSync.reload])
+
+  watch(['./archetypes/**/*', './content/**/*', './layouts/**/*'], batch(function (events, done) {
+        gulp.start('hugo', done);
+        console.log("Changes to contet detected")
+    }));
+  watch(['./themes/**/*.scss', './themes/**/*.js'], batch(function (events, done) {
+        gulp.start('build', done);
+        console.log("Changes to theme detected")
+    }));
 });
 
 
