@@ -32,7 +32,7 @@ gulp.task('scss', function() {
   .pipe(autoprefixer("last 2 version"))
   .pipe(rename({suffix: '.min'}))
   .pipe(minifycss())
-  .pipe(gulp.dest('./themes/forestry-doc-theme/statis/css'))
+  .pipe(gulp.dest('./themes/forestry-doc-theme/static/css'))
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
