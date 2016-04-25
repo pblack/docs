@@ -1,5 +1,5 @@
 theme:  "forestry-doc-theme"
-baseurl: "docs.forestry.io"
+baseurl: "forestry.io/docs"
 languageCode: "en-us"
 title: "The Forestry Field Guide"
 taxonomies:
