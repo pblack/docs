@@ -1,10 +1,14 @@
 ---
 baseurl: forestry.io/docs
 languagecode: en-us
-menu.main:
-  name: Events
-  url: "/event"
-  weight: '2'
+menu:
+  main:
+    - Name: "Getting Started"
+      Weight: -100
+      URL: "/Getting-Started/"
+    - Name: "GitHub & Forestry"
+      Weight: -90
+      URL: "/GitHub-and-forestry-io/"
 pluralizelisttitles: false
 sitemap:
   ChangeFreq: ''
