@@ -1,14 +1,6 @@
 ---
 baseurl: http://www.forestry.io/docs
 languagecode: en-us
-menu:
-  main:
-    - Name: "Getting Started"
-      Weight: -100
-      URL: "/Getting-Started/"
-    - Name: "GitHub & Forestry"
-      Weight: -90
-      URL: "/GitHub-and-forestry-io/"
 pluralizelisttitles: false
 sitemap:
   ChangeFreq: ''
@@ -16,3 +8,13 @@ sitemap:
   Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
+menu:
+  main:
+  - Name: Getting Started
+    URL: "/Getting-Started/"
+    Weight: -100
+    weight: 1
+  - Name: GitHub & Forestry
+    URL: "/GitHub-and-forestry-io/"
+    Weight: -90
+    weight: 2
