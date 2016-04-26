@@ -61,6 +61,8 @@ function hugo(drafts) {
     var cmd = 'hugo --config=./config.yaml -s ' + src + ' -d ' + dst;
     if (drafts) {
         cmd += ' --buildDrafts=true --verbose=true --baseUrl="http://localhost:3000/" ';
+    }else{
+      cmd += ' --baseUrl="http://localhost:3000/" ';
     }
 
     var result = exec(cmd, {encoding: 'utf-8'});
