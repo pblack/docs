@@ -8,6 +8,8 @@ sitemap:
   Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
+permalinks:
+  doc: /:title/
 menu:
   main:
   - Name: Getting Started
