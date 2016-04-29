@@ -1,15 +1,15 @@
 ---
-title: The Forestry Field Guide
-theme: forestry-doc-theme
+baseurl: https://forestry.io/docs
+languagecode: en-us
+permalinks:
+  doc: "/:title/"
+pluralizelisttitles: false
 sitemap:
   ChangeFreq: ''
   Filename: sitemap.xml
   Priority: "-1"
-pluralizelisttitles: false
-permalinks:
-  doc: "/:title/"
-languagecode: en-us
-baseurl: https://forestry.io/docs
+theme: forestry-doc-theme
+title: The Forestry Field Guide
 menu:
   main:
   - name: Getting Started

@@ -2,14 +2,54 @@
 date = "2016-04-28T22:47:00+00:00"
 description = ""
 draft = false
-tags = []
+tags = ["S3", "Hosting", "Deploy"]
 thumbnail = ""
-title = "test22"
+title = "Generate AWS Keys"
 [menu.main]
 name = "AWS Permission"
 weight = 2
 
 +++
-<p>Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed.</p>
+<h2>Setup Policy</h2>
 
-<p>Nulla facilisi. </p><p><br></p><p>Change</p>
+<ul><li>Log into your <a href="https://console.aws.amazon.com">AWS&nbsp;Console</a></li><li>Go to&nbsp;<em>Identity and Access Management</em></li><li>Policies &gt; Get started &gt; Create policies &gt; policy generator</li><li>Add the following fields:</li></ul>
+
+
+
+
+
+
+
+<p> AWS Service: Amazon S3<br>Action:&nbsp;All actions selected (for simplicity)<br>ARN:&nbsp;arn:aws:s3:::your-domain.com/*<br></p>
+
+
+
+
+
+
+
+<ul><li>Click <em>Add Statement</em></li><li><em></em>Now do&nbsp;the same thing without the /* at the end of your domain (in the ARN&nbsp;field)</li><li>Click <em>Next</em> and give the policy a new name that makes sense (forestry-policy).&nbsp;&nbsp;Then click&nbsp;<em>Create Policy</em></li></ul>
+
+
+
+
+
+
+
+<h2> Attach Policy to a User</h2>
+
+
+
+
+
+
+
+<p>Go back to the <em>Identity and Access Management</em> dashboard and go to:</p>
+
+
+
+
+
+
+
+<ul><li>Users &gt; create &gt; name (name = forestry)</li><li>Click show credentials&nbsp;(be sure to copy or download these...they only appear once)</li><li>Close window then click on the row of the user you just created</li><li>Got to <em>Permissions</em> &gt; <em>Attach policy</em> then search for the policy you&nbsp;just created</li><li>Save and your done!</li></ul>
