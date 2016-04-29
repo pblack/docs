@@ -13,7 +13,7 @@
   website on other devices, such as a phone. Interactions with one instance of the website,
   will also happen on other instances.
 - `gulp build`
-  - Run this before pushing, will generate a "production" version of the content
+  - will generate a "production" version of the content
 
 
 ## javascipt with webpack 101

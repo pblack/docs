@@ -32,6 +32,7 @@
     "webpack-stream": "^3.2.0"
   },
   "dependencies": {
+    "highlight.js": "^9.3.0",
     "jquery": "^2.2.3"
   }
 }

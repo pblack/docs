@@ -22,4 +22,6 @@ settings = {
   settings.SASSExitPoint = "./themes/" + settings.theme + '/static/css/'
   settings.SASSDir = "./themes/" + settings.theme + "/src/sass/"
   settings.jsDir = "./themes/" + settings.theme + "/src/js/"
+  console.log("The directory");
+  console.log(settings.jsDir);
 })(settings);
