@@ -15,6 +15,3 @@ menu:
   - name: Getting Started
     url: "/Getting-Started/"
     weight: 1
-  - name: GitHub & Forestry
-    url: "/GitHub-and-forestry-io/"
-    weight: 2
