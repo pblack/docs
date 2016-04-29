@@ -7,15 +7,5 @@
 
 ## gulp commands
 
-- `gulp`
-  - The default task. Will server hugo project through browserSync, and automatically reload changes in the browser.
-- `gulp draft`
-  - Same as default, except drafts will be included.
-- `gulp build`
-  - Build the website for deployment
-- `gulp build:draft`
-  - Same as build, except drafts are included.
-- `gulp js`
-  - Build all the js files in the theme
 - `gulp scss`
-  - Build all the scss files in the theme
+  - Build scss, and generate source maps
