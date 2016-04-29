@@ -12,9 +12,9 @@ function hugo(drafts) {
     gutil.log('src: ' + src + ' dst: ' + dst);
 
     var cmd = 'hugo --config=./config.yaml -s ' + src + ' -d ' + dst;
-    if (drafts) {
+    if (drafts === true) {
         cmd += ' --buildDrafts=true --verbose=true --baseUrl="http://' + add + ':3000/" ';
-    }else{
+    }else if (drafts === false){
       cmd += ' --baseUrl="http://' + add + ':3000/" ';
     }
     console.log(add)
@@ -30,4 +30,8 @@ gulp.task('hugo', function(){
 
 gulp.task('hugo:draft', function(){
   hugo(true);
+})
+
+gulp.task('hugo:live', function(){
+  hugo();
 })

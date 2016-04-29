@@ -11,5 +11,5 @@ gulp.task('build:all', function(){
 gulp.task('build:content', ['hugo:draft'], browserSync.reload);
 
 gulp.task('build', function(){
-  runSequence(['sass', 'js'], 'hugo');
+  runSequence(['sass', 'js'], 'hugo:live');
 });
