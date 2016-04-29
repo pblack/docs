@@ -1,22 +1,20 @@
 ---
-baseurl: https://forestry.io/docs
-languagecode: en-us
-pluralizelisttitles: false
+title: The Forestry Field Guide
+theme: forestry-doc-theme
 sitemap:
   ChangeFreq: ''
   Filename: sitemap.xml
   Priority: "-1"
-theme: forestry-doc-theme
-title: The Forestry Field Guide
+pluralizelisttitles: false
 permalinks:
-  doc: /:title/
+  doc: "/:title/"
+languagecode: en-us
+baseurl: https://forestry.io/docs
 menu:
   main:
-  - Name: Getting Started
-    URL: "/Getting-Started/"
-    Weight: -100
+  - name: Getting Started
+    url: "/Getting-Started/"
     weight: 1
-  - Name: GitHub & Forestry
-    URL: "/GitHub-and-forestry-io/"
-    Weight: -90
+  - name: GitHub & Forestry
+    url: "/GitHub-and-forestry-io/"
     weight: 2
