@@ -5,7 +5,12 @@ description = ""
 draft = true
 tags = []
 thumbnail = ""
-title = "GitHub Pages "
+title = "Configuring Jekyll's baseurl for forestry + GitHub Pages"
 
 +++
-<p>In the _config.yml file, add the variable baseurl (without trailing slash):</p><p><br><code>baseurl: "/project-name"</code><br><br></p><p>In your templates,&nbsp;use&nbsp;the site.baseurl variable for assets:</p><p><br><code>&lt;link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css"&gt;</code><br><br></p><p>When forestry generates your previews we will set the baseurl to empty.&nbsp;&nbsp;You can also&nbsp;do this when you run Jekyll, locally:</p><p><br><code>$ jekyll serve --watch --baseurl=</code></p>
+<p>In the _config.yml file, add the variable baseurl (without trailing slash):</p>
+<p><br><code>baseurl: "/project-name"</code><br><br></p>
+<p>In your templates,&nbsp;use&nbsp;the site.baseurl variable for assets:</p>
+<p><br><code>&lt;link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css"&gt;</code><br><br></p>
+<p>When forestry generates your previews we will set the baseurl to empty.&nbsp;&nbsp;You can also&nbsp;do this when you run Jekyll, locally:</p>
+<p><br><code>$ jekyll serve --watch --baseurl=</code></p>
