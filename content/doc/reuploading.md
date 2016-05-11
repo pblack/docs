@@ -10,7 +10,8 @@ title = "Re-uploading a Project"
 +++
 If you're not using GitHub with forestry, and you need to re-upload your project, you can upload your project files only, or you can upload content and project files.  
 
-Choosing project files only will overwrite things like:
+Choosing project files only will overwrite things like:  
+
 * Config file
 * Layouts files
 * Static Assets
