@@ -18,6 +18,7 @@ Choosing project files only will overwrite things like:
 * Etc
 
 If you choose to update project files AND content files, you will also overwrite:
+
 * Content files, such as posts and pages 
 * Data files
 
