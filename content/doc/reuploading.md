@@ -20,6 +20,6 @@ If you choose to update project files AND content files, you will also overwrite
 * Content files, such as posts and pages 
 * Data files
 
-Finally, if you want to update your local copy of your site, see [downloading a backup](https://forestry.io/docs/downloading-a-backup-of-your-site).
+Finally, if you want to update your local copy of your site, see [downloading a backup](https://forestry.io/docs/downloading-a-backup-of-your-site/).
 
 ![](https://forestryio.s3-us-west-2.amazonaws.com/g47yihqnkc4uiw/static/assets/images/Screen Shot 2016-05-11 at 9.05.16 AM.png)
