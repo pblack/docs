@@ -24,3 +24,4 @@ More info here: [http://docs.aws.amazon.com/AmazonS3...](http://docs.aws.amazon.
   ]
 }
 ```
+Be sure to replace **example-bucket** with your bucket name :)
