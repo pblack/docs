@@ -1,9 +1,18 @@
 +++
 date = "2016-04-25T13:14:00+00:00"
-description = ""
+description = "(GitHub and Bitbucket)"
 draft = false
-tags = []
+tags = ["setup", "github", "bitbucket"]
 thumbnail = ""
-title = "GitHub and forestry"
+title = "Import from a repository"
 
 +++
+<p>If you import your project from a GitHub or Bitbucket repo, Forestry will commit content updates back to that repo. It will also watch that repo for changes and pull them in so you can continue to push code to it.</p> 
+
+<img src="https://forestryio.s3-us-west-2.amazonaws.com/g47yihqnkc4uiw/static/assets/images/editor-screenshot-1.jpg" alt="">
+<br><br>
+<p>When an editor saves changes, 2 things happen:</p>
+<ol>
+<li>All changes are committed and pushed to your GitHub repo</li>
+<li>The site is compiled and sent to your host (FTP, S3, GitHub pages, etc)</li>
+</ol>
