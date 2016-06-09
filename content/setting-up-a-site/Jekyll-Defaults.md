@@ -29,7 +29,6 @@ defaults:
 
 Be sure to include at least one page or post that uses an image file as a value for the *thumbnail* front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. 
 
-In forestry it will look like this.
-<img src="/docs/images/Screen Shot 2016-05-04 at 9.50.39 AM-1.png">
+## Hugo
 
-The fields defined in <code>_config.yml</code> will be auto populated, saving you from doing it for each new post.
+Archetypes
