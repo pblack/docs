@@ -9,6 +9,7 @@ title = "Forestry Features"
 weight = 2
 
 +++
+***
 ## Deploy anywhere
 Forestry is host-agnostic. Everytime an update is made via your CMS, Forestry will compile your site and deploy it to your host (S3, GitHub Pages, FTP, etc).
 
