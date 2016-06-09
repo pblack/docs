@@ -8,3 +8,10 @@ sitemap:
   Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
+menu:
+  managing_your_team:
+  - name: Adding Team Members
+    weight: 1
+  getting_started:
+  - name: Support and help
+    weight: 3
