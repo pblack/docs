@@ -16,3 +16,6 @@ menu:
     weight: 2
   - name: Hosting with Github pages
     weight: 3
+  getting_started:
+  - name: Forestry Features
+    weight: 2
