@@ -16,12 +16,13 @@ gem 'jekyll', '1.5.1 '
 gem 'jekyll-coffeescript'
 </code>
 </pre>
-<p>Every gemfile must have a source, in this case <pre>source 'https://rubygems.org'</pre> . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally <pre>'https://rubygems.org'</pre> is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.</p>
+<p>Every gemfile must have a source, in this case </p>
+<pre><code class="language-ruby">source 'https://rubygems.org'</code></pre> . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally <pre><code class="language-ruby">'https://rubygems.org'</code></pre> is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+<p>
+    You can specify the version of ruby to use for your build as well. To do this simply add </p>
+<pre><code class="language-ruby">ruby "2.2.4"</code></pre> to your Gemfile and change "2.2.4" to the version of Ruby you want to use.
+
 
 <p>
-    You can specify the version of ruby to use for your build as well. To do this simply add <pre>ruby "2.2.4"</pre> to your Gemfile and change "2.2.4" to the version of Ruby you want to use.
-</p>
-
-<p>
-    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to <pre>gem</pre>. Any dpendencies the gems have listed will be installed as well.
-</p>
+    After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to </p>
+<pre><code class="language-ruby">gem</code></pre>. Any dpendencies the gems have listed will be installed as well.
