@@ -5,7 +5,6 @@ description = "Github offers free hosting for static sites. Forestry integrates 
 draft = false
 tags = ["github", "github pages", "hosting"]
 title = "Hosting with Github pages"
-type = "doc"
 [menu.setting_up_a_site]
 weight = 3
 
