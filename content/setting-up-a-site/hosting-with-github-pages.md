@@ -23,4 +23,4 @@ Now back over Forestry, after completing the initilal setup of importing you sit
 
 Now whenever you publish a change, forestry will automatically update your live site, so your users will always see the latest version.
 
-Since you're already using git for hosting, why not also host your code there? If you're hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout [here](../setting-up-a-site/importing-a-site-from-github/).
+Since you're already using git for hosting, why not also host your code there? If you're hosting with github-pages, also using github for your version control is a great workflow. We have a doc you can checkout [here](./setting-up-a-site/importing-a-site-from-github/).
