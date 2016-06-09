@@ -6,12 +6,14 @@ tags = []
 title = "Defaults Fields"
 
 +++
-You can have forestry use default fields every time you create a new page or post. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a *Description* field.
+Forestry will make UI fields out of the front matter of your posts, pages and collections/sections. 
+
+You can set up  your site so Forestry will use default fields for new pages or posts. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a *Description* field.
 
 <img src="/docs/assets/images/forestry-default-fields.png">
 
-## Jekyll
-If you want these fields to show up in new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).
+## Jekyll Default Fields 
+If you want these fields to show up in front matter (and forestry UI) for new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).
 
 In the example below, all new posts (no matter what the path is) will get these fields.
 
