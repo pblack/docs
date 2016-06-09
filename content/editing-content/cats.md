@@ -5,7 +5,5 @@ description = ""
 draft = false
 tags = []
 title = "cats"
-[menu.editing_content]
-weight = 1
 
 +++

@@ -5,7 +5,5 @@ description = ""
 draft = false
 tags = []
 title = "test3"
-[menu.getting_started]
-weight = 1
 
 +++
