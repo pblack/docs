@@ -10,3 +10,7 @@ sitemap:
   Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
+menu:
+  setting_up_a_site:
+  - name: Importing a site from Github
+    weight: 2
