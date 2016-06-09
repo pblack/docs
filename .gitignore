@@ -7,3 +7,5 @@ node_modules
 # bower
 bower_components
 src/vendor
+
+main.min.css.map
