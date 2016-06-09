@@ -14,7 +14,7 @@ gulp.task('sass', ['sass:clean'], function() {
   .pipe(sourcemaps.init())
     .pipe(sass({style: 'expanded'}))
     .pipe(autoprefixer("last 2 version"))
-    .pipe(cleanCSS())
+    //.pipe(cleanCSS())
     .pipe(rename({suffix: '.min'}))
   .pipe(sourcemaps.write('./'))
   .pipe(gulp.dest(settings.SASSExitPoint))
