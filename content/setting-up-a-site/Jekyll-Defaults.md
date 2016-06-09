@@ -3,7 +3,7 @@ date = "2016-04-25T14:51:00+00:00"
 description = "Set default front matter for new pages and posts."
 draft = false
 tags = []
-title = "Defaults Fields"
+title = "Default Fields For New Pages and Posts"
 
 +++
 Forestry will make UI fields out of the front matter of your posts, pages and collections/sections. 
