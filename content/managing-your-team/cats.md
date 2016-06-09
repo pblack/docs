@@ -5,7 +5,5 @@ description = ""
 draft = false
 tags = []
 title = "cats"
-[menu.managing_your_team]
-weight = 1
 
 +++

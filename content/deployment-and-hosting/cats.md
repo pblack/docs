@@ -5,7 +5,5 @@ description = ""
 draft = false
 tags = []
 title = "cats"
-[menu.deployment_and_hosting]
-weight = 1
 
 +++
