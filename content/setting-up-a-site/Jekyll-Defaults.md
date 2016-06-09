@@ -15,7 +15,7 @@ You can set up  your site so Forestry will use default fields for new pages or p
 ## Jekyll Default Fields 
 If you want these fields to show up in front matter (and forestry UI) for new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).
 
-In the example below, all new posts (no matter what the path is) will get these fields.
+In the example below, all new posts (no matter what the path is) will get these fields. 
 
 <pre><code class="language-yml">defaults:
   - scope:
