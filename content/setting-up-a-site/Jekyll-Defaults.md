@@ -32,8 +32,7 @@ In the example below, all new posts (no matter what the path is) will get these
 
 ## Hugo
 
-Hugo makes this easy by keeping all default fields in *archetype* files, see the [hugo docs](https://gohugo.io/content/archetypes/).
-Archetypes
+With hugo, you'll need to add an  [archetype](https://gohugo.io/content/archetypes/) file with these fields for each [section](https://gohugo.io/content/sections/).  The following fields in /archetypes/default.md will result in the above UI.
 
 <pre><code class="language-toml">+++
 title = ""
