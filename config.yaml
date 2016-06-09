@@ -14,3 +14,5 @@ menu:
   setting_up_a_site:
   - name: Importing a site from Github
     weight: 2
+  - name: Hosting with Github pages
+    weight: 3
