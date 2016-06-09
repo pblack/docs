@@ -4,7 +4,6 @@ date = "2016-06-06T20:49:00+00:00"
 description = ""
 draft = true
 tags = []
-
 title = "Jekyll and GitHub pages"
 
 +++
