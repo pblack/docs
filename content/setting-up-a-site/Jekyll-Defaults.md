@@ -17,8 +17,7 @@ If you want these fields to show up in front matter (and forestry UI) for new p
 
 In the example below, all new posts (no matter what the path is) will get these fields.
 
-<pre><code class="language-yml">
-defaults:
+<pre><code class="language-yml">defaults:
   - scope:
       path: ""
       type: posts
@@ -29,8 +28,17 @@ defaults:
 </code>
 </pre>
 
-Be sure to include at least one page or post that uses an image file as a value for the *thumbnail* front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. 
+<div class="highlighted-block">Be sure to include at least one page or post that uses an image file as a value for the *thumbnail* front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. </div>
 
 ## Hugo
 
+Hugo makes this easy by keeping all default fields in *archetype* files, see the [hugo docs](https://gohugo.io/content/archetypes/).
 Archetypes
+
+<pre><code class="language-toml">+++
+title = ""
+description = ""
+banner = ""
+categories = []
++++
+</code></pre>
