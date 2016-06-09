@@ -13,3 +13,5 @@ To import a site from github, you jut need to click on the github button when yo
 
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 1.40.48 PM.png)
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 2.16.01 PM.png)
+
+Forestry also alows you to host you sites for free on Github, with [Github pages](https://pages.github.com/).
