@@ -6,22 +6,23 @@ tags = []
 title = "Jekyll Defaults"
 
 +++
-You can have forestry use default fields everytime you create a new page or post. In the following example, 
-
-
-<img src="/docs/tmp/d20160609-4700-ts3t0p/" alt="">
-
-<p>If you want default fields for new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).  In this example below, all new posts (no matter what the path is). </p>
-<p>The following example will generate a  field and an  field for all new posts:</p>
-<pre>
-<code class="language-yml">
+<p>You can have forestry use default fields every time you create a new page or post. In the following example, we want a Banner image, a Categories field (array), and a Description field.  </p>
+<figure><img src="/docs/assets/images/forestry-default-fields.png"></figure>
+<p><br></p>
+<h3>Jekyll</h3>
+<p>If you want these fields to show up in new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info). </p>
+<p>In the example below, all new posts (no matter what the path is) will get these fields. <br></p>
+<p><br></p>
+<pre><code class="language-yml">
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      work: true
-      Author: "Scott Gallant"
+        thumbnail: ''
+        description: ''
+        sub-title: ''
+        tags: []
 </code>
 </pre>
 <p>This will save you from filling in the <a href="https://jekyllrb.com/docs/frontmatter/" target="_blank">Front Matter</a> for fields that will be the same for almost every new post.</p>
