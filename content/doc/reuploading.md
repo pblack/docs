@@ -4,7 +4,7 @@ date = "2016-05-11T12:07:00+00:00"
 description = ""
 draft = false
 tags = []
-thumbnail = ""
+
 title = "Re-uploading a Project"
 
 +++
@@ -19,7 +19,7 @@ Choosing project files only will overwrite things like:
 
 If you choose to update project files AND content files, you will also overwrite:
 
-* Content files, such as posts and pages 
+* Content files, such as posts and pages
 * Data files
 
 Finally, if you want to update your local copy of your site, see [downloading a backup](https://forestry.io/docs/downloading-a-backup-of-your-site/).
