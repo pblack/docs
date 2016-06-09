@@ -6,7 +6,7 @@ tags = []
 title = "Defaults Fields"
 
 +++
-You can have forestry use default fields every time you create a new page or post. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a* Description* field.
+You can have forestry use default fields every time you create a new page or post. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a *Description* field.
 
 <img src="/docs/assets/images/forestry-default-fields.png">
 
