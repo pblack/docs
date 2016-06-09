@@ -7,7 +7,7 @@ tags = []
 title = "Adding Team Members"
 
 +++
-When you add new members to your site, they will be given the ability to edit content through forestry. You can control which users have acess to which sites. After you add a user to a site, Forestry will send them an email to let them know they now have access. If they don't have an account with Forestry yet, Forestry will send them an email with instructions on how to setup their account. Once they create their account, they will have access to your site.
+When you add new members to your site, they will be given the ability to edit content through forestry. You can control which users have access to which sites. After you add a user to a site, Forestry will send them an email to let them know they now have access. If they don't have an account with Forestry yet, Forestry will send them an email with instructions on how to setup their account. Once they create their account, they will have access to your site.
 
 To add a user first click the three dot button next to your site in the dashboard, then "manage team".
 
