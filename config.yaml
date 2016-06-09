@@ -10,16 +10,3 @@ sitemap:
   Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
-menu:
-  getting-started:
-  - name: Getting Started
-    url: "/Getting-Started/"
-    weight: 1
-  setting-up-site:
-  - name: Getting Started
-    url: "/Getting-Started/"
-    weight: 1
-  deployment-and-hosting:
-    - name: Getting Started
-      url: "/Getting-Started/"
-      weight: 1
