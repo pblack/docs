@@ -5,6 +5,8 @@ description = "The forestry through the trees"
 draft = false
 tags = []
 title = "Forestry Features"
+[menu.getting_started]
+weight = 2
 
 +++
 ## Deploy anywhere
