@@ -1,7 +1,7 @@
 +++
 Categories = []
 date = "2016-06-09T18:08:00+00:00"
-description = "The forestry through the trees"
+description = "See the forestry through the trees"
 draft = false
 tags = []
 title = "Forestry Features"
