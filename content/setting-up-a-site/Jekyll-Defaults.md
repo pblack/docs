@@ -19,19 +19,14 @@ In the example below, all new posts (no matter what the path is) will get these
 
 <pre><code class="language-yml">defaults:
   - scope:
-      path: ""
-      type: posts
+        path: ""
+        type: posts
     values:
-        thumbnail: ''"
+        thumbnail: ""
         categories: []
-        description: ''"
+        description: ""
 </code>
 </pre>
-
-<div class="highlighted-block">
-<h3>Image upload fields</h3>
-Be sure to include at least one page or post that uses an image file as a value for the thumbnail front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. 
-</div>
 
 ## Hugo
 
@@ -44,3 +39,8 @@ banner = ""
 categories = []
 +++
 </code></pre>
+
+<div class="highlighted-block">
+<h3>Image upload fields</h3>
+Be sure to include at least one page or post that uses an image file as a value for the thumbnail front matter.  This way, when Forestry parses your site, it will know to treat that field as an image upload field. 
+* </div>
