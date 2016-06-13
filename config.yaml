@@ -12,9 +12,12 @@ menu:
   managing_your_team:
   - name: Adding Team Members
     weight: 1
+  getting_started:
+  - name: Support and help
+    weight: 3
   setting_up_a_site:
   - name: Setting up a site without hosting
     weight: 3
-  getting_started:
-  - name: Support and help
+  deployment_and_hosting:
+  - name: New page testing menu
     weight: 3
