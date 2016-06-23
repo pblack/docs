@@ -1,8 +1,8 @@
----
+--- !ruby/hash:InsensitiveHash
 baseurl: https://forestry.io/docs/
 languagecode: en-us
 pluralizelisttitles: false
-sitemap:
+sitemap: !ruby/hash:InsensitiveHash
   ChangeFreq: ''
   Filename: sitemap.xml
   Priority: "-1"
