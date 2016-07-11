@@ -5,6 +5,8 @@ description = "If you are hosting your website on S3, ensure you setup a bucket 
 draft = false
 tags = ["s3", "hosting"]
 title = "S3 Permissions for Website"
+[menu.deployment_and_hosting]
+weight = 5
 
 +++
 More info here: [http://docs.aws.amazon.com/AmazonS3...](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html)
