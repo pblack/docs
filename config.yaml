@@ -1,11 +1,7 @@
---- !ruby/hash:InsensitiveHash
+---
 baseurl: https://forestry.io/docs/
 languagecode: en-us
 pluralizelisttitles: false
-sitemap: !ruby/hash:InsensitiveHash
-  ChangeFreq: ''
-  Filename: sitemap.xml
-  Priority: "-1"
 theme: forestry-doc-theme
 title: The Forestry Field Guide
 menu:
@@ -21,3 +17,7 @@ menu:
   setting_up_a_site:
   - name: Setting up a site without hosting
     weight: 3
+sitemap:
+  ChangeFreq: ''
+  Filename: sitemap.xml
+  Priority: "-1"
