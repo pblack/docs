@@ -1,9 +1,9 @@
 +++
-Categories = []
+Categories = ["hugo"]
 date = "2016-07-19T16:17:00+00:00"
 description = ""
 draft = true
-tags = []
+tags = ["hugo", " menus"]
 title = "Hugo Menus"
 [menu.setting_up_a_site]
 weight = 7
