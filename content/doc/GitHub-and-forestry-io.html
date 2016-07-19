@@ -6,15 +6,19 @@ tags = ["setup", "github", "bitbucket"]
 title = "Import from a repository"
 
 +++
-<img src="/docs/assets/images/editor-screenshot-1.jpg" alt="">
-<br><br>
-<p>If you import a git repository, Forestry will commit updates to your repository and watch it for changes. </p> 
-<p><strong>When an editor saves changes in Forestry, 2 things happen:</strong></p>
+<p><img src="/docs/assets/images/editor-screenshot-1.jpg" alt="" style="box-shadow:none; border:none;"><br></p>
+<p>If you import a git repository, Forestry will commit updates to your repository and watch it for changes. </p>
+<h3><strong>When an dev pushes changes:</strong></h3>
+<ul>
+<li>Forestry pulls in updates.</li>
+</ul>
+<h3><strong>When an editor saves changes in Forestry, 2 things happen:</strong></h3>
 <ul>
 <li>All changes are committed and pushed to your GitHub repo</li>
 <li>The site is compiled and sent to your host (FTP, S3, GitHub pages, etc)</li>
 </ul>
-<p><strong>When an dev pushes changes:</strong></p>
+<hr>
+<h3>Commit but don't deploy</h3>
 <ul>
-<li>Forestry pulls in updates.</li>
+<li>If you want Forestry to commit to your repo without deploying. Just select "Commit to source repo only" from the hosting window.</li>
 </ul>

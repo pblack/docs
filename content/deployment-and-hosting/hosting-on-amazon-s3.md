@@ -5,6 +5,8 @@ description = ""
 draft = false
 tags = []
 title = "Hosting on Amazon S3"
+[menu.deployment_and_hosting]
+weight = 4
 
 +++
 If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket name, Access Key ID, and Secret Access Key.

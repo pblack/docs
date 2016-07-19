@@ -4,6 +4,9 @@ description = "Set default front matter for new pages and posts."
 draft = false
 tags = []
 title = "Default Fields For New Pages and Posts"
+[menu.setting_up_a_site]
+name = "Default Fields for New Pages and Posts"
+weight = 4
 
 +++
 Forestry will make UI fields out of the front matter of your posts, pages and collections/sections. 
