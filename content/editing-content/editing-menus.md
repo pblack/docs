@@ -9,7 +9,6 @@ title = "Editing Menus"
 weight = 2
 
 +++
-
 Forestry allows you to edit menus for your hugo site. To access this feature, navigate to the “menus” tab on the right side of the screen.
 
 [ Image: Menus edit page ]
