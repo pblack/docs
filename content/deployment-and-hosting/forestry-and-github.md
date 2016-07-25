@@ -1,24 +1,24 @@
 +++
 Categories = []
 date = "2016-07-21T01:48:00+00:00"
-description = "Forestry is designed to work great with [Github](https://github.com/). You can use Github to keep track of the changes you make to your site, as well as host your site on Github with [Github-pages](https://pages.github.com/). "
+description = "Forestry is designed to work great with [GitHub](https://github.com/). You can use GitHub to keep track of the changes you make to your site, as well as host your site on GitHub with [GitHub-Pages](https://pages.github.com/). "
 draft = true
 tags = []
-title = "Forestry and Github"
+title = "Forestry and GitHub"
 [menu.deployment_and_hosting]
 weight = 7
 
 +++
-Forestry is designed to work great with [Github](https://github.com/). You can use Github to keep track of the changes you make to your site, as well as host your site on Github with [Github-pages](https://pages.github.com/). 
+Forestry is designed to work great with [GitHub](https://github.com/). You can use GitHub to keep track of the changes you make to your site, as well as host your site on GitHub with [GitHub-Pages](https://pages.github.com/). 
 
-## Getting started
+## Getting Started
 
-Getting started is really easy -- just head over to [github.com](https://github.com) and make an accont.
+Getting started is really easy -- just head over to [github.com](https://github.com) and make an account.
 
-## Why manage your source with Github?
+## Why manage your source with GitHub?
 
-Forestry can commit changes made to your site back to Github. This let's you keep a history of all the changes you make, and allows you to revert if you ever need to. There are also other features of git that advanced users will already know about. Knowing these advanced features is not required to benefit from hosting on Github. Other than keeping track of your version history, it also allows the developer of the site to commit changes to non-content things on your site (such as changing the colour scheme or changing the theme) to Github, without having to re-upload the site to Forestry manually. 
+Forestry can commit changes made to your site back to GitHub. This let's you keep a history of all the changes you make, and allows you to revert if you ever need to. There are also other features of Git that advanced users will already know about. Knowing these advanced features is not required to benefit from hosting on GitHub. Other than keeping track of your version history, it also allows the developer of the site to commit changes to non-content things on your site (such as changing the colour scheme or changing the theme) to GitHub, without having to re-upload the site to Forestry manually. 
 
-## Hosting with Github
+## Hosting with GitHub
 
-To host your site on Github pages all you need to do is create a `github-pages` branch in your repository, and point Forestry to it during the setup process. Forestry will use this branch to push the result of building your site with either jekyll or hugo too.
+To host your site on GitHub Pages all you need to do is create a `github-pages` branch in your repository, and point Forestry to it during the setup process. Forestry will use this branch to push the result of building your site with either Jekyll or Hugo too.
