@@ -9,7 +9,7 @@ title = "Hugo Menus"
 weight = 7
 
 +++
-Hugo has a powerful menu system that allows you to place content in menus, without a lot of work, but still provides a great deal of control. These menus work great with Forestry, as Forestry [allows you to edit them from your cms](/editing-content-editing-menus-md).
+Hugo has a powerful menu system that allows you to place content in menus, without a lot of work, but still provides a great deal of control. These menus work great with Forestry, as Forestry [allows you to edit them from your CMS](/editing-content-editing-menus-md).
 
 There are a few ways to add items to menus: 
 
