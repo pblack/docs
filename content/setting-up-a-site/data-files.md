@@ -9,4 +9,4 @@ title = "Data Files"
 weight = 8
 
 +++
-Forestry has full support for [hugo](https://gohugo.io/extras/datafiles/) and [jekyll](https://jekyllrb.com/docs/datafiles/) datafiles. You can simply set them up as you normally would, and forestry will allow you to edit them under the chunks section in the sidebar of your CMS.
+Forestry has full support for [hugo](https://gohugo.io/extras/datafiles/) and [jekyll](https://jekyllrb.com/docs/datafiles/) datafiles. You can simply set them up as you normally would, and Forestry will allow you to edit them under the chunks section in the sidebar of your CMS.
