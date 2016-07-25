@@ -4,7 +4,7 @@ date = "2016-06-09T19:49:00+00:00"
 description = ""
 draft = false
 tags = []
-title = "Support and help"
+title = "Support and Help"
 
 +++
 Need help? Email us at [support@forestry.io](mailto:support@forestry.io) or chat with us through Intercom (Click the chat icon when you're logged in.)
