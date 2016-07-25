@@ -9,9 +9,9 @@ title = "Hugo Menus"
 weight = 7
 
 +++
-Hugo has a powerful menu system that allows you to place content in menues, without a lot of work, but still provides a great deal of control. These menus work great with forestry, as forestry [allows you to edit them from your cms](/editing-content-editing-menus-md).
+Hugo has a powerful menu system that allows you to place content in menus, without a lot of work, but still provides a great deal of control. These menus work great with Forestry, as Forestry [allows you to edit them from your cms](/editing-content-editing-menus-md).
 
-There are a few ways to add items to menu's. 
+There are a few ways to add items to menus: 
 
 #### Simple
 
@@ -29,7 +29,7 @@ menu: ["main", "footer"]
 
 #### Non Content
 
-You can also add menus that are related to a specific peice of content, by specifying them in your config file, like this example taken from the hugo documentation.
+You can also add menus that are related to a specific piece of content, by specifying them in your config file, like this example taken from the Hugo documentation.
 
 ```toml
 [[menu.main]]
@@ -45,6 +45,6 @@ You can also add menus that are related to a specific peice of content, by speci
     url = "/getting-started/"
 ```
 
-When you upload you site, forestry will build a section in your CMS for you to edit these menus.
+When you upload your site, Forestry will build a section in your CMS for you to edit these menus.
 
-There are more powerful features of menus in hugo, which can be referenced in the [official documentation](https://gohugo.io/extras/menus/)
+There are more powerful features of menus in Hugo, which can be referenced in the [official documentation](https://gohugo.io/extras/menus/)
