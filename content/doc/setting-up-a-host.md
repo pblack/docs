@@ -25,4 +25,4 @@ To choose "Commit to source repo only" you will have to have imported your proje
 
 For more information on each of the hosting options please visit:
 
-- list of links to respsecitve hosting pages
+- list of links to respective hosting pages
