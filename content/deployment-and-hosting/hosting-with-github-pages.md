@@ -14,7 +14,7 @@ To set up hosting with GitHub Pages you first need to created a branch on in you
 
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 2.49.31 PM.png)
 
-Now back over Forestry, after completing the initilal setup of importing your site, you will be presented with a dialog to set up the hosting. To host with GitHub Pages, choose "github-pages" from the drop down, then select the repository and branch (It will almost always be "github-pages".) 
+Now back over Forestry, after completing the initial setup of importing your site, you will be presented with a dialog to set up the hosting. To host with GitHub Pages, choose "github-pages" from the drop down, then select the repository and branch (It will almost always be "github-pages".) 
 
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 2.57.12 PM.png)
 
