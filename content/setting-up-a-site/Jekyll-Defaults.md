@@ -9,14 +9,14 @@ name = "Default Fields for New Pages and Posts"
 weight = 4
 
 +++
-Forestry will make UI fields out of the front matter of your posts, pages and collections/sections. 
+Forestry will make UI fields from the front matter of your posts, pages, and collections/sections. 
 
-You can set up  your site so Forestry will use default fields for new pages or posts. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a *Description* field.
+You can set up your site so Forestry will use default fields for new pages or posts. In the following example, we want all new pages to include a *Banner* image, a *Categories* field (array), and a *Description* field.
 
 <img src="/docs/assets/images/forestry-default-fields.png">
 
 ## Jekyll Default Fields 
-If you want these fields to show up in front matter (and forestry UI) for new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).
+If you want these fields to show up in front matter (and Forestry UI) for new posts, you can define them in your <code>_config.yml</code> file (see the <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">Jekyll docs</a> for more info).
 
 In the example below, all new posts (no matter what the path is) will get these fields. 
 
@@ -33,7 +33,7 @@ In the example below, all new posts (no matter what the path is) will get these
 
 ## Hugo
 
-With hugo, you'll need to add an  [archetype](https://gohugo.io/content/archetypes/) file with these fields for each [section](https://gohugo.io/content/sections/).  The following fields in /archetypes/default.md will result in the above UI.
+With Hugo, you'll need to add an [archetype](https://gohugo.io/content/archetypes/) file with these fields for each [section](https://gohugo.io/content/sections/).  The following fields in /archetypes/default.md will result in the above UI.
 
 <pre><code class="language-toml">+++
 title = ""
