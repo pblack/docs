@@ -9,7 +9,7 @@ title = "Hosting on Amazon S3"
 weight = 4
 
 +++
-If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket name, Access Key ID, and Secret Access Key. 
+If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket Name, Access Key ID, and Secret Access Key. 
 
 ## Creating a Bucket
 - Log in to your Amazon AWS account and select S3 from the Console Home page.
@@ -63,7 +63,7 @@ Amazon AWS uses IAM users to control access to different services. You should se
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 4.05.16 PM.png)
 
 - You will be brought to a list of your users. Click on your newly created user.
-- Click on the "Perimssions" tab and then on "Inline Policies"
+- Click on the "Perimissions" tab and then on "Inline Policies"
 
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 4.09.48 PM.png)
 
