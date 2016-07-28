@@ -8,18 +8,17 @@ title = "How to write a Gemfile"
 
 +++
 <p>Here is an example of a basic Gemfile.</p>
-<pre>&lt;code class="language-ruby"&gt;
+<pre><code class="language-ruby">
 source 'https://rubygems.org'
 ruby "2.2.4"
 gem 'jekyll', '1.5.1 '
 gem 'jekyll-coffeescript'
-&lt;/code&gt;
+</code>
 </pre>
-<p>Every Gemfile must have a source,&nbsp;in this case </p>
-<pre>&lt;code class="language-ruby"&gt;source 'https://rubygems.org'&lt;/code&gt;</pre>&nbsp;. This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally <pre>&lt;code class="language-ruby"&gt;'https://rubygems.org'&lt;/code&gt;</pre> is the only source you will need, since it is the official source for ruby gems, however Forestry will support 3rd party sources as well.
+<p>Every Gemfile must have a source, in this case </p>
+<pre><code class="language-ruby">source 'https://rubygems.org'</code></pre> . This is where bundle (the program that installs all the gems in your Gemfile) will download the gems. Generally <pre><code class="language-ruby">'https://rubygems.org'</code></pre><p> is the only source you will need, since it is the official source for Ruby gems, however Forestry will support 3rd party sources as well.</p>
 <p>
     You can specify the version of Ruby to use for your build as well. To do this simply add </p>
-<pre>&lt;code class="language-ruby"&gt;ruby "2.2.4"&lt;/code&gt;</pre> to your Gemfile and change "2.2.4" to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions <a href="https://www.ruby-lang.org/en/downloads/">here</a>. Forestry will support the versions listed under "Stable releases". If you don't specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latestest patch (the last number in the version). 
-<p>
+<pre><code class="language-ruby">ruby "2.2.4"</code></pre><p> to your Gemfile and change "2.2.4" to the version of Ruby you want to use. Forestry will build sites for ruby version 2.1.x and above, where x is the most recent bug fix for that version. You can find a complete list of ruby versions <a href="https://www.ruby-lang.org/en/downloads/">here</a>. Forestry will support the versions listed under "Stable releases". If you don't specify a ruby version in your Gemfile, forestry will use the same minor version (the first two numbers in the version) as GitHub Pages, but we will use the latest patch (the last number in the version).</p><p>
     After this, you can start listing your gems. Optionally you can specify the version of the gem as the second argument to </p>
-<pre>&lt;code class="language-ruby"&gt;gem&lt;/code&gt;</pre>. Any dpendencies the gems have listed will be installed as well.
+<pre><code class="language-ruby">gem</code></pre>. Any dpendencies the gems have listed will be installed as well.
