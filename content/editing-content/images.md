@@ -27,7 +27,7 @@ The image will be inserted into the editor like so:
 
 `[](path/to/image)`
 
-You can move the image, but changing the location of this text. You can also supply alternative text (in case the image is unavailable) like so:
+You can move the image by changing the location of this text. You can also supply alternative text (in case the image is unavailable) like so:
 
 `[alternative text](path/to/image)`
 
