@@ -9,25 +9,25 @@ title = "Adding Images"
 weight = 3
 
 +++
-Images may be added to post either directly in the main content body, or through front matter fields. 
+Images may be added to posts directly in the main content body or through front matter fields. 
 
 ## Markdown Editor
 
-To add an image to the markdown editor, simply click the add image button:
+To add an image to the markdown editor, simply click the "Add Image" button:
 
-[ Image: Markdown editor, image button highlited]
+[ Image: Markdown editor, image button highlighted]
 
-A modal will pop up where you can either upload a new image, or select one that you've already uploaded.
+A modal will pop up where you can either upload a new image or select one that you've already uploaded.
 
 [Image: The upload image modal for the markdown editor]
 
-[Image: The galary image for the markdown editor]
+[Image: The gallery image for the markdown editor]
 
 The image will be inserted into the editor like so:
 
 `[](path/to/image)`
 
-You can move the image, but changing the location of this text. You can also supply alternative text (incase the image is unavalable) like so:
+You can move the image, but changing the location of this text. You can also supply alternative text (in case the image is unavailable) like so:
 
 `[alternative text](path/to/image)`
 
@@ -39,15 +39,15 @@ You are also able to use the image as a link with the following example:
 
 ## WYSIWYG
 
-To add an image in the content body, click on the image button on the top of the editor, and select the image you would like to add. 
+To add an image in the content body, click on the "Image" button on the top of the editor, and select the image you would like to add. 
 
-[ Image: WYSIWYG editor, image button highlited]
+[ Image: WYSIWYG editor, image button highlighted]
 
-A modal will apear that will allow you to upload a new image, or select on that you've already uploaded:
+A modal will appear that will allow you to upload a new image, or select on that you've already uploaded:
 
 [ Image: WYSIWYG upload image modal ]
 
-[Image: WYSIWYG gallary modal]
+[Image: WYSIWYG gallery modal]
 
 In the WYSIWYG editor, the image is actually inserted into the editor.
 
@@ -57,13 +57,13 @@ Clicking on the image opens up a modal that allows you to change various setting
 
 [ Image: Edit image modal]
 
-- Title: Will server as the alternative text
+- Title: Will serve as the alternative text
 - Link: If supplied, clicking on the image will act as a link
 - Open in new tab: Should the link open in a new tab
 
-## Frontmatter
+## Front matter
 
-Adding an image to the frontmatter is very easy.
+Adding an image to the front matter is very easy.
 
 - Click "Add File"
 - Select an image
