@@ -4,7 +4,7 @@ date = "2016-07-21T22:41:00+00:00"
 description = ""
 draft = true
 tags = []
-title = "Images"
+title = "Adding Images"
 [menu.editing_content]
 weight = 3
 
