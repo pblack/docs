@@ -13,6 +13,6 @@ To add a new page to your site, navigate to the section you would like to add th
 
 [ Image: section, with add new button highlighted ]
 
-A modal will appear, once you have completed the modal click “add”, and forestry will add the new page to your site.
+A modal will appear. Once you have completed the modal click “Add” and Forestry will add the new page to your site.
 
 [ Image: Add new page model ]
