@@ -9,12 +9,12 @@ title = "Importing a site from Bitbucket"
 weight = 9
 
 +++
-To import a site from Bitbucket navigate to your dashboard, and click the "Add Site" button. A modal will apear. Click on the Bitbucket button.
+To import a site from Bitbucket navigate to your dashboard, and click the "Add Site" button. A modal will appear. Click on the "Bitbucket" button.
 
 [Image: Add Site modal]
 
-On the next modal, select the repository and branch you wish to use with forestry, click next. 
+On the next modal, select the repository and branch you wish to use with Forestry, click "Next". 
 
-[ Image: Repostitory selection modal ]
+[ Image: Repository selection modal ]
 
-Forestry will now import your site fro Bitbucket while you complete the setup process.
+Forestry will now import your site from Bitbucket while you complete the setup process.
