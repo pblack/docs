@@ -22,7 +22,7 @@ If you set up your hosting credentials, all content changes through Forestry wil
 
 <img src="/docs/forestryio/images/download-backup-forestry.png" class="small right">
 ### Working locally 
-If you need to work on your site after some content editors have made some changes, you will need to download a backup from your Forestry dashboard. The backup will contain your entire Jekyll/Hugo project with all of the new content changes.  When you're done. Just  zip it up again and re-upload.
+If you need to work on your site after some content has been updated through Forestry, download a backup of your site from the Forestry dashboard. The backup will contain your entire Jekyll/Hugo project with all of the new content changes.  When you're done working with it, just  zip it up again and re-upload.
 
 ## Importing from a repo
 * No maximum size for your site
