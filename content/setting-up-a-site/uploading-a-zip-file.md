@@ -9,8 +9,22 @@ title = "Uploading a Zip File"
 weight = 5
 
 +++
-To upload your site from a local copy on your computer, you first need to create a .zip file. After you’ve done this, click the “Add Site” button on the dashboard. A modal will appear.
+To set up your Forestry CMS, you can import your site from a Git repository (Github, Bitbucket or GitLab) or upload a zip file of your site.  
 
-[ Image: The modal ] 
+<img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="medium center">
 
-You can either your drag your zip file into the dropzone or click on it to open up your operating system's file browser. Then select the zip file you made for your site.
+## Importing from a zip
+
+If you choose to upload a zip file, the maximum file size that we support is 250MB (note, if you import your site from a repo, there is no maximum file size).
+
+### Deploying your site
+If you set up your hosting credentials, all content changes through Forestry will be built and deployed to your host.
+
+<img src="/docs/forestryio/images/download-backup-forestry.png" class="small right">
+### Working locally 
+If you need to work on your site after some content editors have made some changes, you will need to download a backup from your Forestry dashboard. The backup will contain your entire Jekyll/Hugo project with all of the new content changes.  When you're done. Just  zip it up again and re-upload.
+
+## Importing from a repo
+* No maximum size for your site
+* All content changes will be committed back to your repo
+
