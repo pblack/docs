@@ -2,7 +2,7 @@
 Categories = []
 date = "2016-07-19T04:28:00+00:00"
 description = ""
-draft = true
+draft = false
 tags = []
 title = "Uploading a Zip File"
 [menu.setting_up_a_site]
