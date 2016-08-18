@@ -78,13 +78,6 @@ Amazon AWS uses IAM users to control access to different services. You should se
         {
             "Effect": "Allow",
             "Action": [
-                "s3:ListAllMyBuckets"
-            ],
-            "Resource": "arn:aws:s3:::*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
                 "s3:ListBucket",
                 "s3:GetBucketLocation"
             ],
