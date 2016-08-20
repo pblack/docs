@@ -2,7 +2,7 @@
 date = "2016-07-18T15:55:00+00:00"
 description = ""
 draft = false
-tags = ["git", "github", "changes", "repository", "github pages"]
+tags = ["git"]
 title = "Why did Forestry change my code!?"
 
 +++
