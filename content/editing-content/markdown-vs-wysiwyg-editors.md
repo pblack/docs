@@ -29,4 +29,5 @@ The Markdown editor includes some basic styling options, an image upload window 
 <img src="/docs/forestryio/images/Markdown-editor-1.png" alt="markdown editor" class="large center">
 ***
 Edit content in full-screen-mode with a live preview. 
+
 <iframe src="https://player.vimeo.com/video/179540827?title=0&byline=0&portrait=0" width="700" height="416" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
