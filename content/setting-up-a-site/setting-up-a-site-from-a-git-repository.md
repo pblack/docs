@@ -9,7 +9,6 @@ title = "Setting up a site from a Git repository"
 weight = 11
 
 +++
-
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">
 
 ## Importing from a repo
