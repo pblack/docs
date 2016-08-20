@@ -12,7 +12,7 @@ weight = 2
 +++
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">
 
-## Importing from a zip
+## Importing from a zip 
 
 If you choose to upload a zip file, the maximum file size that we support is 250MB (note, if you import your site from a repo, there is no maximum file size).
 
