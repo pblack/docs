@@ -9,9 +9,9 @@ title = "Markdown Vs. WYSIWYG editors"
 weight = 4
 
 +++
-A WYSIWYG editor will be generated for posts with an *.html* extension will a Markdown editor be used for pages with an *.md* extension.   You can set the default extension for new pages and posts in your settings menu.
+A WYSIWYG editor will be generated for posts with an *.html* extension will a Markdown editor be used for pages with an *.md* extension.  You can set the default extension for new pages and posts in your settings menu.
 
-![](/docs/forestryio/images/Forestry-wysiwyg-markdown-editor.png)
+![](/docs/forestryio/images/Forestry-wysiwyg-markdown-editor-1.png)
 
 
 ## Markdown Editor
