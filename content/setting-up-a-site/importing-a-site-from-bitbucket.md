@@ -5,8 +5,6 @@ description = ""
 draft = true
 tags = []
 title = "Importing a site from Bitbucket"
-[menu.setting_up_a_site]
-weight = 9
 
 +++
 To import a site from Bitbucket navigate to your dashboard, and click the "Add Site" button. A modal will appear. Click on the "Bitbucket" button.

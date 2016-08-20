@@ -6,7 +6,7 @@ draft = false
 tags = []
 title = "Setting up a site from a Git repository"
 [menu.setting_up_a_site]
-weight = 11
+weight = 3
 
 +++
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">
