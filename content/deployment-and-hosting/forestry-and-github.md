@@ -5,8 +5,6 @@ description = "Forestry is designed to work great with [GitHub](https://github.c
 draft = true
 tags = []
 title = "Forestry and GitHub"
-[menu.deployment_and_hosting]
-weight = 7
 
 +++
 Forestry is designed to work great with [GitHub](https://github.com/). You can use GitHub to keep track of the changes you make to your site, as well as host your site on GitHub with [GitHub-Pages](https://pages.github.com/). 
