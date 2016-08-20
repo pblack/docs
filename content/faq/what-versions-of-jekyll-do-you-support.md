@@ -4,6 +4,9 @@ description = ""
 draft = false
 tags = ["jekyll", "version"]
 title = "What versions of Jekyll do you support?"
+[menu.faq]
+name = "What versions of Jekyll do you support? "
+weight = 4
 
 +++
 Forestry will use whatever version of Jekyll is specified in your Gemfile. 

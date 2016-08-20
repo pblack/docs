@@ -4,6 +4,9 @@ description = ""
 draft = true
 tags = []
 title = "What Ruby versions does Forestry support?"
+[menu.faq]
+name = "What Ruby versions does Forestry support? "
+weight = 5
 
 +++
 Forestry supports the latest bugfix versions of Ruby:
