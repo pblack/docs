@@ -5,8 +5,6 @@ description = ""
 draft = true
 tags = []
 title = "Adding Images"
-[menu.editing_content]
-weight = 3
 
 +++
 Images may be added to posts directly in the main content body or through front matter fields. 

@@ -1,21 +1,21 @@
 +++
 Categories = []
 date = "2016-06-09T17:33:00+00:00"
-description = ""
+description = "A short guide on setting up an S3 bucket to host your Jekyll or Hugo site"
 draft = false
 tags = []
-title = "Hosting on Amazon S3"
+title = "How to set up hosting on Amazon S3"
 [menu.deployment_and_hosting]
 weight = 4
 
 +++
-If you wish to host your website with Amazon S3, select AWS S3 from the list of hosting options. You will need to enter your Bucket Name, Access Key ID, and Secret Access Key. 
-
 ## Creating a Bucket
 - Log in to your Amazon AWS account and select S3 from the Console Home page.
 - Click "Create Bucket"
 
+***
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 3.00.27 PM.png)
+***
 
 - Give your bucket a name, select a region, and click "Create". **Note**: For a website to work with S3, your bucket must be named *yourwebsite.com*.
 
@@ -27,13 +27,17 @@ You will need to set the proper permissions for your bucket to work as a website
 - Choose the "Static Website Hosting" section
 - Click "Enable website hosting" and set your Index Document and Error Document
 
+***
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 3.10.40 PM.png)
+***
 
 - Click "Save" to save the changes
 - Choose the "Permissions" section
 - Click "Add bucket policy"
 
+***
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 3.10.55 PM.png)
+***
 
 - Set your bucket policy and save your changes
 
@@ -60,12 +64,17 @@ Amazon AWS uses IAM users to control access to different services. You should se
 - Give your new user a name and ensure that "Generate an access key for each user" is checked
 - Click "Show User Security Credentials" and copy the *Access Key ID* and *Secret Access Key*. Then click "Close" and "Close" again.
 
+<p class="highlighted-block">Note, you will need this Key and Secret when connecting Forestry to your S3 host.  Keep it secret, keep it safe ;) </p>
+***
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 4.05.16 PM.png)
+***
 
 - You will be brought to a list of your users. Click on your newly created user.
 - Click on the "Perimissions" tab and then on "Inline Policies"
 
+***
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 4.09.48 PM.png)
+***
 
 - Click on "Click here" under "Inline Policies"
 - Choose "Custom Policy" and the click "Select"
@@ -96,4 +105,4 @@ Amazon AWS uses IAM users to control access to different services. You should se
 }
 ```
 
-- Click "Apply Policy"
+Click "Apply Policy"
