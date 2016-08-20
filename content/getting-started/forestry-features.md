@@ -9,7 +9,6 @@ title = "Forestry Features"
 weight = 2
 
 +++
-***
 ## A GUI for non-devs
 Saving changes from your Forestry CMS will:  * Commit changes to a repo (optional) * Compile & deploy to your host * Forestry CMS Git Support
 
