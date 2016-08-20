@@ -5,9 +5,6 @@ description = "GitHub offers free hosting for static sites. Forestry integrates 
 draft = false
 tags = ["github", "github pages", "hosting"]
 title = "Hosting with GitHub Pages"
-[menu.deployment_and_hosting]
-name = "Hosting with Github Pages"
-weight = 2
 
 +++
 To set up hosting with GitHub Pages you first need to created a branch on in your repository called "github-paged". You can do this very easily from the GitHub interface. Simply click the dropdown labeled "Branch", type "github-pages" in the text field, and click "Enter". This will create the branch for you.
