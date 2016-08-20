@@ -8,9 +8,6 @@ menu:
   managing_your_team:
   - name: Adding Team Members
     weight: 1
-  deployment_and_hosting:
-  - name: New page testing menu
-    weight: 3
   getting_started:
   - name: Support and help
     weight: 3
