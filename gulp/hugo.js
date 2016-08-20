@@ -13,9 +13,9 @@ function hugo(drafts) {
 
     var cmd = 'hugo --config=./config.yaml -s ' + src + ' -d ' + dst;
     if (drafts === true) {
-        cmd += ' --buildDrafts=true --verbose=true --baseUrl="http://' + add + ':3000/" ';
+        cmd += ' --buildDrafts=true --verbose=true --baseUrl="http://' + add + ':3000/docs/" ';
     }else if (drafts === false){
-      cmd += ' --baseUrl="http://' + add + ':3000/" ';
+      cmd += ' --baseUrl="http://' + add + ':3000/docs/" ';
     }
     console.log(add)
     var result = exec(cmd, {encoding: 'utf-8'});
