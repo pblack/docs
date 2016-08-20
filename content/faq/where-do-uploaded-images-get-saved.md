@@ -6,6 +6,6 @@ tags = []
 title = "Where do uploaded images get saved?"
 
 +++
-By default images are uploaded to a directory called **forestryio/images**.  If you want to change this to a custom directory, just edit your site settings.
+By default images are uploaded to a **forestryio/images** directory. If you want to change this to a custom directory, just edit your site settings.
 
 ![](/docs/forestryio/images/Forestry-custom-image-path.png)
