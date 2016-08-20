@@ -1,14 +1,11 @@
 +++
 date = "2016-07-21T05:47:00+00:00"
 description = ""
-draft = true
+draft = false
 tags = []
 title = "How do I download a backup of my site?"
 
 +++
-1. Navigate to your dashboard
-2. Click on the three dot menu assosiated with the site you wish to download
-3. Click "Download"
-4. A .zip file, containing your site, will be downloaded.
+<img src="/docs/forestryio/images/download-backup-forestry.png" alt="Forestry download backup of site" class="small right">From your dashboard click the more menu by your site and select "download"
 
-[ Image: The download button highlighted]
+If your site is linked to a Git repo, you will get the most recent backup from that repo.  
