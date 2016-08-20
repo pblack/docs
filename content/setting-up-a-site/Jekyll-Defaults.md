@@ -6,7 +6,7 @@ tags = []
 title = "Default Fields For New Pages and Posts"
 [menu.setting_up_a_site]
 name = "Default Fields for New Pages and Posts"
-weight = 4
+weight = 1
 
 +++
 Forestry will make UI fields from the front matter of your posts, pages, and collections/sections. 

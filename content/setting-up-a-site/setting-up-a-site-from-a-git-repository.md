@@ -1,12 +1,12 @@
 +++
 Categories = []
 date = "2016-08-18T17:56:00+00:00"
-description = "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/importing-a-site-from-github/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  "
+description = "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/setting-up-a-site-from-a-git-repository/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  \r\n"
 draft = false
 tags = []
 title = "Setting up a site from a Git repository"
 [menu.setting_up_a_site]
-weight = 11
+weight = 3
 
 +++
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">

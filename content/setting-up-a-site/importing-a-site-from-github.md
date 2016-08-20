@@ -5,8 +5,6 @@ description = "Forestry and GitHub are a great pair. Forestry let's you edit you
 draft = false
 tags = []
 title = "Importing a site from GitHub"
-[menu.setting_up_a_site]
-weight = 2
 
 +++
 If you are new to Git and GitHub you can get started [here](https://help.github.com/articles/set-up-git/), and follow an interactive tutorial [here](https://try.github.io/levels/1/challenges/1). It is very easy to learn the basics, and over time you will learn more of the advanced features that make Git a powerful tool.

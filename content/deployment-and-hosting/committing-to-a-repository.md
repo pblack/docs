@@ -5,8 +5,6 @@ description = ""
 draft = true
 tags = ["Git", "Github", "publishing"]
 title = "Committing to a repository"
-[menu.deployment_and_hosting]
-weight = 6
 
 +++
 If during your initial setup, you chose a git repository as your source, whenever you click Publish (or Save Draft) one of the things Forestry will do is create a commit to the repository you chose as your source. This will be done in addition to publishing your site to your prefered hosting method.

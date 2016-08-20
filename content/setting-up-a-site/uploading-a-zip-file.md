@@ -1,19 +1,18 @@
 +++
 Categories = []
 date = "2016-07-19T04:28:00+00:00"
-description = ""
+description = "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/setting-up-a-site-from-a-git-repository/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  \r\n"
 draft = false
 tags = []
 title = "Setting up a site from a zip file"
 [menu.setting_up_a_site]
-weight = 5
+name = "Setting up a site from a Zip file"
+weight = 2
 
 +++
-To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/importing-a-site-from-github/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  
-
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">
 
-## Importing from a zip
+## Importing from a zip 
 
 If you choose to upload a zip file, the maximum file size that we support is 250MB (note, if you import your site from a repo, there is no maximum file size).
 
