@@ -5,8 +5,6 @@ description = ""
 draft = true
 tags = []
 title = "Adding a new page"
-[menu.editing_content]
-weight = 1
 
 +++
 To add a new page to your site, navigate to the section you would like to add the page to, then click the “Add new `section`” button on the top of the page.

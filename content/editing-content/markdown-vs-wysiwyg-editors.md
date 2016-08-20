@@ -6,7 +6,7 @@ draft = false
 tags = []
 title = "Markdown Vs. WYSIWYG editors"
 [menu.editing_content]
-weight = 4
+weight = 1
 
 +++
 ## WYSIWYG Vs Markdown

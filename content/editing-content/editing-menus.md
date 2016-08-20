@@ -6,7 +6,7 @@ draft = true
 tags = []
 title = "Editing Menus"
 [menu.editing_content]
-weight = 2
+weight = 0
 
 +++
 Forestry allows you to edit menus for your Hugo site. To access this feature, navigate to the “Menus” tab on the right side of the screen.
