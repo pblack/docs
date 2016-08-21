@@ -1,7 +1,7 @@
 +++
 date = "2016-07-13T17:58:00+00:00"
 description = ""
-draft = true
+draft = false
 tags = []
 title = "How are UI elements determined  from Front Matter"
 [menu.faq]
