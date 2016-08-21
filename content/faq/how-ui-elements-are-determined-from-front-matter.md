@@ -6,7 +6,7 @@ tags = []
 title = "How are UI elements determined  from Front Matter"
 [menu.faq]
 name = "How UI elements are determined from front matter"
-weight = 7
+weight = 0
 
 +++
 Let's look at the an example of front matter from a **Jekyll** post:

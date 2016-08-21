@@ -6,7 +6,7 @@ tags = ["hugo", "version"]
 title = "What versions of Hugo do you support?"
 [menu.faq]
 name = "What version of Hugo do you support? "
-weight = 6
+weight = 7
 
 +++
 We currently support Hugo v0.15.
