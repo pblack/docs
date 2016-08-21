@@ -7,17 +7,16 @@ title = "How are UI elements determined  from Front Matter"
 
 +++
 Let's look at the following example of front matter from a **Jekyll** post:
-<pre><code class="language-yml">  
----
-title: Example Post
-date: '2016-05-17 18:19:00'
+<pre><code class="language-yml">`---`
+title: "Example Post"
+date: "2016-05-17 18:19:00"
 thumbnail: "/assets/images/mountain-forestr.jpg"
 tags:
 - health
----
+`---`
 </code>
 </pre>
-When Forestry parses this front matter, the following UI will be generated. 
+When Forestry parses this front matter, the following UI will be generated.
 ![](/docs/forestryio/images/forestry-field-types-ui.png)
 
 If you are setting up a site and find the front matter doesn't generate the UI elements that you have intended, you can change edit these by clicking three dots.
