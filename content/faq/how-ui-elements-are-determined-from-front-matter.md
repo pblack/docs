@@ -25,7 +25,7 @@ When Forestry parses this front matter, the following UI will be generated.
 ### Detecting front matter values
 Forestry parses your project to understand what UI elements to use.  For instance, if Forestry finds a file called resume.pdf and there's a front matter field set to "/files/resume.pdf". Forestry will use a "file upload" button for that front matter field.
 
-If you find the front matter does not generate the UI elements that you have intended, you can change edit these by clicking three dots.
+If you find a front matter field does not generate the UI elements that you have intended, you can change it by clicking three dots.
 
 ![](/docs/forestryio/images/forestry-edit-field-type.png)
 
