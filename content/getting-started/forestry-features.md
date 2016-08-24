@@ -11,9 +11,9 @@ weight = 2
 +++
 ## A GUI for non-devs
 Saving changes from your Forestry CMS will:
+
 * Commit changes to a repo (optional)
-* Compile & deploy to your host
-* Forestry CMS Git Support
+* Compile & deploy to your host (optional)
 
 ## Continue to use Git
 If you use GitHub or Bitbucket, Forestry will watch your repo for changes and pull them in so you can push code while your editors are using the CMS.
