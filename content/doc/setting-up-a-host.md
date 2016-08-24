@@ -2,7 +2,7 @@
 Categories = []
 date = "2016-06-09T17:20:00+00:00"
 description = ""
-draft = false
+draft = true
 tags = []
 title = "Setting up a Host"
 
