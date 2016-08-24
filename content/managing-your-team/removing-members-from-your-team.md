@@ -5,8 +5,6 @@ description = ""
 draft = true
 tags = []
 title = "Removing Members from your Team"
-[menu.managing_your_team]
-weight = 2
 
 +++
 To remove a member from your team, you first need to navigate to your dashboard. From there click on the three dot menu associated with the site you wish to delete a user from, then click "Manage Team".

@@ -6,7 +6,7 @@ draft = false
 tags = []
 title = "Client Login"
 [menu.managing_your_team]
-weight = 3
+weight = 2
 
 +++
 You can send your client to a login page that will send them directly to a site and not to their dashboard on Forestry.io.  To do this, click **Client Login** from the settings menu in your dashboard.
