@@ -1,17 +1,18 @@
 +++
 Categories = []
 date = "2016-06-09T19:58:00+00:00"
-description = ""
+description = "Add users to specific sites with specific permissions."
 draft = false
 tags = []
 title = "Adding Team Members"
 
 +++
-When you add new members to your site, they will be given the ability to edit content through Forestry. You can control which users have access to which sites. After you add a user to a site, Forestry will send them an email to let them know they now have access. If they don't have an account with Forestry yet, Forestry will send them an email with instructions on how to setup their account. Once they create their account, they will have access to your site.
+You can add users to specific sites in Forestry. If you give someone access to your site, Forestry will send them an email with instructions on setting up their account. To add a user, click the settings menu next to your site name.
+![](/docs/forestryio/images/forestry-manage-team-1.png)
 
-To add a user first click the three dot button next to your site in the dashboard, then "Manage Team".
+You can give them specific level of access:
 
-You will be presented with a dialog, click the "Add People" button. This will populate another field for you to add another team member. You can now fill in the email of the person you want to invite (name is optional). Now click on "Save Changes", and your team will be saved. 
+* **Developers** - Have access to content editing and web-master stuff (hosting, backups, etc). 
+* **Editors** - Have access to content editing only.
 
-![](/docs/assets/images/Screen Shot 2016-06-09 at 4.46.36 PM.png)
-![](/docs/assets/images/Screen Shot 2016-06-09 at 5.03.26 PM.png)
+![](/docs/forestryio/images/forestry-add-team-member.png)
