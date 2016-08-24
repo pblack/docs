@@ -18,6 +18,7 @@ Saving changes from your Forestry CMS will:
 ## Continue to use Git
 If you use GitHub or Bitbucket, Forestry will watch your repo for changes and pull them in so you can push code while your editors are using the CMS.
 
+Devs can work locally while non-devs use the Forestry CMS. See all of your Forestry content edits in your commit history.
 ![](/docs/forestryio/images/github-content-version-control-jekyll-hugo-1.png)
 
 ## Deploy anywhere
