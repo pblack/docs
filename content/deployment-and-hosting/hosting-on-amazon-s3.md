@@ -39,7 +39,7 @@ You will need to set the proper permissions for your bucket to work as a website
 ![](/docs/assets/images/Screen Shot 2016-06-09 at 3.10.55 PM.png)
 ***
 
-- Set your bucket policy and save your changes
+- Set your bucket policy and save your changes (note: replace *"your-bucket"* with the name of your bucket).
 
 ```json
 {
