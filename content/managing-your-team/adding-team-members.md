@@ -14,7 +14,9 @@ You can add users to specific sites in Forestry. If you give someone access to y
 
 You can give them specific level of access:
 
-* **Developers** - Have access to content editing and web-master stuff (hosting, backups, etc). 
-* **Editors** - Have access to content editing only.
+* **Owner** - Can edit content, can add/remove users, can do web-master stuff (hosting, backups, etc) and can delete the site.
+* **Developer** - Can edit content, can add/remove users and can do web-master stuff (hosting, backups, etc). 
+* **Site Owner** - Can edit content and add/remove users.
+* **Editor** - Can edit content only.
 
-![](/docs/forestryio/images/forestry-add-team-member.png)
+![](/docs/forestryio/images/user-roles-permissions.png)
