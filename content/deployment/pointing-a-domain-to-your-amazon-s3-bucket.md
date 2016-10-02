@@ -5,12 +5,12 @@ description = "A quick guide on setting up a domain with Amazon Route 53"
 draft = false
 tags = []
 title = "Pointing a domain to your Amazon S3 bucket "
-[menu.deployment_and_hosting]
+[menu.deployment]
 weight = 6
 
 +++
 ## What is DNS?
-The Domain Name System (DNS) is often a headache for the noob developers.   The purpose of DNS is to associate a readable domain name, like *forestry.io* with it's corresponding IP addresses. 
+The Domain Name System (DNS) is often a headache for the noob developers.   The purpose of DNS is to associate a readable domain name, like *forestry.io* with it's corresponding IP addresses.
 
 ## Set up name servers on
 * Go to Amazon's [Rote 53](https://console.aws.amazon.com/route53/)
@@ -27,6 +27,6 @@ Now go to your registrar and input your new name servers (remove the old ones to
 ![](/docs/forestryio/images/a-record.png)
 
 ## Redirect your WWW subdomain to your bucket
-If you want your *www* subdomain to redirect to your bucket, add a new records set for that too. Click **Create Record Set** and add *www* to your domain, select **Alias** and type your bucket name with a dot at the end. 
+If you want your *www* subdomain to redirect to your bucket, add a new records set for that too. Click **Create Record Set** and add *www* to your domain, select **Alias** and type your bucket name with a dot at the end.
 
 ![](/docs/forestryio/images/www-subdomain.png)
