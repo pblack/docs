@@ -16,3 +16,5 @@ If you can't access your repos after authentiacting with GitHub, ensure that you
 
 https://help.github.com/articles/enabling-third-party-application-restrictions-for-your-organization/
 
+See conversation:
+![](/docs/forestryio/images/Screen Shot 2016-10-12 at 1.06.51 PM.png)
