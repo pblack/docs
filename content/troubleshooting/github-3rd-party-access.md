@@ -10,7 +10,7 @@ title = "github 3rd party access"
 +++
 Are you getting this error message? 
 
-> You don't seem to have administrative access to any repositories. You will need administrative access so that we can add a webhook to your repository to keep Forestry.io in sync with your code.
+><i> You don't seem to have administrative access to any repositories. You will need administrative access so that we can add a webhook to your repository to keep Forestry.io in sync with your code.</i>
 
 If you can't access your repos after authentiacting with GitHub, ensure that you have 3rd-party access enabled:
 
