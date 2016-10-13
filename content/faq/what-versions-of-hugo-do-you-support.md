@@ -9,6 +9,6 @@ name = "What version of Hugo do you support? "
 weight = 7
 
 +++
-We currently support Hugo v0.15.
+We currently support Hugo v0.17.
 
 We will update this page anytime we update the version.
