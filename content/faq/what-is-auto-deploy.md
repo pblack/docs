@@ -8,4 +8,6 @@ title = "What is Auto-deploy?"
 weight = 8
 
 +++
-With Auto-deploy enabled, Forestry will automatically build and deploy your site everytime you push changes to your repository.
+With Auto-deploy enabled, Forestry will automatically build and deploy your site every time you push changes to your repository.
+
+![](/docs/forestryio/images/Auto-deploy-1.png)
