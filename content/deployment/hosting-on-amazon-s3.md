@@ -49,17 +49,20 @@ You will need to set the proper permissions for your bucket to work as a website
 
 *   Set your bucket policy and save your changes (note: replace _"your-bucket"_ with the name of your bucket).
 
-    { "Version":"2012-10-17", "Statement":[{
-
-        "Sid":"PublicReadGetObject",
-            "Effect":"Allow",
-          "Principal": "*",
-          "Action":["s3:GetObject"],
-          "Resource":["arn:aws:s3:::your-bucket/*"
-          ]
-        }
-
-    ] }
+```
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::inbetweenspaces.com/*"
+		}
+	]
+}
+```
 
 ## Creating an IAM User
 
