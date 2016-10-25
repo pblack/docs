@@ -1,6 +1,6 @@
 +++
-title = "test page"
 draft = true
-+++
+title = "test page"
 
++++
 no content
