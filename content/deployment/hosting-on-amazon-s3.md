@@ -47,7 +47,7 @@ You will need to set the proper permissions for your bucket to work as a website
 
 * * *
 
-*   Set your bucket policy and save your changes (note: replace _"your-bucket"_ with the name of your bucket).
+*   Set your bucket policy and save your changes (note: replace _"example.com"_ with the name of your bucket).
 
 ```
 {
@@ -58,10 +58,11 @@ You will need to set the proper permissions for your bucket to work as a website
 			"Effect": "Allow",
 			"Principal": "*",
 			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::inbetweenspaces.com/*"
+			"Resource": "arn:aws:s3:::example.com/*"
 		}
 	]
 }
+
 ```
 
 ## Creating an IAM User
@@ -91,11 +92,15 @@ Note, you will need this Key and Secret when connecting Forestry to your S3 host
 * * *
 
 *   Click on "Click here" under "Inline Policies"
+
 *   Choose "Custom Policy" and the click "Select"
+
 *   Give the policy a name (ie. forestry-access) and add the following to the policy
 
-    {
+*   (note: replace _"example.com"_ with the name of your bucket)
 
+```
+    {
         "Version": "2012-10-17",
         "Statement": [
             {
@@ -116,7 +121,8 @@ Note, you will need this Key and Secret when connecting Forestry to your S3 host
                 "Resource": "arn:aws:s3:::example.com/*"
             }
         ]
-
     }
+
+```
 
 Click "Apply Policy"
