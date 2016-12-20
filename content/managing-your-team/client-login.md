@@ -1,20 +1,16 @@
 +++
 Categories = []
 date = "2016-06-23T14:21:00+00:00"
-description = ""
+description = "Install the Forestry CMS on your site (mysite.com/admin/)"
 draft = true
 tags = []
-title = "Client Login"
+title = "Forestry Remote "
 [menu.managing_your_team]
 weight = 2
 
 +++
-You can send your client to a login page that will send them directly to a site and not to their dashboard on Forestry.io.  To do this, click **Client Login** from the settings menu in your dashboard.
-![](/docs/forestryio/images/forestry-client-login-screen.png)
+With Forestry Remote you can install your CMS with your static site.  It doesn't matter where you host your site (Amazon S3, GitHub Page, etc). All you need to do is just tell Forestry where to put it.  
 
-You can send the URL to your client or just hard code it as a link in the footer (see below).
+![/docs/forestryio/images/forestry-remote.gif](/docs/forestryio/images/forestry-remote.gif)
 
-![](/docs/forestryio/images/Screen Shot 2016-08-23 at 11.38.26 PM.png)
-
-If you hard-code a link to your client login page, your team or client will not have to remember to go to https://forestry.io  in order to edit content.  Like so:
-![](/docs/forestryio/images/site-login-link.png)
+Forestry Remote is a single html file that you drop into your static site and it allows you to access your CMS from mysite.com/admin/. We think this is pretty cool. It’s like WordPress, but instead of 100’s of PHP files, it’s just a single HTML file that doesn’t require any updates. Thanks to Nolan who flawlessly guided this project.
