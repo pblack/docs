@@ -9,7 +9,7 @@ title = "Remote Admin"
 weight = 2
 
 +++
-With Forestry Remote you can install the Forestry CMS on your static site and access it via <span style="color:rgba(0,0,255,0.7);">example.com/admin/</span>.  Your site can be hosted anywhere since Forestry Remote is our entire CMS in a single HTML file. 
+With Forestry Remote you can install the Forestry CMS on your static site and access it via <span style="color:rgba(0,0,255,0.7);">example.com/admin/</span>.  Your site can be hosted anywhere since Forestry Remote is our entire CMS in a single HTML file.
 
 ![/docs/forestryio/images/forestry-remote-1.gif](/docs/forestryio/images/forestry-remote-1.gif)
 
@@ -21,7 +21,7 @@ Go to **Site Settings** **> Remote Admin Path** and tell Forestry where to put y
 
 ## Publish From Forestry
 
-The next time you publish your site, Forestry will also deploy your CMS to the folder specified (/admin/).
+The next time you publish your site, Forestry will also deploy your CMS to the folder that you specified above (in this case, it's the /admin folder).
 
 ## Go to site.com/admin
 
@@ -31,7 +31,9 @@ Navigate to /admin/ like so
 
 ![/docs/forestryio/images/forestry-remote-cms-1.png](/docs/forestryio/images/forestry-remote-cms-1.png)
 
-<span style="letter-spacing: 0.01em;">Log in and you'll see the full CMS.</span>
+## <span style="letter-spacing: 0.01em;">Login to See the Full CMS</span>
+
+<span style="letter-spacing: 0.01em;">Bam! The entire CMS is accessible from your domain.  You can also white label  it and use your own logo. </span>
 
 ![/docs/forestryio/images/forestry-remote-cms-2-1.png](/docs/forestryio/images/forestry-remote-cms-2-1.png)
 
