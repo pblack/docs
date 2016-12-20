@@ -2,7 +2,7 @@
 Categories = []
 date = "2016-06-23T14:21:00+00:00"
 description = "Install the Forestry CMS on your site - mysite.com/admin/"
-draft = true
+draft = false
 tags = []
 title = "Remote Admin"
 [menu.managing_your_team]
