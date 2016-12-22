@@ -9,7 +9,6 @@ title = "Remote Admin"
 weight = 2
 [menu.setting_up_a_site]
 name = "Remote Admin "
-url = ""
 
 +++
 With Forestry Remote you can install the Forestry CMS on your static site and access it via <span style="color:rgba(0,0,255,0.7);">example.com/admin/</span>.  Your site can be hosted anywhere since Forestry Remote is our entire CMS in a single HTML file.
