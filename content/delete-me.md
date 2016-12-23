@@ -6,7 +6,5 @@ draft = true
 tags = []
 title = "delete me"
 type = "managing-your-team"
-[menu.managing_your_team]
-weight = 3
 
 +++
