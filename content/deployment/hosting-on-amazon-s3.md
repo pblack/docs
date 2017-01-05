@@ -71,7 +71,7 @@ Amazon AWS uses IAM users to control access to different services. You should se
 
 *   Click [Identity & Access Management](https://console.aws.amazon.com/iam/) from the Console Home page
 *   Click "Users" and then "Create New Users"
-*   Give your new user a name and ensure that "Generate an access key for each user" is checked
+*   Give your new user a name and ensure that "Programmatic access" is checked
 *   Click "Show User Security Credentials" and copy the _Access Key ID_ and _Secret Access Key_. Then click "Close" and "Close" again.
 
 Note, you will need this Key and Secret when connecting Forestry to your S3 host. Keep it secret, keep it safe ;)
