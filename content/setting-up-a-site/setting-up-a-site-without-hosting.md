@@ -11,4 +11,4 @@ In order to set Forestry up without hosting, simply follow the normal setup proc
 
 ![](/docs/assets/images/Screen Shot 2016-06-10 at 12.18.35 PM.png)
 
-Now forestry will commit changes back to your git provider, but will not build and deplpoy the site. This will allow you to maintain an exisiting pipeline if you so choose.
+Now forestry will commit changes back to your git provider, but will not build and deploy the site. This will allow you to maintain an existing pipeline if you so choose.

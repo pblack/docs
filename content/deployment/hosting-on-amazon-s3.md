@@ -83,7 +83,7 @@ Note, you will need this Key and Secret when connecting Forestry to your S3 host
 * * *
 
 *   You will be brought to a list of your users. Click on your newly created user.
-*   Click on the "Perimissions" tab and then on "Inline Policies"
+*   Click on the "Permissions" tab and then on "Inline Policies"
 
 * * *
 

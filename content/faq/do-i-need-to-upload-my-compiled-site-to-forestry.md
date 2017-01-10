@@ -6,4 +6,4 @@ tags = []
 title = "Do I need to upload my compiled site to forestry?"
 
 +++
-No. You should only upload (or commit to git) the source files of your project, not what get's generated when you build it with hugo or jekyll.
+No. You should only upload (or commit to git) the source files of your project, not what gets generated when you build it with hugo or jekyll.
