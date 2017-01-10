@@ -17,10 +17,10 @@ If you import your site from a repository, Forestry will commit all content chan
 ![](/docs/forestryio/images/github-content-version-control-jekyll-hugo.png)
 
 ### Deploying your site
-If you want Forestry to build and deploy your site (Amazon S3, GitHub Pages, FTP, etc), you can also set up hosting. Input your hosting information and whene someone clicks "publish" in Forestry, their changes will be committed to your repo AND the site will be built and deployed to your host. 
+If you want Forestry to build and deploy your site (Amazon S3, GitHub Pages, FTP, etc), you can also set up hosting. Input your hosting information and when someone clicks "publish" in Forestry, their changes will be committed to your repo AND the site will be built and deployed to your host. 
 
 ### Working locally 
 Just <code>git pull</code> and work on your site locally. Forestry will watch your repo for changes
 
 ### Auto-deploy
-If you enable auto-deploy in Site Settings, Forestry will automatically deploy your site everytime you push code to your repository.
+If you enable auto-deploy in Site Settings, Forestry will automatically deploy your site every time you push code to your repository.
