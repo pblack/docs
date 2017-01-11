@@ -2,7 +2,6 @@
 categories = []
 date = "2016-05-11T12:07:00+00:00"
 description = ""
-draft = false
 tags = []
 title = "Re-uploading a Project"
 

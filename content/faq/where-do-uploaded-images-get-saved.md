@@ -1,7 +1,6 @@
 +++
 date = "2016-07-18T20:52:00+00:00"
 description = ""
-draft = false
 tags = []
 title = "Where do uploaded images get saved?"
 [menu.faq]

@@ -2,7 +2,6 @@
 Categories = []
 date = "2016-07-19T04:28:00+00:00"
 description = "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/setting-up-a-site-from-a-git-repository/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  \r\n"
-draft = false
 tags = []
 title = "Setting up a site from a zip file"
 [menu.setting_up_a_site]

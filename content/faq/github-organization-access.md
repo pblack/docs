@@ -1,7 +1,6 @@
 +++
 date = "2016-06-14T17:13:00+00:00"
 description = ""
-draft = false
 tags = []
 title = "Why do I have to allow access to my GitHub organization?"
 

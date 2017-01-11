@@ -2,7 +2,6 @@
 Categories = []
 date = "2016-06-09T17:33:00+00:00"
 description = "A short guide on setting up an S3 bucket to host your Jekyll or Hugo site"
-draft = false
 tags = []
 title = "How to set up hosting on Amazon S3"
 [menu.deployment]

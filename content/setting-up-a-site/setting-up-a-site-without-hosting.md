@@ -2,7 +2,6 @@
 Categories = ["Github"]
 date = "2016-06-10T15:15:00+00:00"
 description = "Many users already have their own pipelines setup that watch their repositories for changes, and deploy their site for them. Forestry will allow you to keep this setup if you choose. You are free to connect Forestry to Github and Bitbucket without setting up hosting."
-draft = false
 tags = []
 title = "Using Github without hosting"
 

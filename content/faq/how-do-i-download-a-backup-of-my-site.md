@@ -1,7 +1,6 @@
 +++
 date = "2016-07-21T05:47:00+00:00"
 description = ""
-draft = false
 tags = []
 title = "How do I download a backup of my site?"
 [menu.faq]

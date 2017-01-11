@@ -1,7 +1,6 @@
 +++
 date = "2016-07-18T15:52:00+00:00"
 description = ""
-draft = false
 tags = ["jekyll", "version"]
 title = "What versions of Jekyll do you support?"
 [menu.faq]

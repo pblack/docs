@@ -2,7 +2,6 @@
 Categories = []
 date = "2016-06-09T19:58:00+00:00"
 description = "Add users to specific sites with specific permissions."
-draft = false
 tags = []
 title = "Adding Team Members"
 [menu.managing_your_team]

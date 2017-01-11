@@ -1,7 +1,6 @@
 +++
 date = "2016-04-25T14:51:00+00:00"
 description = "Set default front matter for new pages and posts."
-draft = false
 tags = []
 title = "Default Fields For New Pages and Posts"
 [menu.setting_up_a_site]

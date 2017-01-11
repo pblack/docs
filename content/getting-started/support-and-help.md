@@ -2,7 +2,6 @@
 Categories = []
 date = "2016-06-09T19:49:00+00:00"
 description = ""
-draft = false
 tags = []
 title = "Support and Help"
 

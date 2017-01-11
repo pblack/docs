@@ -2,7 +2,6 @@
 Categories = []
 date = "2016-06-09T18:08:00+00:00"
 description = "See the forestry through the trees"
-draft = false
 tags = []
 title = "Forestry Features"
 [menu.getting_started]
