@@ -28,4 +28,4 @@ All content files with a _.html_ extension will get the WYSIWYG editor (this can
 
 The Markdown editor includes some basic styling options, an image upload window and full screen editing mode with a live preview (see below). If you are new to Markdown, check out [this cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-![markdown editor](/docs/forestryio/images/Markdown-editor-1.png){:.large .center} *** Edit content in full-screen-mode with a live preview.<iframe src="https://player.vimeo.com/video/179540827?title=0&amp;byline=0&amp;portrait=0" width="700" height="416" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+![markdown editor](/docs/forestryio/images/Markdown-editor-1.png)
