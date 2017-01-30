@@ -9,7 +9,7 @@ title = "Front Matter Templates"
 weight = 8
 
 +++
-When creating a new page in Forestry, you will be asked to select a**Front Matter Template**. This template determines which fields will be available on your new page and how they will be displayed.
+When creating a new page in Forestry, you will be asked to select a **Front Matter Template**. This template determines which fields will be available on your new page and how they will be displayed.
 
 Front Matter Templates give you complete control over the display of your front matter fields.
 
@@ -38,7 +38,7 @@ Clicking on the green **"Add Template"** button at the top of the page will take
 
 ![/docs/forestryio/images/add-template-1.png](/docs/forestryio/images/add-template-1.png)
 
-<span style="letter-spacing: 0.01em;">Give your new template a name and add default fields that you want to be displayed with pages that use this template.</span>  
+<span style="letter-spacing: 0.01em;">Give your new template a name and add default fields that you want to be displayed with pages that use this template.</span>
 
 ![/docs/forestryio/images/New-Front-Matter-Template.png](/docs/forestryio/images/New-Front-Matter-Template.png)
 
