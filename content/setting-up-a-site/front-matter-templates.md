@@ -30,21 +30,21 @@ Click on the Front Matter link in the sidebar to get to the list of available te
 
 ![/docs/forestryio/images/front-matter-template.png](/docs/forestryio/images/front-matter-template.png)
 
- <span style="letter-spacing: 0.01em;"></span> 
+<span style="letter-spacing: 0.01em;"></span>
 
-<span style="letter-spacing: 0.01em;" class="">Here we have just one template, the</span> **default**<span style="letter-spacing: 0.01em;"> template.</span>  
+<span style="letter-spacing: 0.01em;" class="">Here we have just one template, the</span> **default**<span style="letter-spacing: 0.01em;"> template.</span>
 
-Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form. 
+Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form.
 
-![/docs/forestryio/images/add-template.png](/docs/forestryio/images/add-template.png)
+![/docs/forestryio/images/add-template-1.png](/docs/forestryio/images/add-template-1.png)
 
-Give your new template a name and add default fields that you want to be displayed with pages that use this template.
+<span style="letter-spacing: 0.01em;">Give your new template a name and add default fields that you want to be displayed with pages that use this template.</span>  
 
 ![/docs/forestryio/images/New-Front-Matter-Template.png](/docs/forestryio/images/New-Front-Matter-Template.png)
 
- <span style="letter-spacing: 0.01em;"></span> 
+<span style="letter-spacing: 0.01em;"></span>
 
-<span style="letter-spacing: 0.01em;">To learn more about Front Matter Template Fields, see the section below.</span>  
+<span style="letter-spacing: 0.01em;">To learn more about Front Matter Template Fields, see the section below.</span>
 
 ### Automatically Create Templates When Importing a Site
 
@@ -56,7 +56,7 @@ New templates will be created based off the [defaults](https://jekyllrb.com/doc
 
 **Hugo**
 
-Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.  Each archetype file will result in a Front Matter Template. 
+Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.  Each archetype file will result in a Front Matter Template.
 
 **Note: Forestry can only read in Front Matter Templates from your site's source. Any changes to the template from within Forestry will not be written back to your config files.**
 
