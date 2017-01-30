@@ -42,7 +42,7 @@ Front Matter Templates can be created automatically when importing your site. Ho
 
 For Jekyll sites, new templates will be created based off the [defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your config file. This works by creating a new template for each scope in your defaults.
 
-Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files. 
+Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.
 
 **Note: Forestry can only read in Front Matter Templates from your site's source. Any changes to the template from within Forestry will not be written back to your config files.**
 
@@ -60,7 +60,7 @@ The **"Type"** is describes the type of data to be captured. For example: text,
 
 **"Name"** is the key used to identify this field in the front matter.
 
-The **"Hidden"** flag will hide this field from the user, effectively making the default value an unalterable value. By default, this is false.  
+The **"Hidden"** flag will hide this field from the user, effectively making the default value an unalterable value. By default, this is false.
 
 The **"Label"** is the user friendly text shown above the input field. If this is left blank we will do our best to guess the label.
 
@@ -68,16 +68,14 @@ The **"Description" **gives more context to the user about the expected input.
 
 ### Field Types
 
-As it stands, Forestry supports 11 field types, with more on the way. The currently supported field types with their specific configurations are as follows:
+As it stands, Forestry supports 11 field types, with more on the way. Here is a list of the currently supported field types:
 
 *   Text
 *   Textarea
 *   Number
-
 *   Minimum
 *   Maximum
 *   Step
-
 *   Toggle
 *   Date
 *   Image/File Upload
@@ -86,5 +84,3 @@ As it stands, Forestry supports 11 field types, with more on the way. The curren
 *   Sorted List
 *   Field Group
 *   Field Group List
-
-Each of these fields have the
