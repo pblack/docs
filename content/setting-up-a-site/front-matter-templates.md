@@ -9,46 +9,60 @@ title = "Front Matter Templates"
 weight = 8
 
 +++
-<span style="letter-spacing: 0.01em;">When creating a new page in Forestry, you will be asked to select a</span> <span style="letter-spacing: 0.01em;"></span>**Front Matter Template**<span style="letter-spacing: 0.01em;"> </span><span style="letter-spacing: 0.01em;">format for the new page. The selected template determines which fields will be available and how they will be displayed.</span>
+When creating a new page in Forestry, you will be asked to select a**Front Matter Template**. This template determines which fields will be available on your new page and how they will be displayed.
 
-<span style="letter-spacing: 0.18px;">Front Matter Templates will allow you to:</span>
+Front Matter Templates give you complete control over the display of your front matter fields.
 
-1.  Change the order of fields in the CMS
-2.  Set the label and description of the field
-3.  Mark a field as hidden
-4.  Set specific configurations for each field
+1.  Change the field _type_ (ex. change an input field to an image upload field)
+2.  Change the order of fields in the CMS
+3.  Customize the label and description for each field
+4.  Mark a field as hidden (from non-developer roles)
+5.  Set specific configurations for each field
+6.  More options coming soon
 
 ## Setting up Front Matter Templates
 
-Front Matter Templates can be created either through the user interface, or automatically when the site is imported.
+Front Matter Templates can be created through the Forestry UI, or automatically created when importing a site with existing default fields (in your Jekyll _config.yml file or Hugo Archetype file).
 
-### Creating Templates in the CMS
+### Creating Templates through the Forestry UI
 
-Click on the Front Matter link in the sidebar to get to the list of available templates.
+Click on the Front Matter link in the sidebar to get to the list of available templates (this is only visible to people with _developer_ access).
 
-![](/docs/forestryio/images/Screen%20Shot%202017-01-30%20at%2011.08.18%20AM-3.png)
+![/docs/forestryio/images/front-matter-template.png](/docs/forestryio/images/front-matter-template.png)
 
-Here we have just one template, the **default** template.
+ <span style="letter-spacing: 0.01em;"></span> 
 
-Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form. To create the new template, you need only enter the name and press **"Create"**.
+<span style="letter-spacing: 0.01em;" class="">Here we have just one template, the</span> **default**<span style="letter-spacing: 0.01em;"> template.</span>  
 
-![](/docs/forestryio/images/Screen%20Shot%202017-01-30%20at%2012.33.11%20PM.png)
+Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form. 
 
-You can now begin to add fields to your templates. To learn more about Front Matter Template Fields, see the section below.
+![/docs/forestryio/images/add-template.png](/docs/forestryio/images/add-template.png)
 
-### Importing Templates with Site
+Give your new template a name and add default fields that you want to be displayed with pages that use this template.
+
+![/docs/forestryio/images/New-Front-Matter-Template.png](/docs/forestryio/images/New-Front-Matter-Template.png)
+
+ <span style="letter-spacing: 0.01em;"></span> 
+
+<span style="letter-spacing: 0.01em;">To learn more about Front Matter Template Fields, see the section below.</span>  
+
+### Automatically Create Templates When Importing a Site
 
 Front Matter Templates can be created automatically when importing your site. How this is done depends on which static site generator you are using.
 
-For Jekyll sites, new templates will be created based off the [defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your config file. This works by creating a new template for each scope in your defaults.
+**Jekyll**
 
-Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.
+New templates will be created based off the [defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your config file. A new Front Matter Template will be created for each scope in your defaults section.
+
+**Hugo**
+
+Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.  Each archetype file will result in a Front Matter Template. 
 
 **Note: Forestry can only read in Front Matter Templates from your site's source. Any changes to the template from within Forestry will not be written back to your config files.**
 
-## Fields
+## Customizing Fields
 
-Every field in your Front Matter Template will have at least five properties:
+Every field in your Front Matter Template will have at least five properties that you can customize:
 
 1.  Type
 2.  Name
@@ -56,15 +70,15 @@ Every field in your Front Matter Template will have at least five properties:
 4.  Label (Optional)
 5.  Description (Optional)
 
-The **"Type"** is describes the type of data to be captured. For example: text, dates, files etc. Well talk more about the different types of fields Foresty supports in the next section.
+The **"Type"** describes the type of data to be captured (and resulting UI element displayed). For example: text, dates, files etc. We'<span style="letter-spacing: 0.01em;">ll talk more about the different types of fields Forestry supports in the next section.</span>
 
 **"Name"** is the key used to identify this field in the front matter.
 
 The **"Hidden"** flag will hide this field from the user, effectively making the default value an unalterable value. By default, this is false.
 
-The **"Label"** is the user friendly text shown above the input field. If this is left blank we will do our best to guess the label.
+The **"Label"** is the text shown above the input field. If this is left blank we will do our best to guess the label.
 
-The **"Description" **gives more context to the user about the expected input.
+The **Description** gives more context to the user about the expected input.
 
 ### Field Types
 
