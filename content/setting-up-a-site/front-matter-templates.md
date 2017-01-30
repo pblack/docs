@@ -65,3 +65,26 @@ The **"Hidden"** flag will hide this field from the user, effectively making the
 The **"Label"** is the user friendly text shown above the input field. If this is left blank we will do our best to guess the label.
 
 The **"Description" **gives more context to the user about the expected input.
+
+### Field Types
+
+As it stands, Forestry supports 11 field types, with more on the way. The currently supported field types with their specific configurations are as follows:
+
+*   Text
+*   Textarea
+*   Number
+
+*   Minimum
+*   Maximum
+*   Step
+
+*   Toggle
+*   Date
+*   Image/File Upload
+*   Gallery/Multi-file Upload
+*   Tag List
+*   Sorted List
+*   Field Group
+*   Field Group List
+
+Each of these fields have the
