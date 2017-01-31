@@ -14,10 +14,10 @@ When creating a new page in Forestry, you will be asked to select a **Front Mat
 Front Matter Templates give you complete control over the display of your front matter fields.
 
 1.  Change the field _type_ (ex. change an input field to an image upload field)
-2.  Change the order of fields in the CMS
-3.  Customize the label and description for each field
-4.  Mark a field as hidden (from non-developer roles)
-5.  Set specific configurations for each field
+2.  Change the _order_ of fields in the CMS
+3.  Customize the _label_ and _description_ for each field
+4.  Mark a field as _hidden_ (from non-developer roles)
+5.  Set field specific configurations
 6.  More options coming soon
 
 ## Setting up Front Matter Templates
@@ -56,7 +56,7 @@ New templates will be created based off the [defaults](https://jekyllrb.com/doc
 
 **Hugo**
 
-Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files.  Each archetype file will result in a Front Matter Template.
+Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files. Each archetype file will result in a Front Matter Template.
 
 **Note: Forestry can only read in Front Matter Templates from your site's source. Any changes to the template from within Forestry will not be written back to your config files.**
 
@@ -87,8 +87,6 @@ As it stands, Forestry supports 11 field types, with more on the way. Here is a 
 *   Text
 *   Textarea
 *   Number
-*   Minimum
-*   Maximum
 *   Step
 *   Toggle
 *   Date
