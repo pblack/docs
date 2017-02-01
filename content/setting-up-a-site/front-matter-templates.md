@@ -1,7 +1,7 @@
 +++
 Categories = []
 date = "2017-01-30T09:23:05-05:00"
-description = ""
+description = "Front Matter Templates let you choose which front matter fields appear when editing your content."
 draft = true
 tags = []
 title = "Front Matter Templates"
@@ -9,7 +9,7 @@ title = "Front Matter Templates"
 weight = 8
 
 +++
-When creating a new page in Forestry, you will be asked to select a **Front Matter Template**. This template determines which fields will be available on your new page and how they will be displayed.
+When creating a new page in Forestry, you will be asked to select a **Front Matter Template (FMT)**. This template determines which fields will be available on your new page and how they will be displayed.
 
 Front Matter Templates give you complete control over the display of your front matter fields.
 
@@ -96,3 +96,39 @@ As it stands, Forestry supports 11 field types, with more on the way. Here is a 
 *   Sorted List
 *   Field Group
 *   Field Group List
+
+## Modifying Front Matter Templates
+
+### Changing the FMT for an existing Page
+
+You can change the FMT for an existing page without losing your existing FM data.
+
+The chosen template only effects which input fields are displayed to the user, it does not effect what is inside the file.
+
+Switching a Page's FMT follows a "no modification" rule–it will not remove or modify values added to that Page with the previous template.
+
+### Changing the FMT inside Hugo Projects
+
+In Hugo, the only exception to the "no modification" rule is the type field.
+
+If a FMT has a default value for type, then switching to that FMT will change the Page's type to the new default value. Otherwise, it will be set to the name of the new FMT.
+
+Note that if the FMTs name does not match a type in your project, Hugo will fall back to the section's default type.
+
+Also, the type is not tied back to the Front Matter Template, so changing the type does not change the Page's FMT.
+
+### Adding New Fields
+
+Any fields added to a FMT will appear in the CMS for all Pages using that FMT.
+
+However, when a field is added with a default value, that default value is NOT set in the front matter of any page currently using that FMT. The default value will only be set for new pages.
+
+### Deleting Fields
+
+Deleting fields from a FMT does not remove that data from existing pages using that FMT.
+
+However, that field will no longer be visible within the CMS.
+
+### Modifying Existing Fields
+
+Modifying the default value of an FMT field will NOT change value in the front matter of any page currently using that FMT. The new default will only effect new pages.
