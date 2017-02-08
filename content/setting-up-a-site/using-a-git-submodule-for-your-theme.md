@@ -19,8 +19,8 @@ Be sure to add the correct **URL** to the repo to be added and the correct **pat
 
 ![/docs/forestryio/images/submodules-1.png](/docs/forestryio/images/submodules-1.png)
 
-Once added, you'll need to add and commit this from your parent repository. You should also notice a .gitsubmodules file in your parent repository.
+<img src="/docs/forestryio/images/git%20submodule.png" style="max-width: 150px; float: left;">
 
-![/docs/forestryio/images/git submodule.png](/docs/forestryio/images/git%20submodule.png)
+Once added, you'll need to add and commit this from your parent repository. You should also notice a .gitsubmodules file in your parent repository.  
 
 Going forward, if you make a change to your child repository and commit it. You'll also need to commit from your parent repository if you want Forestry to pick up on that change.
