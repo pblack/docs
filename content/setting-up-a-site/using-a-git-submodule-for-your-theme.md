@@ -9,7 +9,7 @@ title = "Using a Git Submodule for Your Theme"
 weight = 9
 
 +++
-If you have a repository for your Jekyll or Hugo project and you want use a different repository for your theme, you should set this up as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+Once added, you'll need to add and commit this from your parent repository. You should also notice a .gitsubmodules file in your parent repository.If you have a repository for your Jekyll or Hugo project and you want use a different repository for your theme, you should set this up as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 To add a theme as a Git Submodule, run the following command from the root of your project:
 
@@ -19,8 +19,10 @@ Be sure to add the correct **URL** to the repo to be added and the correct **pat
 
 ![/docs/forestryio/images/submodules-1.png](/docs/forestryio/images/submodules-1.png)
 
-<img src="/docs/forestryio/images/git%20submodule.png" style="max-width: 150px; float: left;">
+Once added, you'll need to add and commit this from your parent repository. 
 
-Once added, you'll need to add and commit this from your parent repository. You should also notice a .gitsubmodules file in your parent repository.  
+You should also notice a .gitsubmodules file in your parent repository.
+
+<img src="/docs/forestryio/images/git%20submodule.png" style="width: 200px; margin: 1.5em auto;">
 
 Going forward, if you make a change to your child repository and commit it. You'll also need to commit from your parent repository if you want Forestry to pick up on that change.
