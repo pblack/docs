@@ -59,6 +59,18 @@ Templates for Hugo sites are created from your sites [archetype](https://gohugo
 
 **Note: Forestry can only read in Front Matter Templates from your site's source. Any changes to the template from within Forestry will not be written back to your config files.**
 
+### Creating Templates from Existing Pages
+
+Front Matter Template can be created from an existing page's front matter.
+
+Click the "Missing or Extra Fields?" button on the right side of the page.
+
+![/docs/forestryio/images/Screen Shot 2017-02-08 at 5.13.46 PM.png](/docs/forestryio/images/Screen%20Shot%202017-02-08%20at%205.13.46%20PM.png)
+
+This will pop a new modal asking you if you want to create a new template. Clicking "Create Template" will create a new Front Matter Template based off the page you are viewing, and then redirect you to the edit page for the template.
+
+Note that fields in the new template will mostly be simple types, like text, date, boolean, and date.
+
 ## Customizing Fields
 
 Every field in your Front Matter Template will have at least five properties that you can customize:
