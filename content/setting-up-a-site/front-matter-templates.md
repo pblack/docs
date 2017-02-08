@@ -86,9 +86,9 @@ As it stands, Forestry supports 11 field types, with more on the way. Here is a 
 *   Text
 *   Textarea
 *   Number
-*   Step
 *   Toggle
 *   Date
+*   Select
 *   Image/File Upload
 *   Gallery/Multi-file Upload
 *   Tag List
