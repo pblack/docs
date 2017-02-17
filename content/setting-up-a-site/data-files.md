@@ -15,7 +15,7 @@ Forestry supports [Hugo](https://gohugo.io/extras/datafiles/) and [Jekyll](https
 The above data files will end up under the **Chunks** section in your CMS.
 
 <img src="/docs/forestryio/images/docs-chunk-org.png" class="large center">
-Content that should editing and isn't associated with any particular page belongs here.
+Content that needs editing and isn't associated with any particular page belongs here.
 
 ![](/docs/forestryio/images/editing-chunks-in-forestry-ui.png)
 
