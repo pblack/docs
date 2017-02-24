@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2017-02-23T21:23:33+00:00"
+date = "2017-02-23T21:23:33Z"
 description = "Communicate with 3rd party applications"
 draft = true
 tags = []
@@ -9,8 +9,6 @@ title = "Webhooks"
 weight = 11
 
 +++
-
-
 Forestry.io uses 
 <a href="https://sendgrid.com/blog/whats-webhook/">webhooks</a> to inform other applications that something just happened.
 <img src="/docs/forestryio/images/webhook-forestry.png" alt="/docs/forestryio/images/webhook-forestry.png">

@@ -1,5 +1,5 @@
 +++
-date = "2016-09-04T22:16:00+00:00"
+date = "2016-09-04T22:16:00Z"
 description = ""
 tags = []
 title = "What is Auto-deploy?"

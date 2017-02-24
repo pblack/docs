@@ -1,5 +1,5 @@
 +++
-date = "2016-07-18T15:45:00+00:00"
+date = "2016-07-18T15:45:00Z"
 description = ""
 tags = []
 title = "Why is there a file called .forestryio in my project?"

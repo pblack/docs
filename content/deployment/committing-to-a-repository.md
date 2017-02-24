@@ -1,6 +1,6 @@
 +++
 Categories = ["source managment"]
-date = "2016-07-20T21:11:00+00:00"
+date = "2016-07-20T21:11:00Z"
 description = ""
 draft = true
 tags = ["Git", "Github", "publishing"]

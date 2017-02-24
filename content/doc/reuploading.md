@@ -1,6 +1,6 @@
 +++
 categories = []
-date = "2016-05-11T12:07:00+00:00"
+date = "2016-05-11T12:07:00Z"
 description = ""
 tags = []
 title = "Re-uploading a Project"

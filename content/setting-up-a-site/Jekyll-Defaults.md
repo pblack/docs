@@ -1,5 +1,5 @@
 +++
-date = "2016-04-25T14:51:00+00:00"
+date = "2016-04-25T14:51:00Z"
 description = "Set default front matter for new pages and posts."
 tags = []
 title = "Default Fields For New Pages and Posts"

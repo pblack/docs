@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-09-03T16:02:00+00:00"
+date = "2016-09-03T16:02:00Z"
 description = "A quick guide on setting up a domain with Amazon Route 53"
 tags = []
 title = "Pointing a domain to your Amazon S3 bucket "

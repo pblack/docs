@@ -1,5 +1,5 @@
 +++
-date = "2016-07-13T17:58:00+00:00"
+date = "2016-07-13T17:58:00Z"
 description = ""
 tags = []
 title = "How are UI elements determined  from front matter"

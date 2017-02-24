@@ -1,5 +1,5 @@
 +++
-date = "2016-07-18T15:52:00+00:00"
+date = "2016-07-18T15:52:00Z"
 description = ""
 tags = ["jekyll", "version"]
 title = "What versions of Jekyll do you support?"

@@ -1,6 +1,6 @@
 +++
 categories = ["jekyll", "GitHub Pages"]
-date = "2016-06-06T20:49:00+00:00"
+date = "2016-06-06T20:49:00Z"
 description = ""
 draft = true
 tags = []

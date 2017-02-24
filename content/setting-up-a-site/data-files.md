@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-07-20T23:19:00+00:00"
+date = "2016-07-20T23:19:00Z"
 description = "Data files can be edited from \"Chunks\" in your CMS sidebar "
 tags = []
 title = "Data Files "

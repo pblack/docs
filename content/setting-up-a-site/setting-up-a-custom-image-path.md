@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-08-20T00:31:00+00:00"
+date = "2016-08-20T00:31:00Z"
 description = "Tell Forestry where to put your images."
 tags = []
 title = "Custom image upload folder"

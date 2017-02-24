@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-06-09T19:58:00+00:00"
+date = "2016-06-09T19:58:00Z"
 description = "Add users to specific sites with specific permissions."
 tags = []
 title = "Adding Team Members"

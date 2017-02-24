@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-06-23T14:21:00+00:00"
+date = "2016-06-23T14:21:00Z"
 description = "Install the Forestry CMS on your site - mysite.com/admin/"
 tags = []
 title = "Remote Admin"

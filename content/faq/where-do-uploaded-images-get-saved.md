@@ -1,5 +1,5 @@
 +++
-date = "2016-07-18T20:52:00+00:00"
+date = "2016-07-18T20:52:00Z"
 description = ""
 tags = []
 title = "Where do uploaded images get saved?"

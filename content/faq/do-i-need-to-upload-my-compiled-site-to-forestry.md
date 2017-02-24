@@ -1,5 +1,5 @@
 +++
-date = "2016-07-20T23:22:00+00:00"
+date = "2016-07-20T23:22:00Z"
 description = ""
 draft = true
 tags = []

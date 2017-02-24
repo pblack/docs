@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-06-09T17:21:00+00:00"
+date = "2016-06-09T17:21:00Z"
 description = "Forestry and GitHub are a great pair. Forestry let's you edit your content, and GitHub will keep a history of all your changes, as well as keep everything synced up if you make changes outside of Forestry, such as changing the theme of a site."
 tags = []
 title = "Importing a site from GitHub"

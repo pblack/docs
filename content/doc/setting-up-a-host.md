@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-06-09T17:20:00+00:00"
+date = "2016-06-09T17:20:00Z"
 description = ""
 draft = true
 tags = []

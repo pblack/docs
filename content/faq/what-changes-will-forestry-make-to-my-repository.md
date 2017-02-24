@@ -1,5 +1,5 @@
 +++
-date = "2016-07-18T15:55:00+00:00"
+date = "2016-07-18T15:55:00Z"
 description = ""
 tags = ["git"]
 title = "Why did Forestry change my code!?"

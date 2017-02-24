@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2016-06-09T18:08:00+00:00"
+date = "2016-06-09T18:08:00Z"
 description = "See the forestry through the trees"
 tags = []
 title = "Forestry Features"
