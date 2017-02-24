@@ -8,14 +8,18 @@ title = "Webhooks"
 weight = 11
 
 +++
-Forestry.io uses [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications that something just happened. ![/docs/forestryio/images/webhook-forestry.png](/docs/forestryio/images/webhook-forestry.png)
+Forestry.io uses [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications that something just happened.
 
 Forestry can send a webhook for two types of events:
 
 *   When your site has been published
 *   When your site has been synced (imported)
 
-Set up a webhook by specifying the receiving URL from your settings page: ![/docs/forestryio/images/webhook-settings.png](/docs/forestryio/images/webhook-settings.png)
+![/docs/forestryio/images/webhook-forestry-1.png](/docs/forestryio/images/webhook-forestry-1.png)
+
+Set up a webhook by specifying the receiving URL from your settings page:
+
+![/docs/forestryio/images/webhook-settings.png](/docs/forestryio/images/webhook-settings.png)
 
 Forestry will make a post to your URL with the following JSON data:  
 
