@@ -11,18 +11,22 @@ weight = 11
 +++
 
 
-Webhooks are used to inform other applications that something just happened inside Forestry.io.
-
-<img src="/docs/forestryio/images/forestry-io-webhook.png" alt="/docs/forestryio/images/forestry-io-webhook.png" class="">
+Forestry.io uses 
+<a href="https://sendgrid.com/blog/whats-webhook/">webhooks</a> to inform other applications that something just happened.
+<img src="/docs/forestryio/images/webhook-forestry.png" alt="/docs/forestryio/images/webhook-forestry.png">
+<p class=""><br></p>
 <p class="">Forestry can send a webhook for two types of events:</p>
 <ul class=""><li class="">When your site has been published</li><li class="">When your site has been synced (imported)</li></ul>
 
-To set up a webhook, specify the URL that you wish to send to from the settings page:
-
+Set up a webhook by specifying the receiving URL from your settings page:
 <img src="/docs/forestryio/images/webhook-settings.png" alt="/docs/forestryio/images/webhook-settings.png">
-<p class="">Now, Forestry will make a post to your URL with the following JSON data:<br><br><code>{"event":"post_publish", "success":true,"error":null}</code>​<br></p>
+<p class="">Forestry will make a post to your URL with the following JSON data:<br><br><code>{"event":"post_publish", "success":true,"error":null}</code>​<br></p>
 
-If there's an error, the `success` parameter will be set to false and the `error` parameter will be set to a string with the error type.
+If there's an error, the `success` parameter will be set to false and the `error` parameter will be set to a string with the error type.## What would you use an webhook for?
 
-To give you an example, t
-<span style="letter-spacing: 0.01em;">he&nbsp;`post_publish` webhook can be used to trigger cache invalidation or a custom build process.</span>
+
+
+For example, you could use the
+<span style="letter-spacing: 0.01em;">&nbsp;<code>post_publish</code> webhook to trigger cache invalidation or a custom build process.</span>
+
+<span style="letter-spacing: 0.01em;"><br></span>
