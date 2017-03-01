@@ -9,7 +9,7 @@ hugo = "{{ .Params.age }}"
 jekyll = "{{ page.age }}"
 [output]
 json = "{\n  age: 23\n}"
-toml = "+++\nage = 23\n+++"
+toml = "+++ \nage = 23\n+++ \n"
 yaml = "---\nage: 23\n---"
 [[options]]
 description = "The default value for this number"
