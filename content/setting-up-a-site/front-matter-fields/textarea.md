@@ -2,7 +2,6 @@
 Categories = ""
 date = "2017-03-01T14:00:19+00:00"
 description = "Allows users to enter multi-line text as a front matter field. "
-draft = true
 image = "/docs/forestryio/images/Screen Shot 2017-03-01 at 3.06.24 PM.png"
 tags = ""
 title = "Textarea"
