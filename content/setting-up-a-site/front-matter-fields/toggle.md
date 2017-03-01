@@ -1,7 +1,6 @@
 +++
 date = "2017-03-01T15:30:14+00:00"
 description = "A simple toggle to for saving a true/false value in front matter."
-draft = true
 image = "/docs/forestryio/images/Screen Shot 2017-03-01 at 4.38.27 PM.png"
 title = "Toggle"
 type = "fields"
