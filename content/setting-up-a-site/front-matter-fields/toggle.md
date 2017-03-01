@@ -10,7 +10,7 @@ hugo = "{{ if .Params.show_author }}\n  <div class=\"author\">\n    ...\n  </div
 jekyll = "{% if page.show_author %} \n  <div class=\"author\">\n    ...\n  </div>\n{% endif %}"
 [output]
 json = "{\n  show_author: true\n}"
-toml = "+++\nshow_author = true\n+++"
+toml = "+++\nshow_author = true\n+++\n"
 yaml = "---\nshow_author: True\n---"
 
 +++
