@@ -19,7 +19,7 @@ output:
   toml: "+++ \ntitle = \"value\"\n+++ \n"
   yaml: "--- \ntitle: value \n--- \n"
 how_to_use:
-  hugo: "<h1>\n{{ .Params.title }}\n</h1> "
+  hugo: "<h1>{{ .Params.title }}</h1> "
   jekyll: "<h1>{{ page.textfield }}</h1>"
 subtypes: ''
 
