@@ -95,8 +95,8 @@ The **Description** gives more context to the user about the expected input.
 
 As it stands, Forestry supports 11 field types, with more on the way. Here is a list of the currently supported field types:
 
-*   [Text](/setting-up-a-site/front-matter-fields/text-field/)
-*   [Textarea](/setting-up-a-site/front-matter-fields/textarea/)
+*   [Text](/docs/setting-up-a-site/front-matter-fields/text-field/)
+*   [Textarea](/docs/setting-up-a-site/front-matter-fields/textarea/)
 *   Number
 *   Toggle
 *   Date
