@@ -15,13 +15,21 @@ options:
   description: Marks a field as required before publishing the page.
   type: toggle
 output:
-  json: " { textfield: 'value' } "
-  toml: " +++ textfield = 'value' +++ "
-  yaml: " --- textfield: value --- "
+  json: |
+    { 
+      title: "value"
+    } 
+  toml: |
+    +++ 
+    title = "value"
+    +++ 
+  yaml: |
+   --- 
+   title: value 
+   --- 
 how_to_use:
-  hugo: "{{ .Params.textfield }} "
-  jekyll: "{{ page.textfield }}"
+  hugo: "<h1>{{ .Params.title }}</h1> "
+  jekyll: "<h1>{{ page.textfield }}</h1>"
 subtypes: ''
-draft: true
 
 ---

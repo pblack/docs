@@ -7,36 +7,21 @@
 		<div class="content">
 			<h1>{{ .Title }} <a href="https://github.com/forestryio/docs/edit/master/content/{{ .Source.File.Path }}" target="_new" class="doc-edit"><span class="icon icon-mode-edit"></span></a></h1>
 			<p class="intro">{{ .Description | markdownify }}</p>
+      <h2>What's it look like?</h2>
       <img class="center" src="{{ .Params.image }}" />
 
       <h2>Options</h2>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Description</th>
-						<th>Type</th>
-					</tr>
-				</thead>
-				<tbody>
-					{{ range .Params.options }}
-					  <tr>
-							<td>{{ .name }}</td>
-							<td>{{ .description }}</td>
-							<td>{{ .type }}</td>
-						</tr>
-					{{ end }}
-				</tbody>
-			<table>
+      {{ range .Params.options }}
+        <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
+        <p>{{ .description }}</p>
+      {{ end }}
 
        <div class="tab-panel tab-panel--output">
          <h2 class="tab-panel__label">Output</h2>
          {{ range $format, $code := .Params.output }}
          <div class="tab tab--{{$format}}">
            <h3>{{ $format }}</h3>
-           <code>
-            {{ $code }}
-            </code>
+           <pre><code>{{ $code }}</code></pre>
         </div>
         {{ end }}
       </div>
@@ -46,16 +31,14 @@
         {{ range $engine, $code := .Params.how_to_use }}
         <div class="tab tab--{{$engine}}">
           <h3 class="tab tab__label">{{ $engine}}</h3>
-          <code>
-            {{ $code }}
-          </code>
+           <pre><code>{{ $code }}</code></pre>
         </div>
         {{ end }}
       </div>
 
       {{ if .Params.subtypes }}
         <h2>Subtypes</h2>
-        {{ range .Params.subtypes }}
+        {{ range sort .Params.subtypes }}
           {{ .name }}
         {{ end }}
       {{ end }}
