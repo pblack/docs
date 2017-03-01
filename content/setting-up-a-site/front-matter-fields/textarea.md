@@ -10,7 +10,6 @@ type = "fields"
 [how_to_use]
 hugo = "<p>\n{{ .Params.description }}\n</p>"
 jekyll = "<p>\n{{ page.description}}\n</p>"
-[menu.setting_up_a_site]
 weight = 13
 [output]
 json = "{\n  description: \"Hello\\nWorld\"\n}"
