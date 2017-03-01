@@ -7,7 +7,7 @@ var ipResolver = require('./ipResolver'),
 function hugo(drafts) {
   ipResolver(function(add){
     var src = path.join(process.cwd(), './');
-    var dst = path.join(process.cwd(), './public');
+    var dst = path.join(process.cwd(), './public/docs');
 
     gutil.log('src: ' + src + ' dst: ' + dst);
 
