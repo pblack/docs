@@ -8,14 +8,12 @@ title = "Webhooks"
 weight = 11
 
 +++
-Forestry.io uses [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications that something just happened.
+Forestry.io now supports [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications when certain events happen with your Forestry.io site. 
 
-![/docs/forestryio/images/webhook-forestry-1.png](/docs/forestryio/images/webhook-forestry-1.png)
+## Events that support webhooks
 
-Forestry will send webhooks for the following events:
-
-*   Site has been published
-*   Site has been synced (re-imported)
+*   When your site is published
+*   When your site is synced (Forestry watches your repo and syncs your site every time a commit is detected)
 
 ## Setting up webhooks
 
@@ -27,10 +25,12 @@ From your settings page, specify the URL that you want Forestry to post to.
 
 Forestry will make a post to your URL with the following JSON data:
 
-`{"event":"post_publish", "success":true,"error":null}`​  
+`{"event":"post_publish", "success":true,"error":null}`​
 
-If there's an error, the `success` parameter will be set to false and the `error` parameter will be set to a string with the error type.
+If there is an error, the `success` parameter will be set to false and the `error` parameter will be set to a string with the error type.
 
 ## What can you do with a webhook?
 
-For example, you could use the <span style="letter-spacing: 0.01em;"> `post_publish` webhook to trigger cache invalidation or a custom build process.</span>
+*   Trigger cache invalidation every time someone publishes your site  
+
+*   Trigger a custom build script when someone publishes your site
