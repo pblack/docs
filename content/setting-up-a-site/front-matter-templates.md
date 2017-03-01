@@ -98,7 +98,7 @@ As it stands, Forestry supports 11 field types, with more on the way. Here is a 
 *   [Text](/docs/setting-up-a-site/front-matter-fields/text-field/)
 *   [Textarea](/docs/setting-up-a-site/front-matter-fields/textarea/)
 *   [Number](/docs/setting-up-a-site/front-matter-fields/number/)
-*   Toggle
+*   [Toggle](/docs/setting-up-a-site/front-matter-fields/toggle/)
 *   Date
 *   Select
 *   Image/File Upload
