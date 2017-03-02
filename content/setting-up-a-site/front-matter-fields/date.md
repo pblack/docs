@@ -1,7 +1,6 @@
 +++
 date = "2017-03-01T21:09:14+00:00"
 description = "Provides a date-time picker for populating front matter."
-draft = true
 image = "/docs/forestryio/images/Screen Shot 2017-03-02 at 10.14.21 AM.png"
 title = "Date"
 type = "fields"
