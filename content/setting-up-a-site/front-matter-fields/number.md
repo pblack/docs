@@ -1,5 +1,5 @@
 +++
-date = "2017-03-01T15:16:02+00:00"
+date = "2017-03-01T15:16:02Z"
 description = "Allows users to enter a number in a front matter field."
 image = "/docs/forestryio/images/Screen Shot 2017-03-01 at 4.21.11 PM.png"
 title = "Number"
