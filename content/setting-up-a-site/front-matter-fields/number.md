@@ -1,7 +1,6 @@
 +++
 date = "2017-03-01T15:16:02+00:00"
 description = "Allows users to enter a number in a front matter field."
-draft = true
 image = "/docs/forestryio/images/Screen Shot 2017-03-01 at 4.21.11 PM.png"
 title = "Number"
 type = "fields"
@@ -10,7 +9,7 @@ hugo = "{{ .Params.age }}"
 jekyll = "{{ page.age }}"
 [output]
 json = "{\n  age: 23\n}"
-toml = "+++\nage = 23\n+++"
+toml = "+++ \nage = 23\n+++ \n"
 yaml = "---\nage: 23\n---"
 [[options]]
 description = "The default value for this number"
