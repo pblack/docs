@@ -7,6 +7,7 @@
 		<div class="content">
 			<h1>{{ .Title }} <a href="https://github.com/forestryio/docs/edit/master/content/{{ .Source.File.Path }}" target="_new" class="doc-edit"><span class="icon icon-mode-edit"></span></a></h1>
 			<p class="intro">{{ .Description | markdownify }}</p>
+      <p>{{ .Content }}</p>
       <h2>What's it look like?</h2>
       <img class="center" src="{{ .Params.image }}" />
 
