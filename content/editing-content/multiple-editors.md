@@ -10,7 +10,7 @@ weight = 3
 +++
 When 2 people edit the same page, Forestry.io applies a "last in last out" rule.
 
-## Two editors logged into Forestry
+## Example: two editors in Forestry
 
 *   **Sarah** starts editing a page
 *   **John** starts editing the same page
@@ -20,9 +20,9 @@ When 2 people edit the same page, Forestry.io applies a "last in last out" rule.
 *   **Sarah's** changes are lost
 *   **John’s** changes are kept
 
-## One editor in Forestry and one developer using Git
+## Example: one editor in Forestry and one developer
 
-The same behaviour would apply if someone was not using Forestry but working locally using Git and a text editor. Here's another example:
+The same behaviour would apply if one person was not using Forestry but working locally using Git + text editor. 
 
 *   **Sarah** starts editing a page in Forestry
 *   **John** starts editing the same page locally with his text editor
