@@ -1,6 +1,6 @@
 +++
 Categories = ""
-date = "2017-03-29T17:05:55+00:00"
+date = "2017-03-29T17:05:55Z"
 description = ""
 tags = ""
 title = "Deploying your site with FTP"

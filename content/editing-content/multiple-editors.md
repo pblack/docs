@@ -1,6 +1,6 @@
 +++
 Categories = ""
-date = "2017-03-07T12:32:13+00:00"
+date = "2017-03-07T12:32:13Z"
 description = "Currently, Forestry.io does not support simultaneous, multi-user editing. "
 tags = ""
 title = "Multiple Editors"

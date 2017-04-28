@@ -1,5 +1,5 @@
 +++
-date = "2017-03-02T10:25:19+00:00"
+date = "2017-03-02T10:25:19Z"
 description = "Collects an unsorted list of text values."
 image = "/docs/forestryio/images/tags-demo.gif"
 title = "Tag List"

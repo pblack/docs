@@ -1,6 +1,6 @@
 +++
 Categories = ""
-date = "2017-03-04T06:47:49+00:00"
+date = "2017-03-04T06:47:49Z"
 description = ""
 draft = true
 tags = ""
