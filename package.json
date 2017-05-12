@@ -1,40 +1,32 @@
 {
-  "name": "forestry-docs",
+  "name": "landingpages",
   "version": "1.0.0",
-  "description": "The Doc site for forestry.io",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/forestryio/docs.git"
-  },
-  "author": "forestry.io",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/forestryio/docs/issues"
-  },
-  "homepage": "https://github.com/jbrodriguez/hugulp#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.12.5",
-    "del": "^2.2.0",
+    "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-batch": "^1.0.5",
-    "gulp-clean-css": "^2.0.6",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-run-sequence": "^0.3.2",
-    "gulp-sass": "^2.3.1",
-    "gulp-sourcemaps": "^2.0.0-alpha",
-    "gulp-watch": "^4.3.6",
-    "require-dir": "^0.3.0",
-    "vinyl-named": "^1.1.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "run-sequence": "^1.2.2",
+    "tachyons": "^4.7.2",
     "webpack-stream": "^3.2.0"
   },
   "dependencies": {
-    "highlight.js": "^9.3.0",
-    "jquery": "^2.2.3"
+    "highlight.js": "^9.11.0"
   }
 }
