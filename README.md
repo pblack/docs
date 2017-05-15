@@ -1,8 +1,6 @@
 ## setup
-- from the `docs` directory
-- `npm install -g gulp`
-- `npm install -g node-sass`
-- `npm install`
+- from the `promosite` directory
+- `npm i` will install all dependencies
 - 'git clone git@github.com:forestryio/forestry-doc-theme.git hugo/themes/forestry-doc-theme' to the `./themes/` directory
 
 ## gulp commands
@@ -13,8 +11,7 @@
   website on other devices, such as a phone. Interactions with one instance of the website,
   will also happen on other instances.
 - `gulp build`
-  - will generate a "production" version of the content
-
+  - will generate a "production" version of the content to be deployed
 
 ## javascipt with webpack 101
 
