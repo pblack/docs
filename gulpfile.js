@@ -1,56 +1,20 @@
 const browserSync = require('browser-sync').create();
-var webpack       = require('webpack-stream');
-var path          = require('path');
-var exec          = require('child_process').exec;
 var child         = require('child_process');
-var sequence      = require('run-sequence');
-var gulp          = require('gulp');
-var gutil         = require('gulp-util');
+var config        = require('./gulp.config');
 var clean         = require('gulp-clean');
 var cache         = require('gulp-cache');
+var exec          = require('child_process').exec;
+var gulp          = require('gulp');
+var gutil         = require('gulp-util');
 var ignore        = require('gulp-ignore');
-var sass          = require('gulp-sass');
-var prefix        = require('gulp-autoprefixer');
 var imageMin      = require('gulp-imagemin')
+var named         = require('vinyl-named');
+var path          = require('path');
+var prefix        = require('gulp-autoprefixer');
+var sass          = require('gulp-sass');
+var sequence      = require('run-sequence');
 var sourcemaps    = require('gulp-sourcemaps');
-
-var theme = "./themes/forestry-doc-theme/"
-
-/*
- * All commands and directories are
- * configured from this object
- */
-var config = {
-  hugo: {
-    serve: 'hugo server --config=config.yaml -v --log --disableLiveReload -DF -d public/docs/ -b http://localhost:4000/docs/',
-    build: 'hugo --config=config.yaml',
-    src: ['./content/**/*.md', './layouts/**/*.html', theme + 'layouts/**/*.html'],
-    dest: './public'
-  },
-  sass: {
-    vendor: {
-      src: ['./node_modules/tachyons/css/tachyons.min.css'],
-      dest: theme + "src/sass/vendor"
-    },
-    src: theme + "src/sass/**/*.+(scss|sass)",
-    dest: theme + "static/assets/css/"
-  },
-  js: {
-    vendor: {
-      src: ['./node_modules/jquery/dist/jquery.min.js'],
-    },
-    src: theme + "src/js/**/*.js",
-    dest: theme + "static/assets/js/"
-  },
-  siteImages: {
-    src: "./static/assets/images/**/*.+(png|jpg|jpeg|gif|svg)",
-    dest: "./static/assets/images/"
-  },
-  themeImages: {
-    src: theme + "src/images/**/*.+(png|jpg|jpeg|gif|svg)",
-    dest: theme + "static/assets/images/"
-  }
-}
+var webpack       = require('webpack-stream');
 
 /*
  * Handle errors and emit them to
@@ -90,11 +54,11 @@ function hugo(status) {
 }
 
 gulp.task('hugo-serve', ['process'], function() {
-  hugo();
+  return hugo();
 });
 
 gulp.task('hugo-build', ['process'], function() {
-  hugo('build');
+  return hugo('build');
 });
 
 /*
@@ -133,12 +97,12 @@ gulp.task('js-vendor', function() {
 gulp.task('js', ['js-vendor'], function() {
   return gulp.src(config.js.src)
     .pipe(ignore(config.js.vendor.src))
+    .pipe(named())
     .pipe(webpack({
       output: {
         filename: '[name].min.js'
       },
     })) 
-    .pipe(gulp.dest(config.js.dest))
     .pipe(gulp.dest(config.js.dest))
     .pipe(browserSync.reload({stream:true}));
 });
@@ -217,4 +181,4 @@ gulp.task('build', function() {
   sequence('clean', ['process', 'hugo-build']);
 });
 
-gulp.task('default', ['server']);
+gulp.task('default', ['server']);;
