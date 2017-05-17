@@ -153,7 +153,7 @@ gulp.task('watch', ['hugo-serve'], function (done) {
  * output directories
  */
 gulp.task('clean', function() {
-  gulp.src([
+  return gulp.src([
     config.sass.dest,
     config.js.dest,
     config.themeImages.dest, // don't do siteImages, will delete originals
@@ -181,4 +181,4 @@ gulp.task('build', function() {
   sequence('clean', ['process', 'hugo-build']);
 });
 
-gulp.task('default', ['server']);;
+gulp.task('default', ['server']);
