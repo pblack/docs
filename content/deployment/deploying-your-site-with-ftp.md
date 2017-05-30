@@ -1,8 +1,8 @@
 +++
-Categories = ""
+Categories = []
 date = "2017-03-29T17:05:55Z"
 description = ""
-tags = ""
+tags = []
 title = "Deploying your site with FTP"
 [menu.deployment]
 weight = 7
