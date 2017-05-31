@@ -2,7 +2,7 @@ const browserSync = require('browser-sync').create();
 var child         = require('child_process');
 var config        = require('./gulp.config');
 var clean         = require('gulp-clean');
-var cache         = require('gulp-cache');
+var cache         = require('gulp-asset-cache');
 var exec          = require('child_process').exec;
 var gulp          = require('gulp');
 var gutil         = require('gulp-util');
@@ -113,9 +113,11 @@ gulp.task('js', ['js-vendor'], function() {
  */
 gulp.task('site-images', function() {
   return gulp.src(config.siteImages.src)
-    .pipe(cache(imageMin()))
+    .pipe(cache.filter(config.siteImages.dest + '.image-cache'))
+    .pipe(imageMin({verbose: true}))
     .pipe(gulp.dest(config.siteImages.dest))
-    .pipe(browserSync.reload({stream:true}))   
+    .pipe(cache.cache())
+    .pipe(browserSync.reload({stream:true}));
 })
 
 /*
@@ -124,8 +126,11 @@ gulp.task('site-images', function() {
  */
 gulp.task('theme-images', function() {
   return gulp.src(config.themeImages.src)
-    .pipe(cache(imageMin()))
+    .pipe(cache.filter(config.themeImages.dest + '.image-cache'))
+    .pipe(imageMin({verbose: true}))
     .pipe(gulp.dest(config.themeImages.dest))
+    .pipe(cache.cache())
+    .pipe(browserSync.reload({stream:true}));
 });
 
 /*
@@ -165,7 +170,7 @@ gulp.task('clean', function() {
 /*
  * Run the asset pipeline
  */
-gulp.task('process', ['sass', 'js', 'site-images', 'theme-images']);
+gulp.task('process', ['sass', 'js', 'theme-images']);
 
 /*
  * Gulp task for serving hugo
@@ -178,7 +183,7 @@ gulp.task('server', ['process', 'hugo-serve', 'watch']);
  * and running the asset pipeline
  */ 
 gulp.task('build', function() {
-  sequence('clean', ['process', 'hugo-build']);
+  sequence('clean', 'site-images', ['process', 'hugo-build']);
 });
 
 gulp.task('default', ['server']);

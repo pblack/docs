@@ -8,7 +8,7 @@ var theme = "./themes/forestry-doc-theme/"
 module.exports = exports = {
   hugo: {
     serve: 'hugo server --config=config.yaml -v --log --disableLiveReload -DF -d public/docs/ -b http://localhost:4000/docs/',
-    build: 'hugo --config=config.yaml',
+    build: 'hugo --config=config.yaml -d public/docs/',
     src: ['./content/**/*.md', './layouts/**/*.html', theme + 'layouts/**/*.html'],
     dest: './public'
   },
