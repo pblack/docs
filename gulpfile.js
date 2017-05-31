@@ -3,6 +3,7 @@ var child         = require('child_process');
 var config        = require('./gulp.config');
 var clean         = require('gulp-clean');
 var cache         = require('gulp-asset-cache');
+var changed       = require('gulp-changed');
 var exec          = require('child_process').exec;
 var gulp          = require('gulp');
 var gutil         = require('gulp-util');
@@ -126,10 +127,10 @@ gulp.task('site-images', function() {
  */
 gulp.task('theme-images', function() {
   return gulp.src(config.themeImages.src)
-    .pipe(cache.filter(config.themeImages.dest + '.image-cache'))
+    .pipe(changed(config.themeImages.dest))
     .pipe(imageMin({verbose: true}))
     .pipe(gulp.dest(config.themeImages.dest))
-    .pipe(cache.cache())
+    .pipe(changed(config.themeImages.dest))
     .pipe(browserSync.reload({stream:true}));
 });
 
