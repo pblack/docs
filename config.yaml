@@ -36,7 +36,7 @@ params:
     link: https://twitter.com/scottgallant
     name: Scott Gallant
     twitter: https://twitter.com/scottgallant
-  description: A static site cms generator for Hugo and Jekyll
+  description: A Static Site CMS for Hugo and Jekyll
   twitter_card: ''
 sitemap:
   ChangeFreq: ''
