@@ -46,14 +46,14 @@
 					<integer>24</integer>
 				</dict>
 			</dict>
-			<key>index.md</key>
+			<key>intro.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>518709920.860847</real>
+				<real>518718448.58349401</real>
 				<key>version</key>
 				<dict>
 					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-					<integer>34</integer>
+					<integer>36</integer>
 				</dict>
 			</dict>
 			<key>what-is-a-static-site.md</key>
@@ -74,7 +74,7 @@
 			<string>what-is-a-static-site.md</string>
 		</array>
 		<array>
-			<string>index.md</string>
+			<string>intro.md</string>
 		</array>
 		<array>
 			<string>importing-a-site.md</string>
@@ -96,7 +96,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-			<integer>35</integer>
+			<integer>36</integer>
 		</dict>
 	</dict>
 </dict>

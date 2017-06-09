@@ -4,6 +4,8 @@ description: ""
 draft: "true"
 tags: ""
 title: "Backups"
+menu:
+  deployment-and-management:
 ---
 ## If You Imported Your Site With Git
 If you set up and imported your site with Git, then backups are automatic!

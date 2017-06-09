@@ -4,8 +4,8 @@ description: "Hugo will keep everything in the static folder when compiling your
 tags: []
 title: "Use a CNAME for you Hugo and GitHub Pages site"
 menu:
-faq:
-weight: 9
+  faq:
+    weight: 9
 
 ---
 If you don't want Hugo to remove your CNAME file when building your site, put it in <code>/static/CNAME</code>

@@ -2,9 +2,15 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: "Jekyll Plugins Reference"
+    url: https://jekyllrb.com/docs/plugins/
+  - title: "Bundler Gemfile Reference"
+    url: http://bundler.io/v1.13/gemfile.html
 tags: ""
 title: "Jekyll Plugins"
+menu:
+  developing-with-jekyll:
 ---
 Jekyll allows you to add Gem-based plugins using your `.Gemfile`. This allows you to add things like [CoffeeScript][1] preprocessing.
 
@@ -33,13 +39,5 @@ Installation generally has three steps:
 
 **Note:** depending on the plugin, additional configuration may be required. Please read each plugin’s documentation carefully.
 
----
-Resources:
-- [https://jekyllrb.com/docs/plugins/][3]
-- [http://bundler.io/v1.13/gemfile.html][4]
-
-
 [1]:	%20
 [2]:	.
-[3]:	https://jekyllrb.com/docs/plugins/
-[4]:	http://bundler.io/v1.13/gemfile.html

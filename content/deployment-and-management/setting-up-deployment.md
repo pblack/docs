@@ -4,6 +4,8 @@ description: "Introduction to Forestry for Content Managers"
 draft: "true"
 tags: ""
 title: "Setting Up Deployment"
+menu:
+  deployment-and-management:
 ---
 In Forestry, you get set up your CMS to deploy your site to your staging or production environment when you publish changes.
 
@@ -25,8 +27,6 @@ This is great if you’re going to be making changes to content, layouts, or you
 
 To enable this, go to the `Settings` page of your site, and on the `General` tab find `Deployment`. Turn the `Auto Deploy` toggle to on, and let us handle the rest!
 
----
-
-[1]:	%20
+[1]:	%20/docs/deployment-and-management/previewing
 [2]:	https://forestry.io/docs/deployment/hosting-on-amazon-s3/
 [3]:	https://forestry.io/docs/deployment/deploying-your-site-with-ftp/

@@ -5,8 +5,10 @@ draft: "true"
 related: []
 tags: ""
 title: "Templating"
+menu:
+  developing-with-jekyll:
 ---
-Jekyll allows users to build their HTML templates using the template language *Liquid* built and used by the popular eCommerce application [Shopify]().
+Jekyll allows users to build their HTML templates using the template language *Liquid* built and used by the popular eCommerce application [Shopify][1].
 
 ## Liquid
 Liquid is best described as a safe, customer-facing template language for flexible web apps.
@@ -28,6 +30,4 @@ An example of Liquid:
 	</body>
 	</html>
 
----
-Reference:
-
+[1]:	https://shopify.com

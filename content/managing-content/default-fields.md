@@ -2,9 +2,11 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
 tags: ""
 title: "Default Fields"
+menu:
+  managing-content:
 ---
 You can setup defaults for your front matter fields so that content writers and editors don’t have to fill in the same details for every page.
 

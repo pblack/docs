@@ -2,9 +2,17 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: “Hugo GoTemplates Reference”
+    url: https://gohugo.io/templates/go-templates/
+  - title: “Hugo Ace Templates Reference”
+    url: https://gohugo.io/templates/ace/
+  - title: “Hugo Amber Templates Reference”
+    url: https://gohugo.io/templates/amber/
 tags: ""
 title: "Templating"
+menu:
+  developing-with-hugo:
 ---
 Hugo allows users to build layouts and themes using one of multiple templating languages. By default, Hugo uses GoLang’s GoTemplates.
 
@@ -61,12 +69,3 @@ An example of Amber:
 	                | These lines are all part of the parent p
 	
 	                a[href="/"] Go To Main Page
----
-related =()
-- [https://gohugo.io/templates/go-templates/][1]
-- [https://gohugo.io/templates/ace/][2]
-- [https://gohugo.io/templates/amber/][3]
-
-[1]:	https://gohugo.io/templates/go-templates/
-[2]:	https://gohugo.io/templates/ace/
-[3]:	https://gohugo.io/templates/amber/

@@ -2,9 +2,13 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
+  - title: "Jekyll Build Command Options"
+    url: https://jekyllrb.com/docs/configuration/#build-command-options
 tags: ""
 title: "Environments"
+menu:
+  developing-with-jekyll:
 ---
 They are three unique developer environments when working with a Jekyll site in Forestry:
 
@@ -23,11 +27,6 @@ The values are:
 	Staging environment : "preview"
 	Production environment: "production"
 
----
-related =()
-- [https://jekyllrb.com/docs/configuration/#build-command-options][4]
-
-[1]:	%20
-[2]:	%20
-[3]:	%20
-[4]:	https://jekyllrb.com/docs/configuration/#build-command-options
+[1]:	%20/docs/developing-with-jekyll/local-development
+[2]:	%20/docs/deployment-and-management/previewing
+[3]:	%20/docs/deployment-and-management/setting-up-deployment

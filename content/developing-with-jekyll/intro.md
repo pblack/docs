@@ -2,9 +2,15 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: “Jekyll Documentation”
+    url: http://jekyllrb.com/docs
+  - title: “Jekyll Quickstart Guide”
+    url: http://jekyllrb.com/docs/quickstart/
 tags: ""
 title: "Intro to Jekyll"
+menu:
+  developing-with-jekyll:
 ---
 Jekyll is one of the oldest static site generators available. Built by [GitHub][1], it has tons of community support and is very stable. Additional features can be added onto Jekyll through the use of plugins. It also uses the tempting language [Liquid][2], which feels very familiar to developers and is also used by Shopify and other large-scale applications. 
 
@@ -25,14 +31,7 @@ We also recommend that you set up a Git repository to manage development of your
 
 Once you’re ready, feel free to use our [Jekyll starter site](), which walks you through Forestry’s core features and provides a great starting point for your own website.
 
----
-Recommended:
-- [http://jekyllrb.com/docs][9]
-- [http://jekyllrb.com/docs/quickstart/][10]
-
 [1]:	%20
 [2]:	,%20
 [3]:	%20a
 [4]:	.
-[9]:	http://jekyllrb.com/docs
-[10]:	http://jekyllrb.com/docs/quickstart/

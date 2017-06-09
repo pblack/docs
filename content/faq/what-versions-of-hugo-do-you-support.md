@@ -4,9 +4,9 @@ description: ""
 tags: ["hugo", "version"]
 title: "What versions of Hugo do you support?"
 menu:
-faq:
-name: "What version of Hugo do you support? "
-weight: 7
+  faq:
+    name: "What version of Hugo do you support? "
+    weight: 7
 
 ---
 We currently support Hugo v0.17, v0.18.1, and v0.19.

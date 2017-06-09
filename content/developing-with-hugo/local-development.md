@@ -2,9 +2,13 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
+  - title: “Hugo Usage Guide”
+    url: https://gohugo.io/overview/usage/
 tags: ""
 title: "Local Development"
+menu:
+  developing-with-hugo:
 ---
 Hugo allows you to work on your site in a local environment on your computer. It requires you to install the Hugo binary on your local machine.
 
@@ -42,12 +46,8 @@ To run Hugo with the server, run the command:
 This will spin up a local development server with live reload at the port `1313`, which is accessible from `http://localhost:1313`.
 
 ## Deployment
-For information on how to handle deployment of your site to your production or staging environment, see our [Deployment doc]()
-
---- 
-related =()
-- [https://gohugo.io/overview/usage/][4]
+For information on how to handle deployment of your site to your production or staging environment, see our [Deployment doc][3]
 
 [1]:	https://gohugo.io/overview/installing/
 [2]:	https://app.forestry.io/dashboard
-[4]:	https://gohugo.io/overview/usage/
+[3]:	/docs/deployment-and-management/setting-up-deployment

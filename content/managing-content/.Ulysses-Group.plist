@@ -36,16 +36,6 @@
 					<integer>37</integer>
 				</dict>
 			</dict>
-			<key>index.md</key>
-			<dict>
-				<key>lastModification</key>
-				<real>518709989.24004197</real>
-				<key>version</key>
-				<dict>
-					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-					<integer>39</integer>
-				</dict>
-			</dict>
 			<key>localization.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -54,6 +44,16 @@
 				<dict>
 					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
 					<integer>25</integer>
+				</dict>
+			</dict>
+			<key>managing-content.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>518718461.892169</real>
+				<key>version</key>
+				<dict>
+					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
+					<integer>41</integer>
 				</dict>
 			</dict>
 			<key>media-management.md</key>
@@ -93,7 +93,7 @@
 			<string>menus.md</string>
 		</array>
 		<array>
-			<string>index.md</string>
+			<string>managing-content.md</string>
 		</array>
 		<array>
 			<string>data-files.md</string>
@@ -109,7 +109,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-			<integer>40</integer>
+			<integer>41</integer>
 		</dict>
 	</dict>
 </dict>

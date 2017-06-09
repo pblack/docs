@@ -5,6 +5,8 @@ draft: "true"
 related: []
 tags: ""
 title: "Static Generator Version"
+menu:
+  site-configuration:
 ---
 On a per site basis, you can configure which version of your static site generator we use to build your site when previewing and publishing. 
 

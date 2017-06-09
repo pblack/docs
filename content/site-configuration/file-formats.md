@@ -5,6 +5,8 @@ draft: "true"
 related: []
 tags: ""
 title: "File Formats"
+menu:
+  site-configuration:
 ---
 # File formats
 On a per site basis, you can configure what format new content created in Forestry should be created in.

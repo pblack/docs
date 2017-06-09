@@ -4,6 +4,8 @@ description: ""
 draft: "true"
 tags: ""
 title: "Previewing"
+menu:
+  deployment-and-management:
 ---
 Forestry allows you to preview changes to your site before you save them by saving as a draft or publishing.
 

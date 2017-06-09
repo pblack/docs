@@ -5,6 +5,8 @@ draft: "true"
 related: []
 tags: ""
 title: "Media Uploads"
+menu:
+  site-configuration:
 ---
 In the settings for site’s CMS, you can configure how the media manager handles uploaded media.
 

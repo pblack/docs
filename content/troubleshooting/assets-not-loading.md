@@ -2,9 +2,17 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: ""
+related:
+  - title: "Jekyll Configuration Guide"
+    url: https://jekyllrb.com/docs/configuration/
+  - title: "Hugo Configuration Guide"
+    url: https://gohugo.io/overview/configuration/
+  - title: "Hugo URL Function Reference"
+    url: https://gohugo.io/templates/functions/#urls
 tags: ""
 title: "Assets Not Loading"
+menu:
+  troubleshooting:
 ---
 Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to *pathing issues*.
 

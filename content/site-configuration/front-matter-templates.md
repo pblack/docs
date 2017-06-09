@@ -2,9 +2,17 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: "All Front Matter Field Types"
+    url: "/docs/front-matter-fields/text-field/"
+  - title: "Jekyll Defaults"
+    url: https://jekyllrb.com/docs/configuration/#front-matter-defaults
+  - title: "Hugo Archetypes"
+    url: https://gohugo.io/content/archetypes/
 tags: ""
 title: "Front Matter Templates"
+menu:
+  site-configuration:
 ---
 In Forestry, the user interface for the content and data file editor can be customized using *Front Matter Templates*. 
 
@@ -22,7 +30,7 @@ You can access these templates from the *"front matter"* menu item in the sideba
 It’s important to note that any additional front matter fields added to a content file that **are not part of the Front Matter Template** will not be displayed in the Forestry editor.
 
 ## Setting up Front Matter Templates
-Front Matter Templates can be created through the Forestry UI, or automatically created when importing a site with existing default fields (in your Jekyll \_config.yml file or Hugo Archetype file).
+Front Matter Templates can be created through the Forestry UI, or automatically created when importing a site with existing default fields (in your Jekyll `_config.yml` file or Hugo Archetype file).
 
 ### CREATING TEMPLATES THROUGH THE FORESTRY UI
 Click on the Front Matter link in the sidebar to get to the list of available templates (this is only visible to people with *developer* access).

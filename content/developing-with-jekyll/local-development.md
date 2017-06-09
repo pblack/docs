@@ -2,9 +2,15 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
+  - title: “Jekyll Usage Guide”
+    url: https://jekyllrb.com/docs/usage/
+  - title: “Using Jekyll with GitHub Pages”
+    url: https://help.github.com/articles/using-jekyll-with-pages/
 tags: ""
 title: "Local Development"
+menu:
+  developing-with-jekyll:
 ---
 Jekyll allows you to work on your site in a local environment on your computer. It requires you to have `Ruby`, `RubyGems` and `Bundler` installed.
 
@@ -46,13 +52,8 @@ To run Jekyll with the server, run the command:
 This will spin up a local development server with live reload at the port `4000`, which is accessible from `http://localhost:4000`.
 
 ## Deployment
-For information on how to handle deployment of your site to your production or staging environment, see our [Deployment doc]()
----
-related =()
-- [https://jekyllrb.com/docs/usage/][4]
-- [https://help.github.com/articles/using-jekyll-with-pages/][5]
+For information on how to handle deployment of your site to your production or staging environment, see our [Deployment doc][3]
 
 [1]:	https://www.ruby-lang.org/en/documentation/installation/
 [2]:	https://app.forestry.io/dashboard
-[4]:	https://jekyllrb.com/docs/usage/
-[5]:	https://help.github.com/articles/using-jekyll-with-pages/
+[3]:	/docs/deployment-and-management/setting-up-deployment

@@ -16,16 +16,6 @@
 					<integer>23</integer>
 				</dict>
 			</dict>
-			<key>index.md</key>
-			<dict>
-				<key>lastModification</key>
-				<real>518709913.11996102</real>
-				<key>version</key>
-				<dict>
-					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-					<integer>27</integer>
-				</dict>
-			</dict>
 			<key>managing-users.md</key>
 			<dict>
 				<key>lastModification</key>
@@ -56,12 +46,22 @@
 					<integer>21</integer>
 				</dict>
 			</dict>
+			<key>setting-up-deployment.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>518718427.43020397</real>
+				<key>version</key>
+				<dict>
+					<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
+					<integer>29</integer>
+				</dict>
+			</dict>
 		</dict>
 	</dict>
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>index.md</string>
+			<string>setting-up-deployment.md</string>
 		</array>
 		<array>
 			<string>managing-users.md</string>
@@ -83,7 +83,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>3bd8ac84cef51a0edd893197e5a8fc4df1f2c699edaa1db33f0c778b4cdd0832</key>
-			<integer>28</integer>
+			<integer>29</integer>
 		</dict>
 	</dict>
 </dict>

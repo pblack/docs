@@ -4,6 +4,8 @@ description: "A brief overview about Forestry"
 draft: "true"
 tags: ""
 title: "Introduction"
+menu:
+  getting-started:
 ---
 ## What is Forestry?
 Forestry.io is a Git-based CMS (content management system) for websites and web products built using *static site generators*. It aims to bridge the gap between developers and their teams, by making development fun and easy, while still making content management easy for their teams.

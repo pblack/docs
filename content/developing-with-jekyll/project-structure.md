@@ -2,9 +2,13 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: “Jekyll Directory Structure Reference”
+    url: https://jekyllrb.com/docs/structure/
 tags: ""
 title: "Project Structure"
+menu:
+  developing-with-jekyll:
 ---
 In Jekyll, project structure and naming is very important. The way you structure and name your project directly effects the organization of your built static site.
 
@@ -35,7 +39,7 @@ For example, a Jekyll site may look like this:
 	├── .jekyll-metadata
 	└── index.html
 
-For a full breakdown on how this directory structure works, [see the Jekyll docs]().
+For a full breakdown on how this directory structure works, [see the Jekyll docs][1].
 
 ## How Forestry Parses Jekyll
 Based on the example structure above, let’s explain how Forestry parses your site.
@@ -64,4 +68,5 @@ After import, any fields manually added to a content file will *not* be automati
 Jekyll also supports Gem based themes. See the references below for more information.
 
 
-[2]:	%20do
+[1]:	https://jekyllrb.com/docs/structure/
+[2]:	/docs/site-configuration/front-matter-templates

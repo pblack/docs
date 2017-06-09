@@ -2,9 +2,21 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
+  - title: “Hugo Structure Reference”
+    url: https://gohugo.io/overview/source-directory/
+  - title: “Hugo Support File Formats”
+    url:  https://gohugo.io/content/supported-formats/
+  - title: “Hugo Sections Reference”
+    url: https://gohugo.io/content/sections/
+  - title: “Hugo Content Types Reference”
+    url: https://gohugo.io/content/types/
+  - title: “Hugo Archetypes Reference”
+    url: https://gohugo.io/content/archetypes/
 tags: ""
 title: "Project Structure"
+menu:
+  developing-with-hugo:
 ---
 In Hugo, project structure and naming is fairly rigid other than content structure. You must follow the Hugo guidelines for where content, layouts, data, and static assets must be stored.
 
@@ -55,15 +67,4 @@ After import, any fields manually added to an Archetype will *not* be automatica
 ## Themes
 We will also parse the Archetypes of your theme folder when importing your site.
 
----
-related =()
-- [https://gohugo.io/content/supported-formats/][3]
-- [https://gohugo.io/content/sections/][4]
-- [https://gohugo.io/content/types/][5]
-- [https://gohugo.io/content/archetypes/][6]
-
-[2]:	%20do
-[3]:	https://gohugo.io/content/supported-formats/
-[4]:	https://gohugo.io/content/sections/
-[5]:	https://gohugo.io/content/types/
-[6]:	https://gohugo.io/content/archetypes/
+[2]:	/docs/site-configuration/front-matter-templates

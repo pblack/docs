@@ -2,9 +2,13 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related: 
+  - title: “Hugo Static Files Reference”
+    url: https://gohugo.io/themes/creation#static
 tags: ""
 title: "Static Files"
+menu:
+  developing-with-hugo:
 ---
 In Hugo, any files/folders found in the `static/` directory in the root of your project or the root of your site’s theme will be made available at the root of your built site.
 
@@ -26,10 +30,6 @@ Will be built as:
 	├── css/
 	 |   └── main.css
 
-If you use any build tools like Gulp or Grunt with Jekyll, please read our [Asset Pipeline Doc]().
+If you use any build tools like Gulp or Grunt with Jekyll, please read our [Asset Pipeline Doc][1].
 
----
-related =()
-- [https://gohugo.io/themes/creation#static][2]
-
-[2]:	https://gohugo.io/themes/creation#static
+[1]:	/docs/developing-with-hugo/asset-pipeline

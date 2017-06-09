@@ -5,9 +5,9 @@ draft: true
 tags: []
 title: "What Ruby versions does Forestry support?"
 menu:
-faq:
-name: "What Ruby versions does Forestry support? "
-weight: 6
+  faq:
+    name: "What Ruby versions does Forestry support? "
+    weight: 6
 
 ---
 Forestry supports the latest bugfix versions of Ruby:
