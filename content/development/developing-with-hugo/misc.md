@@ -1,0 +1,52 @@
+---
+date: 2013-07-24
+description: "Other things you can do with Hugo"
+draft: "true"
+related: []
+tags: ""
+title: "Misc"
+---
+## Sitemaps/Feeds
+Hugo comes with support for XML Sitemaps and RSS feeds built-in.
+
+Hugo will export a sitemap.xml file with all of your content using a standard XML template to the root of your built site. You can configure this in your `config.yml`.
+
+	[sitemap]
+	  changefreq: "monthly"
+	  priority: 0.5
+	  filename: "sitemap.xml"
+
+Hugo will also generate an RSS feed in the following locations:
+
+- At the root of your built site
+- In the root of every section directory
+- At the root of every taxonomy directory
+
+You can configure parts of the output of the RSS feeds in your `config.yml`.
+
+	languageCode: "en-us"
+	copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+	
+	[author]
+	    name: "My Name Here"
+	    email: "sample@domain.tld"
+
+In order to include RSS feeds, you must include it in the `<head>` of your pages.
+
+	{{ if .RSSLink }}
+	  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+	{{ end }}
+
+If you wish to create Atom Feeds or other types of documents, please see the Hugo documentation on [Output Formats][1].
+
+---
+related: []
+- [https://gohugo.io/templates/sitemap/][2]
+- [https://gohugo.io/templates/rss/][3]
+- [https://gohugo.io/extras/output-formats/][4]
+
+[1]:	https://gohugo.io/extras/output-formats/
+[2]:	https://gohugo.io/templates/sitemap/
+[3]:	https://gohugo.io/templates/rss/
+[4]:	https://gohugo.io/extras/output-formats/
