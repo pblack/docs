@@ -1,13 +1,13 @@
----
-date: 2013-07-24
-description: ""
-draft: "true"
-related: []
-tags: ""
-title: "Web Hooks"
-menu:
-  site-configuration:
----
++++
+Categories = ""
+date = "2017-02-23T21:23:33Z"
+description = "Communicate with 3rd party applications"
+tags = ""
+title = "Webhooks"
+[menu.setting_up_a_site]
+weight = 11
+
++++
 Forestry.io now supports [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications when certain events happen with your Forestry.io site. 
 
 ## Events that support webhooks
