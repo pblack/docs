@@ -14,8 +14,8 @@ title: "Misc"
 menu:
   developing-with-hugo:
 ---
-## Sitemaps/Feeds
-Hugo comes with support for XML Sitemaps and RSS feeds built-in.
+## Sitemap
+Hugo comes with support for XML Sitemaps built-in.
 
 Hugo will export a sitemap.xml file with all of your content using a standard XML template to the root of your built site. You can configure this in your `config.yml`.
 
@@ -23,6 +23,8 @@ Hugo will export a sitemap.xml file with all of your content using a standard XM
 	  changefreq: "monthly"
 	  priority: 0.5
 	  filename: "sitemap.xml"
+
+## RSS Feeds
 
 Hugo will also generate an RSS feed in the following locations:
 

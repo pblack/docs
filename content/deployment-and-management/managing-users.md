@@ -14,6 +14,7 @@ If you are on a paid plan, you can invite additional users to your site. This ca
 From the dropdown menu (…) of a site, select `Manage Team`.
 
 In the modal that opens, you can manage existing users, including:
+
 * Changing the email associated with the user
 * Changing the permission/role of the user
 * Remove the user from the site

@@ -22,7 +22,7 @@ Users must enter the short codes in the format Hugo requires them in the content
 For example, using Hugo’s built-in figure short code, a user must enter the following into the content body:
 
 ```
-	{{</* figure src="/example.jpg" title="Example Image" */>}}
+{{</* figure src="/example.jpg" title="Example Image" */>}}
 ```
 
 ## Built-in Short Codes

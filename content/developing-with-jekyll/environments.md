@@ -23,9 +23,12 @@ This allows you to set up conditional code in your layouts in order to handle pa
 This variable is accessible in your templates as `{{ jekyll.environment }}`.
 
 The values are:
-	Local environment: "development"
-	Staging environment : "preview"
-	Production environment: "production"
+
+```
+Local environment: "development"
+Staging environment: "preview"
+Production environment: "production"
+```
 
 [1]:	%20/docs/developing-with-jekyll/local-development
 [2]:	%20/docs/deployment-and-management/previewing

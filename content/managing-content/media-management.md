@@ -2,7 +2,11 @@
 date: 2013-07-24
 description: ""
 draft: "true"
-related: []
+related:
+  - title: Image Gallery Field
+    url: http://localhost:4000/docs/front-matter-fields/multi-file-upload/
+  - Image/File Upload Field
+    url: http://localhost:4000/docs/front-matter-fields/file-upload/
 tags: ""
 title: "Media Management"
 menu:
@@ -19,9 +23,3 @@ Forestry allows you to do the following with your media:
 The media manager is also available in the content editor and in data files provided you’ve setup an image upload field, file upload field, or gallery field.
 
 When using these fields, a user is given the option to select an existing piece of media, or upload a new piece of media to use in this field.
-
---- 
-Related links:
-- Image gallery field
-- Image upload field
-- File upload field

@@ -42,7 +42,7 @@ For example, a Hugo site may look like this:
 	'' ├── themes/
 	'' |   └── example-theme
 
-For a full breakdown on how this directory structure works, [see the Hugo docs]().
+For a full breakdown on how this directory structure works, [see the Hugo docs][1].
 
 ## How Forestry Parses Hugo
 Based on the example structure above, let’s explain how Forestry parses your site.
@@ -67,4 +67,5 @@ After import, any fields manually added to an Archetype will *not* be automatica
 ## Themes
 We will also parse the Archetypes of your theme folder when importing your site.
 
+[1]: https://gohugo.io/overview/source-directory/
 [2]:	/docs/site-configuration/front-matter-templates

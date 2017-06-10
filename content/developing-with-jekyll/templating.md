@@ -14,6 +14,7 @@ Jekyll allows users to build their HTML templates using the template language *L
 Liquid is best described as a safe, customer-facing template language for flexible web apps.
 
 An example of Liquid:
+```
 	<html>
 	<head>
 	    <title>{{ title }}</title>
@@ -29,5 +30,6 @@ An example of Liquid:
 	    </div>
 	</body>
 	</html>
+```
 
 [1]:	https://shopify.com
