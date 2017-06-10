@@ -22,6 +22,7 @@ All of the template options are interchangeable, and can be used at the same tim
 Go Templates exposes GoLang as a template language for you to build your layouts and themes with.
 
 An example of GoTemplates:
+```
 	<html>
 	<head>
 	    <title>{{ .Params.Title }}</title>
@@ -32,6 +33,7 @@ An example of GoTemplates:
 	         These lines are all part of the parent p
 	         <a href="/">Go To Main Page</a>
 	    </p>
+```
 
 ## Ace
 Ace templates are inspired by Slim and Jade and will feel very familiar and easier to use if you’re comfortable with either.
@@ -41,6 +43,7 @@ All templates built with Ace must be prefixed with `.ace` instead of `.html`.
 **Note:** Ace templates can be included as a partial inside GoTemplates and vice versa. This cannot be done with Amber.
 
 An example of Ace:
+```
 	: doctype html
 	html
 	  head
@@ -52,6 +55,7 @@ An example of Ace:
 	                These lines are all part of the parent p
 	
 	                a[href="/"] Go To Main Page
+```
 
 ## Amber
 Amber templates are inspired by HAML and Jade, and will feel very familiar and easier to use if you’re comfortable with either.
@@ -59,6 +63,7 @@ Amber templates are inspired by HAML and Jade, and will feel very familiar and e
 All templates built with Amber must be prefixed with `.amber` instead of `.html`
 
 An example of Amber:
+```
 	html
 	    head
 	        title {$.Params.Title}
@@ -69,3 +74,4 @@ An example of Amber:
 	                | These lines are all part of the parent p
 	
 	                a[href="/"] Go To Main Page
+```

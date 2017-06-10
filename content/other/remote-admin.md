@@ -4,9 +4,9 @@ date = "2016-06-23T14:21:00Z"
 description = "Install the Forestry CMS on your site - mysite.com/admin/"
 tags = []
 title = "Remote Admin"
-[menu.managing_your_team]
+[old_menu.managing_your_team]
 weight = 2
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 name = "Remote Admin "
 
 +++

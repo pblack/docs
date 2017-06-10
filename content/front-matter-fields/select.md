@@ -5,7 +5,5 @@ description = ""
 draft = true
 tags = ""
 title = "Select"
-[menu.setting_up_a_site]
-weight = 10
 
 +++

@@ -4,7 +4,7 @@ date = "2017-03-29T17:05:55Z"
 description = ""
 tags = []
 title = "Deploying your site with FTP"
-[menu.deployment]
+[old_menu.deployment]
 weight = 7
 
 +++

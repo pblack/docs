@@ -5,7 +5,7 @@ description = "Need to manage a set of images? Forestry's Image Gallery field ty
 draft = true
 tags = ["fields", "gallery"]
 title = "Image Galleries"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 7
 
 +++

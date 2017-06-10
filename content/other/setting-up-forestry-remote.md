@@ -5,7 +5,7 @@ description = "Log in from your domain (mysite.com/admin/)"
 draft = true
 tags = []
 title = "Setting up Forestry Remote"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 6
 
 +++

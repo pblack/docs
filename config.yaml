@@ -35,6 +35,19 @@ params:
     twitter: https://twitter.com/scottgallant
   description: A Static Site CMS for Hugo and Jekyll
   twitter_card: ''
+  menuWeights:
+    main: 0
+    footer: 1
+    getting-started: 2
+    managing-content: 3
+    site-configuration: 4
+    developing-with-jekyll: 5
+    developing-with-hugo: 6
+    deployment-and-management: 7
+    troubleshooting: 8
+    faq: 9
+    other: 91
+    front-matter-fields: 92
 sitemap:
   ChangeFreq: ''
   Filename: sitemap.xml

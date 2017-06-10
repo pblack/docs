@@ -4,7 +4,7 @@ date = "2016-08-20T00:31:00Z"
 description = "Tell Forestry where to put your images."
 tags = []
 title = "Custom image upload folder"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 4
 
 +++

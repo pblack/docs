@@ -4,7 +4,7 @@ date = "2017-01-30T09:23:05-05:00"
 description = "Front Matter Templates let you choose which front matter fields appear when editing your content."
 tags = ""
 title = "Front Matter Templates"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 8
 
 +++

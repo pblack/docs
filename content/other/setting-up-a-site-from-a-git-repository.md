@@ -4,7 +4,7 @@ date = "2016-08-18T17:56:00Z"
 description = "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/setting-up-a-site-from-a-git-repository/) (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).  \r\n"
 tags = []
 title = "Setting up a site from a Git repository"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 3
 
 +++

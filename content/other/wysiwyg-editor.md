@@ -5,7 +5,7 @@ description = ""
 draft = true
 tags = []
 title = "WYSIWYG Editor"
-[menu.editing_content]
+[old_menu.editing_content]
 weight = 2
 
 +++

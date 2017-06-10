@@ -4,7 +4,7 @@ date = "2017-02-07T13:03:47-05:00"
 description = "Git Submodules allow you to have a repo within your repo"
 tags = []
 title = "Using a Git Submodule for Your Theme"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 9
 
 +++

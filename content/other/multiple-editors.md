@@ -4,7 +4,7 @@ date = "2017-03-07T12:32:13Z"
 description = "Currently, Forestry.io does not support simultaneous, multi-user editing. "
 tags = ""
 title = "Multiple Editors"
-[menu.editing_content]
+[old_menu.editing_content]
 weight = 3
 
 +++

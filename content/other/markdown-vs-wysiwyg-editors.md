@@ -4,13 +4,13 @@ date = "2016-07-21T23:10:00Z"
 description = "Forestry supports editing with WYSIWYG, Markdown and HTML."
 tags = []
 title = "Markdown Vs. WYSIWYG editors"
-[menu.editing_content]
+[old_menu.editing_content]
 weight = 1
 
 +++
 ## WYSIWYG Vs Markdown
 
-A WYSIWYG editor will be generated for posts with a _.html_ extension and posts with a _.md_ extension will get a Markdown editor. You can set the default extension for new pages and posts in your settings menu.
+A WYSIWYG editor will be generated for posts with a _.html_ extension and posts with a _.md_ extension will get a Markdown editor. You can set the default extension for new pages and posts in your settings old_menu.
 
 ![](/docs/forestryio/images/Forestry-wysiwyg-markdown-editor-1.png)
 

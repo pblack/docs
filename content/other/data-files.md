@@ -4,7 +4,7 @@ date = "2016-07-20T23:19:00Z"
 description = "Data files can be edited from \"Chunks\" in your CMS sidebar "
 tags = []
 title = "Data Files "
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 name = "Setting up Data Files"
 weight = 5
 

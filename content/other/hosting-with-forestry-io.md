@@ -5,7 +5,7 @@ description = ""
 draft = true
 tags = ""
 title = "Hosting with Forestry.io"
-[menu.setting_up_a_site]
+[old_menu.setting_up_a_site]
 weight = 12
 
 +++
