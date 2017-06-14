@@ -27,7 +27,7 @@ The best way to get started with Forestry is to import your own Jekyll or Hugo s
 ## Importing from zip
 Another option for getting started with Forestry is uploading a zip archive of your entire project. 
 
-** Importing your site with a Zip file means:**
+**Importing your site with a Zip file means:**
 * When you make changes in the CMS, we store them on our server. This means *no backups*.
 * Developers can continue to develop the theme, but they must re-import the site in zip format each time.
 * You still own your content, as we allow you to download your updated source code at any time. See [backups for more information][2]
