@@ -14,7 +14,7 @@ title: "Deploying with GitHub Pages"
 
 With Forestry, you can deploy your static site using a branch on a GitHub repository. This requires you set up your site using a Git repository.
 
-If you don’t have a GitHub account with a repository set up, the best way to learn about GitHub is their [hello world developer’s guide].
+If you don’t have a GitHub account with a repository set up, the best way to learn about GitHub is their [hello world developer’s guide][1].
 
 ## How GitHub Pages works
 GitHub pages allows you to use a specific branch from your repository to host a static website.
@@ -29,7 +29,7 @@ Jekyll is built by GitHub, and due to this you can use Jekyll with GitHub pages:
 1. You can let GitHub built your Jekyll site from your `master` source branch \*
 2. You can create another branch and manually build your site there.
 
-\* The only caveat with option 1 is that you can only use GitHub support Jekyll plugins. [See the full list].
+\* The only caveat with option 1 is that you can only use GitHub support Jekyll plugins. [See the full list][2].
 
 ### Using method 1
 If you are using method one, then all you need to do is enable GitHub pages for your master branch which contains the source files for your Jekyll site.
@@ -58,3 +58,6 @@ Then select the branch that contains your built static site and click on the Sav
 ![](/docs/assets/images/github-gh-pages-settings.png)
 
 Your site should now be served at `http://username.github.io/repository`.
+
+[1]: https://guides.github.com/activities/hello-world/
+[2]: https://pages.github.com/versions/
