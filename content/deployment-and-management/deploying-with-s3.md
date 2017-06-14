@@ -107,8 +107,8 @@ Now that you’ve created a policy for your new user, return to the previous tab
 
 * Click the `Refresh` button, and then search for your new policy by the name you provided.
 * Ensure the policy is checked, and then hit `Next`.
-* On the review page, ensure you policy is listed under Permissions, and then hit `Create User`
-* Before finishing, click the `Download .csv` button. This will download the user information, including the `Access key ID` and `Secret Access Key` you’ll need to set up deployment in Forestry.
+* On the review page, ensure your policy is listed under Permissions, and then hit `Create User`
+* Before finishing, click the `Download .csv` button. This will download the user information, including the `Access Key ID` and `Secret Access Key` you’ll need to set up deployment in Forestry.
 
 ## Setup S3 in Forestry
 Now that you have an S3 Bucket created with an IAM user that Forestry can use to access it, we can now set up deployment for your site!
@@ -119,7 +119,7 @@ Now that you have an S3 Bucket created with an IAM user that Forestry can use to
 * From here, set the `Connect` as `Amazon S3`
 * Now you must fill out the connection settings with everything we just set up.
 * Enter your new bucket’s name in `Bucket` *(e.g, forestry.io)*
-* From the .csv file you downloaded when creating the user, enter the `Access key ID` in `Access Key`
+* From the .csv file you downloaded when creating the user, enter the `Access Key ID` in `Access Key`
 * From the .csv file you downloaded when creating the user, enter the `Secret Access Key` in `Secret`
 * You can optionally enable gzip compression, which decreases the size of your site and works fine for most cases
 * You can optionally add a subpath to your deployment, in case you want to deploy to a sub-directory* (e.g, forestry.io/blog)*
@@ -137,7 +137,7 @@ The final step in setting up your site to deploy to Amazon S3 is setting up your
 * Set your domain name to be the same as your bucket (*e.g, forestry.io*), and then click `Create`.
 
 ### Create A Records
-You must create an a-record that tells the DNS which S3 bucket to serve. We need to do this for your root domain *(e.g, forestry.io)* and your www. subdomain *(e.g, www.forestry.io)*.
+You must create an A-record that tells the DNS which S3 bucket to serve. We need to do this for your root domain *(e.g, forestry.io)* and your www. subdomain *(e.g, www.forestry.io)*.
 
 #### Root Domain
 
@@ -165,7 +165,7 @@ You must create an a-record that tells the DNS which S3 bucket to serve. We need
 
 Now you must set up your domain with the new nameservers provided by Route 53.
 
-Save the the 4 or more urls provided under the record with the type `NS`, as we will add them as the name servers for your domain.
+Save the the 4 or more URLs provided under the record with the type `NS`, as we will add them as the name servers for your domain.
 
 Depending on your domain registrar (e.g, GoDaddy, Hover, Name.com, NameCheap, etc), this will work differently.
 
@@ -175,7 +175,7 @@ For this example, we’re using name.com. Under the `Nameservers` option of our 
 
 It may take up to 24 hours for these changes to take effect and your domain to start showing your S3 Bucket.
 
-**Note:** When you copy the name servers over, be sure to not include the last dot-character
+**Note:** When you copy the name servers over, be sure to not include the last dot character.
 
 ## Wrapping Up
 Provided everything is set up correctly, your domain should be serving your S3 bucket. Publish your site in Forestry, and then head over to your domain.
