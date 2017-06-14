@@ -40,7 +40,7 @@ If you are using non-whitelisted Jekyll plugins, or have additional steps to you
 ## Setting Up Forestry for GitHub Pages
 To deploy a static site to GitHub pages using Forestry, you must first set up a new branch on your repo, which you can do by going to your repository in GitHub and using the branch management dropdown.
 
-![](/docs/assets/images/branch-management.png)
+![](/docs/assets/images/github-gh-pages-settings.png)
 
 Once your new branch is created, head to the `Settings` page in your site in Forestry, select the `Hosting` tab.
 
@@ -53,7 +53,7 @@ To have GitHub pages begin serving from your new branch, go to the `Settings` pa
  
 Then select the branch that contains your built static site and click on the Save button.
 
-![](/docs/assets/images/github-gh-pages-settings.png)
+![](/docs/assets/images/branch-management.png)
 
 Your site should now be served at `http://username.github.io/repository`.
 

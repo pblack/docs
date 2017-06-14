@@ -4,7 +4,7 @@ description: ""
 draft: "true"
 related: 
   - title: “Hugo Usage Guide”
-	url: https://gohugo.io/overview/usage/
+    url: https://gohugo.io/overview/usage/
 tags: ""
 title: "Local Development"
 menu:

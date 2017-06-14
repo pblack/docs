@@ -96,8 +96,6 @@ Now you must set up a *permission policy* for the new user. This dictates how th
 * Set `Actions` to `All Actions`
 * Set the `Amazon Resource Name (ARN)` to `arn:aws:s3:::your-bucket-name`. *Ensure you change `your-bucket-name` to the name of your bucket*
 
-* The final result will look something like this:
-  ![User Policy](/docs/assets/images/s3-user-policy.png)
 * Now click `Next`, give your policy a name *(e.g, forestry-policy) *, and then click `Create Policy`
 
 ### Assign The User Policy
@@ -139,7 +137,7 @@ The final step in setting up your site to deploy to Amazon S3 is setting up your
 ### Create A Records
 You must create an A-record that tells the DNS which S3 bucket to serve. We need to do this for your root domain *(e.g, forestry.io)* and your www. subdomain *(e.g, www.forestry.io)*.
 
-#### Root Domain
+**Root Domain**
 
 ![Setup Root A Records](/docs/forestryio/images/a-record.png)
 
@@ -149,7 +147,7 @@ You must create an A-record that tells the DNS which S3 bucket to serve. We need
 * Select your new S3 bucket in the `Alias Target` dropdown.
 * Click `Create`
 
-### WWW Sub-domain
+**WWW Sub-domain**
 
 ![Setup WWW A Records](/docs/forestryio/images/www-subdomain.png)
 

@@ -1,6 +1,6 @@
 ---
 date: 2013-07-24
-description: "Introduction to Forestry for Content Managers"
+description: ""
 draft: "true"
 tags: ""
 title: "Setting Up Deployment"
@@ -28,6 +28,6 @@ This is great if you’re going to be making changes to content, layouts, or you
 To enable this, go to the `Settings` page of your site, and on the `General` tab find `Deployment`. Turn the `Auto Deploy` toggle to on, and let us handle the rest!
 
 [1]:	/docs/deployment-and-management/previewing/
-[2]:	/docs/deployment-and-management/deploying-with-amazon-s3/
+[2]:	/docs/deployment-and-management/deploying-with-s3/
 [3]:	/docs/deployment-and-management/deploying-your-site-with-ftp/
 [4]:	/docs/deployment-and-management/deploying-with-github-pages/

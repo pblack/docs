@@ -4,9 +4,9 @@ description: ""
 draft: "true"
 related: 
   - title: “Jekyll Usage Guide”
-	url: https://jekyllrb.com/docs/usage/
+    url: https://jekyllrb.com/docs/usage/
   - title: “Using Jekyll with GitHub Pages”
-	url: https://help.github.com/articles/using-jekyll-with-pages/
+    url: https://help.github.com/articles/using-jekyll-with-pages/
 tags: ""
 title: "Local Development"
 menu:
