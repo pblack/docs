@@ -7,7 +7,7 @@ title: "Setting Up Deployment"
 menu:
   deployment-and-management:
 ---
-In Forestry, you get set up your CMS to deploy your site to your staging or production environment when you publish changes.
+In Forestry, you can set up your CMS to deploy your site to your staging or production environment when you publish changes.
 
 Depending on your needs, you may want Forestry to deploy straight to your production environment, as you can use our [preview feature][1] as your staging environment.
 
