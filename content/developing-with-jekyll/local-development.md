@@ -4,9 +4,9 @@ description: ""
 draft: "true"
 related: 
   - title: “Jekyll Usage Guide”
-    url: https://jekyllrb.com/docs/usage/
+	url: https://jekyllrb.com/docs/usage/
   - title: “Using Jekyll with GitHub Pages”
-    url: https://help.github.com/articles/using-jekyll-with-pages/
+	url: https://help.github.com/articles/using-jekyll-with-pages/
 tags: ""
 title: "Local Development"
 menu:
@@ -37,10 +37,12 @@ Any changes made to your site must be rezipped and reimported into your Forestry
 You can do this from your [Forestry Dashboard][2], by choosing "Re-upload Project" from the site’s dropdown menu (…).
 
 **IF YOU ONLY UPDATED LAYOUTS/THEMES**
+
 If you didn’t change any of your content files, then you can choose "Update project files" which will only update the source code we use to deploy your site.
 
 **IF YOU UPDATED CONTENT FILES**
-If you did change your content files, 
+
+If you did change your content files, then you can choose `Update project files & content files` which will update the source code and all of the content in Forestry.
 
 ## Serving your site locally
 Jekyll comes with a local development server built into it’s binary. This will allow you to develop locally on your machine, and will automatically rebuild your site and refresh the browser as you make changes.

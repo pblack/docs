@@ -16,6 +16,9 @@ menu:
     url: http://forestry.io/plans/
     weight: 1
   footer:
+  - name: Sitemap
+    url: /all/
+    weight: 4
   - name: Careers
     url: http://forestry.io/careers/
     weight: 3

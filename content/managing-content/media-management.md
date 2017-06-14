@@ -5,7 +5,7 @@ draft: "true"
 related:
   - title: Image Gallery Field
     url: http://localhost:4000/docs/front-matter-fields/multi-file-upload/
-  - Image/File Upload Field
+  - title: Image/File Upload Field
     url: http://localhost:4000/docs/front-matter-fields/file-upload/
 tags: ""
 title: "Media Management"

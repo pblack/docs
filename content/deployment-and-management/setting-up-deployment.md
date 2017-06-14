@@ -18,7 +18,7 @@ You can deploy your site to multiple locations, including GitHub Pages, Amazon S
 
 * [Deploying with Amazon S3][2]
 * [Deploying with FTP/SFTP][3]
-* [Deploying to GitHub Pages]()
+* [Deploying to GitHub Pages][4]
 
 ## Automatic Deployment
 If your site was imported using a Git repository, Forestry can also handle automatic deployment as changes are pushed to the source repository.
@@ -27,6 +27,7 @@ This is great if you’re going to be making changes to content, layouts, or you
 
 To enable this, go to the `Settings` page of your site, and on the `General` tab find `Deployment`. Turn the `Auto Deploy` toggle to on, and let us handle the rest!
 
-[1]:	%20/docs/deployment-and-management/previewing
-[2]:	https://forestry.io/docs/deployment/hosting-on-amazon-s3/
-[3]:	https://forestry.io/docs/deployment/deploying-your-site-with-ftp/
+[1]:	/docs/deployment-and-management/previewing/
+[2]:	/docs/deployment-and-management/deploying-with-amazon-s3/
+[3]:	/docs/deployment-and-management/deploying-your-site-with-ftp/
+[4]:	/docs/deployment-and-management/deploying-with-github-pages/
