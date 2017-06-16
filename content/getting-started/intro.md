@@ -7,7 +7,6 @@ weight: 1
 menu:
   getting-started:
     weight: 1
-draft: true
 
 ---
 ## What is Forestry?
