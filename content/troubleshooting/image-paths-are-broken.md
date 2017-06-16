@@ -6,7 +6,7 @@ draft = true
 tags = []
 title = "Image Paths are Broken"
 [menu.troubleshooting]
-weight = 1
+weight = 7
 
 +++
 Ensure that you're prepending your paths with your baseurl. 

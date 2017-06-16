@@ -1,13 +1,14 @@
-+++
-date = "2016-07-13T17:58:00Z"
-description = ""
-tags = []
-title = "How are UI elements determined  from front matter"
-[menu.faq]
-name = "How UI elements are determined from front matter"
-weight = 0
+---
+date: '2016-07-13T17:58:00Z'
+description: ''
+tags: []
+title: How are UI elements determined  from front matter
+menu:
+  faq:
+    name: How UI elements are determined from front matter
+    weight: 1
 
-+++
+---
 Let's look at the an example of front matter from a **Jekyll** post:
 <pre><code class="language-yml">`---`
 title: "Example Post"
@@ -19,13 +20,16 @@ tags:
 </code>
 </pre>
 When Forestry parses this front matter, the following UI will be generated.
-![](/docs/forestryio/images/forestry-field-types-ui.png)
+![][image-1]
 
 ### Detecting front matter values
 Forestry parses your project to understand what UI elements to use.  For instance, if Forestry finds a file called resume.pdf and there's a front matter field set to "/files/resume.pdf". Forestry will use a "file upload" button for that front matter field.
 
 If you find a front matter field does not generate the UI elements that you have intended, you can change it by clicking three dots.
 
-![](/docs/forestryio/images/forestry-edit-field-type.png)
+![][image-2]
 
 <iframe src="https://player.vimeo.com/video/179596316?title=0&byline=0&portrait=0" width="700" height="445" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+[image-1]:	/docs/forestryio/images/forestry-field-types-ui.png
+[image-2]:	/docs/forestryio/images/forestry-edit-field-type.png

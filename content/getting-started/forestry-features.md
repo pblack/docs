@@ -4,8 +4,6 @@ date = "2016-06-09T18:08:00Z"
 description = "See the forestry through the trees"
 tags = []
 title = "Forestry Features"
-[menu.getting_started]
-weight = 2
 
 +++
 ## A GUI for non-devs
