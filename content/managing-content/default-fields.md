@@ -14,7 +14,6 @@ menu:
   managing-content:
     weight: 6
 
-
 ---
 You can setup defaults for your front matter fields so that content writers and editors don’t have to fill in the same details for every page.
 

@@ -14,7 +14,6 @@ menu:
   troubleshooting:
     weight: 3
 
-
 ---
 Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to *pathing issues*.
 

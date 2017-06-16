@@ -12,7 +12,6 @@ menu:
   developing-with-jekyll:
     weight: 4
 
-
 ---
 ## Sitemaps/Feeds
 Jekyll has no built-in support for Sitemaps or Feeds, but there are a multitude of community plugins to add this functionality. See the references below for more info.

@@ -14,7 +14,6 @@ menu:
   developing-with-hugo:
     weight: 4
 
-
 ---
 ## Sitemap
 Hugo comes with support for XML Sitemaps built-in.

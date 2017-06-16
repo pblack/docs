@@ -10,7 +10,6 @@ menu:
   developing-with-hugo:
     weight: 2
 
-
 ---
 In Hugo, any files/folders found in the `static/` directory in the root of your project or the root of your site’s theme will be made available at the root of your built site.
 

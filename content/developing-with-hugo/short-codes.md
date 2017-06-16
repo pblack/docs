@@ -10,7 +10,6 @@ menu:
   developing-with-hugo:
     weight: 7
 
-
 ---
 You can extend the functionality of markdown in Hugo with short codes. Short codes are special templates that are called when a short code is used inside the content body.
 

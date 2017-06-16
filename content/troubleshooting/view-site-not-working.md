@@ -8,7 +8,6 @@ menu:
   troubleshooting:
     weight: 1
 
-
 ---
 The `View Site` button located in the sidebar opens a new page at the URL you set in the `Site URL` setting, located in `Settings` under the `General` tab.
 

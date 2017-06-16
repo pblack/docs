@@ -7,7 +7,6 @@ menu:
   deployment-and-management:
     weight: 3
 
-
 ---
 Forestry allows you to preview changes to your site before you save them by saving as a draft or publishing.
 

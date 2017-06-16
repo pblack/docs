@@ -7,7 +7,6 @@ menu:
   deployment-and-management:
     weight: 2
 
-
 ---
 Forestry allows you to add a Remote Administration page to your site, so that users can access and manage the site without leaving your domain.
 

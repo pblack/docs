@@ -9,7 +9,6 @@ related:
 tags: ''
 title: Deploying with GitHub Pages
 
-
 ---
 With Forestry, you can deploy your static site using a branch on a GitHub repository. This requires you set up your site using a Git repository.
 

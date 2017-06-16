@@ -8,7 +8,6 @@ menu:
   site-configuration:
     weight: 1
 
-
 ---
 Forestry allows users to white-label their custom CMS by uploading their own logo in the site settings. This is great for freelancers or businesses that want to provide their customers with a powerful CMS for their Static Site while maintaining their own business branding.
 

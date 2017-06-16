@@ -8,7 +8,6 @@ menu:
   site-configuration:
     weight: 7
 
-
 ---
 # File formats
 On a per site basis, you can configure what format new content created in Forestry should be created in.

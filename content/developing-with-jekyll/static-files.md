@@ -10,7 +10,6 @@ menu:
   developing-with-jekyll:
     weight: 2
 
-
 ---
 In Jekyll, any file in your project that does not have YAML front matter is treated as a static file, and is included in your built site.
 

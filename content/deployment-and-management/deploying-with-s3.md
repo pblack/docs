@@ -7,7 +7,6 @@ related:
 tags: ''
 title: Deploying with Amazon S3
 
-
 ---
 In order for Forestry to deploy your site to Amazon S3, the following must be set up:
 
