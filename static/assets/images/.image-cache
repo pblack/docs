@@ -25,5 +25,16 @@
     "static/assets/images/forestry-support-1.jpg": "a9a10b2a3b558d5bbabebccb00430de8",
     "static/assets/images/forestry-support-2.jpg": "8df446e2362729fa196008e96a416f55",
     "static/assets/images/forestry-support-3.jpg": "75d89d98ff51c0f7d1b8618df1315e7f",
-    "static/assets/images/forestry-support.jpg": "6fe16576eba749d8eaf5bbf415f30094"
+    "static/assets/images/forestry-support.jpg": "6fe16576eba749d8eaf5bbf415f30094",
+    "static/assets/images/branch-management.png": "9e701348964770d914f1dea2685e6318",
+    "static/assets/images/forestry-gh-pages-settings.png": "797bddad926ec0f045819fc7ab55e71a",
+    "static/assets/images/github-gh-pages-settings.png": "467a42bdc341cff455ab3dca4bee3ccf",
+    "static/assets/images/hero_avatar.png": "797f71289c0dead64bbb4526edaa3526",
+    "static/assets/images/s3-add-user-policy.png": "a76cbf9dd7ea491d72b7c2a73e3c2570",
+    "static/assets/images/s3-add-user.png": "5f70967850f9801ca7958ec094ff0bdf",
+    "static/assets/images/s3-bucket-policy.png": "21f01b5889a1922f1450b4baaa421c69",
+    "static/assets/images/s3-create-bucket.png": "77f240c6fc23ab6fda2d8043b3be3b31",
+    "static/assets/images/s3-forestry-setup.png": "ff7ee35fccdc532e672b17a4c6ccda77",
+    "static/assets/images/s3-search-user-policy.png": "1c4195bc1f6b884e4627b8f2683cee56",
+    "static/assets/images/s3-static-hosting.png": "1258302442829d391bbd4ef1f5ec6a77"
 }
