@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Project Paths
 menu:
-  site-configuration: {}
+  site-configuration:
+    weight: 4
 draft: true
 
 ---

@@ -15,7 +15,8 @@ related:
 tags: ''
 title: Project Structure
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 3
 draft: true
 
 ---

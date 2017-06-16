@@ -5,7 +5,8 @@ related: []
 tags: ''
 title: Intro to Hugo
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 6
 draft: true
 
 ---

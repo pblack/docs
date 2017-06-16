@@ -6,7 +6,7 @@ tags:
 title: Why did Forestry change my code!?
 menu:
   faq:
-    weight: 2
+    weight: 3
 
 ---
 As devs, we hate when people mess with our code.  So we try to do this as little as possible but sometimes it is unavoidable.

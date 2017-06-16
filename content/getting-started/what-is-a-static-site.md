@@ -4,7 +4,8 @@ description: A brief overview of what Static Sites are
 tags: ''
 title: What is a Static Site?
 menu:
-  getting-started: {}
+  getting-started:
+    weight: 5
 draft: true
 
 ---

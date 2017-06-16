@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Project Structure
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 3
 draft: true
 
 ---

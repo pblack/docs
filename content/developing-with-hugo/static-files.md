@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Static Files
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 2
 draft: true
 
 ---

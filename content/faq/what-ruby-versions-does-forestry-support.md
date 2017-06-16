@@ -6,7 +6,7 @@ title: What Ruby versions does Forestry support?
 menu:
   faq:
     name: 'What Ruby versions does Forestry support? '
-    weight: 6
+    weight: 7
 draft: true
 
 ---

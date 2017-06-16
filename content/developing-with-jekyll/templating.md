@@ -5,7 +5,8 @@ related: []
 tags: ''
 title: Templating
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 1
 draft: true
 
 ---

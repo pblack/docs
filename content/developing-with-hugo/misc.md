@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Misc
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 4
 draft: true
 
 ---

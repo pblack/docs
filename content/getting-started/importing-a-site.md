@@ -4,7 +4,8 @@ description: A guide to getting started with Forestry
 tags: ''
 title: Importing a site
 menu:
-  getting-started: {}
+  getting-started:
+    weight: 4
 draft: true
 
 ---

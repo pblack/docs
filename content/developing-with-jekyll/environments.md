@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Environments
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 8
 draft: true
 
 ---

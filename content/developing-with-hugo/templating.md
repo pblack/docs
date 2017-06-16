@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Templating
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 1
 draft: true
 
 ---

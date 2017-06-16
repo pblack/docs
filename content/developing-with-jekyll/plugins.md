@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Jekyll Plugins
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 6
 draft: true
 
 ---

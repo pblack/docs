@@ -4,7 +4,8 @@ description: Introduction to Forestry for Content Managers
 tags: ''
 title: Forestry for Content Managers
 menu:
-  getting-started: {}
+  getting-started:
+    weight: 2
 draft: true
 
 ---

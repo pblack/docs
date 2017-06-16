@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Localization
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 4
 draft: true
 
 ---

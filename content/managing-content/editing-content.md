@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Editing Content
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 5
 draft: true
 
 ---

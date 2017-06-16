@@ -5,7 +5,8 @@ related: []
 tags: ''
 title: White-labelling
 menu:
-  site-configuration: {}
+  site-configuration:
+    weight: 1
 draft: true
 
 ---

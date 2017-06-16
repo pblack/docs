@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Asset Pipeline
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 9
 draft: true
 
 ---

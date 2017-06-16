@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Front Matter Templates
 menu:
-  site-configuration: {}
+  site-configuration:
+    weight: 6
 draft: true
 
 ---

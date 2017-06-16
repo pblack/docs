@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Menus
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 1
 draft: true
 
 ---

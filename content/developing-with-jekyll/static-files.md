@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Static Files
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 2
 draft: true
 
 ---

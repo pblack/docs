@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Hugo Short Codes
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 7
 draft: true
 
 ---

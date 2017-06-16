@@ -6,5 +6,6 @@ draft = true
 tags = []
 title = "Broken Images or CSS"
 [menu.troubleshooting]
+weight = 6
 
 +++

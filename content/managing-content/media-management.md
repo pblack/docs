@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Media Management
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 2
 draft: true
 
 ---

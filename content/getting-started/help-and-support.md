@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Help & Support
 menu:
-  getting-started: {}
+  getting-started:
+    weight: 6
 draft: true
 
 ---

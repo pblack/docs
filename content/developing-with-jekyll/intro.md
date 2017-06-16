@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Intro to Jekyll
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 7
 draft: true
 
 ---

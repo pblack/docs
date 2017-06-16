@@ -4,7 +4,8 @@ description: ''
 tags: ''
 title: Setting Up Deployment
 menu:
-  deployment-and-management: {}
+  deployment-and-management:
+    weight: 1
 draft: true
 
 ---

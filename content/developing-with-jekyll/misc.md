@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Misc
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 4
 draft: true
 
 ---

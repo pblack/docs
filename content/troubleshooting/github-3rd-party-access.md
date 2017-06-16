@@ -6,6 +6,7 @@ draft = true
 tags = []
 title = "github 3rd party access"
 [menu.troubleshooting]
+weight = 5
 
 +++
 Are you getting this error message? 

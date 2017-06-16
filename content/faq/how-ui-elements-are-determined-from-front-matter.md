@@ -6,7 +6,7 @@ title: How are UI elements determined  from front matter
 menu:
   faq:
     name: How UI elements are determined from front matter
-    weight: 0
+    weight: 1
 
 ---
 Let's look at the an example of front matter from a **Jekyll** post:

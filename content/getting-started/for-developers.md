@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Forestry for Developers
 menu:
-  getting-started: {}
+  getting-started:
+    weight: 3
 draft: true
 
 ---

@@ -7,7 +7,8 @@ related:
 tags: ''
 title: Local Development
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 5
 draft: true
 
 ---

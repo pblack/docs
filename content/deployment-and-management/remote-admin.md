@@ -4,7 +4,8 @@ description: ''
 tags: ''
 title: Remote Admin
 menu:
-  deployment-and-management: {}
+  deployment-and-management:
+    weight: 2
 draft: true
 
 ---

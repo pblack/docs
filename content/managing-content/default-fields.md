@@ -11,7 +11,8 @@ related:
 tags: ''
 title: Default Fields
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 6
 draft: true
 
 ---

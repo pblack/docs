@@ -5,7 +5,8 @@ related: []
 tags: ''
 title: Static Generator Version
 menu:
-  site-configuration: {}
+  site-configuration:
+    weight: 3
 draft: true
 
 ---

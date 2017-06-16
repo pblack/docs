@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Local Development
 menu:
-  developing-with-jekyll: {}
+  developing-with-jekyll:
+    weight: 5
 draft: true
 
 ---

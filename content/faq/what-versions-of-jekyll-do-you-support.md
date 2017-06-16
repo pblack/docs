@@ -8,7 +8,7 @@ title: What versions of Jekyll do you support?
 menu:
   faq:
     name: 'What versions of Jekyll do you support? '
-    weight: 5
+    weight: 6
 
 ---
 Forestry will use whatever version of Jekyll is specified in your Gemfile. 

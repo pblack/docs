@@ -5,7 +5,8 @@ related: []
 tags: ''
 title: Media Uploads
 menu:
-  site-configuration: {}
+  site-configuration:
+    weight: 5
 draft: true
 
 ---

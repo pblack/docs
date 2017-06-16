@@ -9,7 +9,8 @@ related:
 tags: ''
 title: Asset Pipeline
 menu:
-  developing-with-hugo: {}
+  developing-with-hugo:
+    weight: 8
 draft: true
 
 ---

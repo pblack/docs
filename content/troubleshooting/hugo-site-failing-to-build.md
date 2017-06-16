@@ -6,7 +6,7 @@ draft = true
 tags = ""
 title = "Hugo site failing to build"
 [menu.troubleshooting]
-weight = 2
+weight = 8
 
 +++
 There are several reason your Hugo site may be failing to build on Forestry. Here are a few of the most common ones and the reasons.

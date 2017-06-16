@@ -15,7 +15,8 @@ related:
 tags: ''
 title: Managing Content
 menu:
-  managing-content: {}
+  managing-content:
+    weight: 3
 draft: true
 
 ---
