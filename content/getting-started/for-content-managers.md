@@ -20,7 +20,7 @@ Every page a visitor requests from a dynamic site requires essentially the same 
 
 Unless you have a site with drastically different content for every visitor (for example, [Amazon][1]), a dynamic site is simply overkill.
 
-That’s where Forestry comes in. You get to manage your content with a great CMS, and your developers build a static site, and your visitors get an extremely fast and performant website!
+That’s where Forestry comes in. You get to manage your content with a great CMS, your developers build a static site, and your visitors get an extremely fast and performant website!
 
 ## Managing Content
 Forestry creates a custom CMS specific to your site, and provides an interface for editing your content that is both familiar and innovative.

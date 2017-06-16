@@ -16,7 +16,7 @@ menu:
 ---
 Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to *pathing issues*.
 
-The best way to solve this issue is to ensure you always using absolute URLs for the environment your viewing in.
+The best way to solve this issue is to ensure you're always using absolute URLs for the environment your viewing in.
 
 For example, we have a CSS file named `main.css` that isn’t loading when viewing subpages.
 
@@ -46,6 +46,8 @@ In Jekyll, baseURL is the base *path* your site should be served from. In order 
 In order to properly set up an absolute URL with Jekyll, a url should be built as follows:
 
 `<link src="{{ "main.css | prepend {{ site.url }} ~ {{ site.baseurl }}" rel="stylesheet" type="text/css">`
+
+*In this code we take the relative path to your css file, `main.css`, and we use `prepend` to add a string in front of it. That string is the combination of the site's URL, and the baseURL you set up in your config file. We use the `~` operator to add the two strings together.*
 
 ## Absolute URLs with Hugo
 In Hugo, baseURL is the full path to your site, including domain. In order words, it’s `http://example.com/blog`.
