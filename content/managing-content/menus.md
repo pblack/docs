@@ -19,6 +19,7 @@ This is supported using the [Jekyll Menus plugin](https://github.com/forestryio/
 
 ## Managing Menus
 Forestry allows you to do the following with your menus:
+
 * Add links to content to menus
 * Add external links to menus
 * Remove items from menus
