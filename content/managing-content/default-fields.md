@@ -18,8 +18,8 @@ menu:
 You can setup defaults for your front matter fields so that content writers and editors don’t have to fill in the same details for every page.
 
 Defaults for your site can be configured in two ways:
+
 * Using the configuration options for your static site generator
 * By setting up a default value in your *Front Matter Templates*
 
 See the references below for more information.
-
