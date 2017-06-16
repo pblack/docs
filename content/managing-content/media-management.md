@@ -17,6 +17,7 @@ Forestry has a fully-featured media manager for managing all of the static asset
 
 ## Managing Your Media
 Forestry allows you to do the following with your media:
+
 * Upload new media by clicking "+" or dragging them in
 * Delete existing media
 
