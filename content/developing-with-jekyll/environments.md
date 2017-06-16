@@ -13,7 +13,7 @@ menu:
 ---
 
 
-They are three unique developer environments when working with a Hugo site in Forestry:
+They are three unique developer environments when working with a Jekyll site in Forestry:
 
 * **Local environment** this is your local development environment on your own machine. See [Local Development](/docs/developing-with-jekyll/local-development) for more info.
 
