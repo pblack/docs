@@ -11,7 +11,7 @@ menu:
     weight: 6
 
 ---
-They are three unique developer environments when working with a Jekyll site in Forestry:
+They are three unique developer environments when working with a Hugo site in Forestry:
 
 * **Local environment** this is your local development environment on your own machine. See [Local Development][1] for more info.
 * **Staging environment** this is the environment Forestry creates when we generate a preview for you. See [Previewing][2] for more info.
@@ -21,16 +21,16 @@ In order to make development easier, Forestry sets an environment variable based
 
 This allows you to set up conditional code in your layouts in order to handle paths, content, or functionality dependant on a specific environment.
 
-This variable is accessible in your templates as `{{ jekyll.environment }}`.
+This variable is accessible in your templates as `{{ Site.Env }}`.
 
 The values are:
 
 ```
 Local environment: "development"
-Staging environment: "preview"
+Staging environment: "development"
 Production environment: "production"
 ```
 
-[1]:	%20/docs/developing-with-jekyll/local-development
-[2]:	%20/docs/deployment-and-management/previewing
-[3]:	%20/docs/deployment-and-management/setting-up-deployment
+[1]:	/docs/developing-with-jekyll/local-development
+[2]:	/docs/deployment-and-management/previewing
+[3]:	/docs/deployment-and-management/setting-up-deployment
