@@ -3,7 +3,7 @@ date: '2013-07-24T00:00:00Z'
 description: ''
 related:
 - title: All Front Matter Field Types
-  url: "/docs/front-matter-fields/text-field/"
+  url: "/docs/front-matter-fields/"
 - title: Jekyll Defaults
   url: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 - title: Hugo Archetypes
