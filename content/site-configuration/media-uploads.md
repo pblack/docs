@@ -12,6 +12,7 @@ menu:
 In the settings for site’s CMS, you can configure how the media manager handles uploaded media.
 
 You can configure:
+
 * **Upload Folder:** the directory media is stored in
 * **Front Matter File URL** how we should format the media URLs added to front matter fields
 * **Content Body File URL:** how we should format the media URLs added to the body
