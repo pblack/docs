@@ -11,7 +11,6 @@ title: Forestry for Developers
 menu:
   getting-started:
     weight: 3
-draft: true
 
 ---
 Forestry allows developers to build static sites using the technologies and tools they prefer, while still generating a fully-functioning CMS for their team.
