@@ -9,7 +9,6 @@ title: Help & Support
 menu:
   getting-started:
     weight: 6
-draft: true
 
 ---
 **All Forestry users are offered in-app support from our Tier 1 support team**. Whenever possible, we will try to assist you in importing your site and setting up your CMS.
