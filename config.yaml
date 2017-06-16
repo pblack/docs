@@ -5,9 +5,6 @@ pluralizelisttitles: false
 theme: forestry-doc-theme
 title: Forestry Docs
 menu:
-  getting_started:
-  - name: Support and help
-    weight: 3
   main:
   - name: Blog
     url: http://forestry.io/blog
