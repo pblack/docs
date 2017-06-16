@@ -5,6 +5,9 @@ pluralizelisttitles: false
 theme: forestry-doc-theme
 title: Forestry Docs
 menu:
+  getting_started:
+  - name: Support and help
+    weight: 3
   main:
   - name: Blog
     url: http://forestry.io/blog
@@ -25,9 +28,6 @@ menu:
   - name: Terms
     url: http://forestry.io/terms/
     weight: 1
-  getting_started:
-  - name: Support and help
-    weight: 3
 params:
   author:
   - bio: CEO and Co-founder of <a href='https://forestry.io' title='Forestry.io CMS'>Forestry.io</a>.
