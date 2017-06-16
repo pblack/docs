@@ -6,7 +6,7 @@ tags: ''
 title: File Formats
 menu:
   site-configuration:
-    weight: 7
+    weight: 3
 
 ---
 # File formats

@@ -6,7 +6,7 @@ tags: ''
 title: Web Hooks
 menu:
   site-configuration:
-    weight: 2
+    weight: 7
 
 ---
 Forestry.io now supports [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications when certain events happen with your Forestry.io site. 

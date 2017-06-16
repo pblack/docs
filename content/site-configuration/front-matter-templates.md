@@ -12,7 +12,7 @@ tags: ''
 title: Front Matter Templates
 menu:
   site-configuration:
-    weight: 6
+    weight: 1
 
 ---
 In Forestry, the user interface for the content and data file editor can be customized using *Front Matter Templates*. 

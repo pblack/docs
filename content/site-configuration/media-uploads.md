@@ -6,7 +6,7 @@ tags: ''
 title: Media Uploads
 menu:
   site-configuration:
-    weight: 5
+    weight: 2
 
 ---
 In the settings for site’s CMS, you can configure how the media manager handles uploaded media.
