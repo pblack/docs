@@ -59,4 +59,4 @@ More importantly, the editor allows you to save changes in two ways:
 
 ## Previewing Changes
 
-The editor allows you to preview your changes before saving them. For more information, see the doc [Previews](/docs/deployment-and-management/previewing).
+The editor allows you to preview your changes before saving them. For more information, see the doc [Previewing](/docs/deployment-and-management/previewing).
