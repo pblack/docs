@@ -6,7 +6,7 @@ title: Managing Users
 menu:
   deployment-and-management:
     weight: 4
-draft: true
+
 
 ---
 In Forestry, users are managed on a per-site basis. On free plans, you can only have 1 user.

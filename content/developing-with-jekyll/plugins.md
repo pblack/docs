@@ -11,7 +11,7 @@ title: Jekyll Plugins
 menu:
   developing-with-jekyll:
     weight: 6
-draft: true
+
 
 ---
 Jekyll allows you to add Gem-based plugins using your `.Gemfile`. This allows you to add things like [CoffeeScript][1] preprocessing.

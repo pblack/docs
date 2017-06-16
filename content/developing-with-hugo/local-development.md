@@ -9,7 +9,7 @@ title: Local Development
 menu:
   developing-with-hugo:
     weight: 5
-draft: true
+
 
 ---
 Hugo allows you to work on your site in a local environment on your computer. It requires you to install the Hugo binary on your local machine.

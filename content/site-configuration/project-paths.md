@@ -9,7 +9,7 @@ title: Project Paths
 menu:
   site-configuration:
     weight: 4
-draft: true
+
 
 ---
 On a per site basis, you can setup different paths to enable different functionality for your CMS.

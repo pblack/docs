@@ -6,7 +6,7 @@ title: Backups
 menu:
   deployment-and-management:
     weight: 5
-draft: true
+
 
 ---
 ## If You Imported Your Site With Git

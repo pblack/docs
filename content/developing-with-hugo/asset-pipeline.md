@@ -11,7 +11,7 @@ title: Asset Pipeline
 menu:
   developing-with-hugo:
     weight: 8
-draft: true
+
 
 ---
 If you’re planning on using any preprocessing on your assets (images, CSS, or JS) you’ll need to be careful how you implement this as it effects how Forestry builds your sites.

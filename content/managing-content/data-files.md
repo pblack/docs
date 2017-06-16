@@ -11,7 +11,7 @@ title: Data Files
 menu:
   managing-content:
     weight: 7
-draft: true
+
 
 ---
 Data files are pieces of content that don’t belong to a specific page or piece of content. They are commonly used for managing content like social media handles and links, contact information, and branding (*e.g, logo images and site colours*). You can find these under *"data"* in your CMS.

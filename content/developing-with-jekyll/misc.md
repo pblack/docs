@@ -11,7 +11,7 @@ title: Misc
 menu:
   developing-with-jekyll:
     weight: 4
-draft: true
+
 
 ---
 ## Sitemaps/Feeds

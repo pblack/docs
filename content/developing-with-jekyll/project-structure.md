@@ -9,7 +9,7 @@ title: Project Structure
 menu:
   developing-with-jekyll:
     weight: 3
-draft: true
+
 
 ---
 In Jekyll, project structure and naming is very important. The way you structure and name your project directly effects the organization of your built static site.

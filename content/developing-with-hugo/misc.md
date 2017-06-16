@@ -13,7 +13,7 @@ title: Misc
 menu:
   developing-with-hugo:
     weight: 4
-draft: true
+
 
 ---
 ## Sitemap

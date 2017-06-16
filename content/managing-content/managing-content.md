@@ -17,7 +17,7 @@ title: Managing Content
 menu:
   managing-content:
     weight: 3
-draft: true
+
 
 ---
 Forestry allows you to manage all of your different types of content. These are separate pages in your CMS that allow you to view all of your drafted and published [content](/docs/managing-content/editing-content) for that type of content. You can find these under *"content"* in the sidebar of your CMS.
