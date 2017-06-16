@@ -10,7 +10,7 @@ tags: ''
 title: Menus
 menu:
   managing-content:
-    weight: 1
+    weight: 5
 
 ---
 Forestry has a menu management tool that allows you to easily manage your site’s navigation and menus from the CMS. You can find this under *"site"* in the sidebar of your CMS, as `Menus`.

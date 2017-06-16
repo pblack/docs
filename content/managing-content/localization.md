@@ -12,7 +12,7 @@ tags: ''
 title: Localization
 menu:
   managing-content:
-    weight: 4
+    weight: 7
 
 ---
 Forestry does not currently support localization as a feature, but they are many community recommended methods of implementing localization.
