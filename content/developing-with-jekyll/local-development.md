@@ -10,7 +10,7 @@ tags: ''
 title: Local Development
 menu:
   developing-with-jekyll:
-    weight: 5
+    weight: 7
 
 ---
 Jekyll allows you to work on your site in a local environment on your computer. It requires you to have `Ruby`, `RubyGems` and `Bundler` installed.

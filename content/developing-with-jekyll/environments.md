@@ -8,7 +8,7 @@ tags: ''
 title: Environments
 menu:
   developing-with-jekyll:
-    weight: 8
+    weight: 6
 
 ---
 They are three unique developer environments when working with a Jekyll site in Forestry:

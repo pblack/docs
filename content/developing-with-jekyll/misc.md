@@ -10,7 +10,7 @@ tags: ''
 title: Misc
 menu:
   developing-with-jekyll:
-    weight: 4
+    weight: 9
 
 ---
 ## Sitemaps/Feeds
