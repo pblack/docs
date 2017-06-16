@@ -50,7 +50,7 @@ params:
     other: 91
     site-configuration: 4
     troubleshooting: 8
-  twitter_card: 'https://forestry.io/assets/images/twitter_card_default.png'
+  twitter_card: https://forestry.io/assets/images/twitter_card_default.png
 sitemap:
   ChangeFreq: ''
   Filename: sitemap.xml
