@@ -25,6 +25,7 @@ Forestry allows you to manage all of your different types of content. These are 
 Forestry allows you to manage and edit your content from these list views.
 
 We allow you to:
+
 * Add new content
 * Delete content
 * Edit existing content
