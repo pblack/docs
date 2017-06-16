@@ -14,5 +14,6 @@ In Jekyll, any file in your project that does not have YAML front matter is trea
 
 These are files like images, PDFs, CSS, JS, and much more.
 
-If you use any build tools like Gulp or Grunt with Jekyll, please read our [Asset Pipeline Doc]().
+If you use any build tools like Gulp or Grunt with Jekyll, please read our [Asset Pipeline Doc][1].
 
+[1]: /docs/developing-with-jekyll/asset-pipeline

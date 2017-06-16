@@ -28,5 +28,7 @@ Forestry does not currently support external build tools in the build process.
 When publishing, previewing, or saving drafts, Forestry will *only* run:
 `jekyll build`
 
-If you use Gulp, Grunt or another build tool to process your assets, you *must* commit your final working assets to your repository, otherwise [previewing]() and [deployment ]()will **not** work.
+If you use Gulp, Grunt or another build tool to process your assets, you *must* commit your final working assets to your repository, otherwise [previewing][1] and [deployment][2] will **not** work.
 
+[1]: /docs/deployment-and-management/previewing
+[2]: /docs/deployment-and-management/setting-up-deployment
