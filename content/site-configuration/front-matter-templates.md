@@ -15,8 +15,6 @@ menu:
     weight: 1
 
 ---
-
-
 In Forestry, the user interface for the content and data file editor can be customized using *Front Matter Templates*.
 
 In static sites, custom data for pages can be created by adding front matter to the top of the content file. This front matter can then be used to customize the content, appearance, and layout of a page inside of the page template.

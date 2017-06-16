@@ -12,8 +12,6 @@ menu:
     weight: 6
 
 ---
-
-
 **All Forestry users are offered in-app support from our Tier 1 support team**. Whenever possible, we will try to assist you in importing your site and setting up your CMS.
 
 For support with build issues, or general questions please [join our Slack Community](https://forestry.io/blog/post/join-our-slack-community/).
