@@ -6,7 +6,7 @@ tags: ''
 title: " Failed Publish, Preview, or Draft"
 menu:
   troubleshooting:
-    weight: 4
+    weight: 3
 
 ---
 When publishing, previewing, or saving a draft, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
