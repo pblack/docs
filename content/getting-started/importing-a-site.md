@@ -6,7 +6,6 @@ title: Importing a site
 menu:
   getting-started:
     weight: 4
-draft: true
 
 ---
 ## Setting Up Your First Site
