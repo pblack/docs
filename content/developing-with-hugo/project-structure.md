@@ -16,7 +16,7 @@ tags: ''
 title: Project Structure
 menu:
   developing-with-hugo:
-    weight: 3
+    weight: 2
 
 ---
 In Hugo, project structure and naming is fairly rigid other than content structure. You must follow the Hugo guidelines for where content, layouts, data, and static assets must be stored.

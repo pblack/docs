@@ -6,7 +6,7 @@ tags: ''
 title: Intro to Hugo
 menu:
   developing-with-hugo:
-    weight: 6
+    weight: 1
 
 ---
 Hugo is a *fast* static site generator, with a *lot* of enterprise features. If you’re building a large business, publication, or community website Hugo is likely the right choice due to features likes localization, RSS Feed & Sitemap generation, and much more.

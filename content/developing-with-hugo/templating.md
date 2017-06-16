@@ -12,7 +12,7 @@ tags: ''
 title: Templating
 menu:
   developing-with-hugo:
-    weight: 1
+    weight: 3
 
 ---
 Hugo allows users to build layouts and themes using one of multiple templating languages. By default, Hugo uses GoLang’s GoTemplates.
