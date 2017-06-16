@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
+tags: ''
 title: " Failed Publish, Preview, or Draft"
 menu:
-  troubleshooting:
+  troubleshooting: {}
+draft: true
+
 ---
 When publishing, previewing, or saving a draft, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
 

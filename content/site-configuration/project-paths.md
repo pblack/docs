@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: "Forestry Remote Admin"
-    url: /docs/deployment-and-management/remote-admin/
-tags: ""
-title: "Project Paths"
+- title: Forestry Remote Admin
+  url: "/docs/deployment-and-management/remote-admin/"
+tags: ''
+title: Project Paths
 menu:
-  site-configuration:
+  site-configuration: {}
+draft: true
+
 ---
 On a per site basis, you can setup different paths to enable different functionality for your CMS.
 

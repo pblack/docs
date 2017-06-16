@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: "What Hugo short codes are and how they work"
-draft: "true"
-related: 
-  - title: “Hugo Short Code Reference”
-    url: https://gohugo.io/extras/shortcodes/
-tags: ""
-title: "Hugo Short Codes"
+date: '2013-07-24T00:00:00Z'
+description: What Hugo short codes are and how they work
+related:
+- title: "“Hugo Short Code Reference”"
+  url: https://gohugo.io/extras/shortcodes/
+tags: ''
+title: Hugo Short Codes
 menu:
-  developing-with-hugo:
+  developing-with-hugo: {}
+draft: true
+
 ---
 You can extend the functionality of markdown in Hugo with short codes. Short codes are special templates that are called when a short code is used inside the content body.
 

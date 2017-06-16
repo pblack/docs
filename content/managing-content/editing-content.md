@@ -1,16 +1,17 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: Jekyll Collections
-    url: https://jekyllrb.com/docs/collections/
-  - title: Hugo Sections
-    url: https://gohugo.io/content/sections/
-tags: ""
-title: "Editing Content"
+- title: Jekyll Collections
+  url: https://jekyllrb.com/docs/collections/
+- title: Hugo Sections
+  url: https://gohugo.io/content/sections/
+tags: ''
+title: Editing Content
 menu:
-  managing-content:
+  managing-content: {}
+draft: true
+
 ---
 Forestry has a fully-featured content editor that allows you to edit your page’s *front matter* (or "fields") and *content body*.
 

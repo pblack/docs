@@ -1,9 +1,9 @@
 ---
-date: 2016-07-21T05:50:00Z
-description: ""
-draft: "true"
-tags: ""
-title: "Why does Forestry need so many permissions for GitHub?"
+date: '2016-07-21T05:50:00Z'
+description: ''
+tags: ''
+title: Why does Forestry need so many permissions for GitHub?
+draft: true
 
 ---
 Forestry needs to be able to have read and write permissions to your repositories in order to read content into the CMS for you to edit, and write your changes back out. We currently have no way of controlling which repositories you give us access to, since the GitHub API follows an all or nothing approach to permissions. There is, however, a solution that our users may implement if they have specific requirements that don't allow them to give full read write access. You can read about it [here][1].

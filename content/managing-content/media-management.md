@@ -1,16 +1,17 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: Image Gallery Field
-    url: http://localhost:4000/docs/front-matter-fields/multi-file-upload/
-  - title: Image/File Upload Field
-    url: http://localhost:4000/docs/front-matter-fields/file-upload/
-tags: ""
-title: "Media Management"
+- title: Image Gallery Field
+  url: http://localhost:4000/docs/front-matter-fields/multi-file-upload/
+- title: Image/File Upload Field
+  url: http://localhost:4000/docs/front-matter-fields/file-upload/
+tags: ''
+title: Media Management
 menu:
-  managing-content:
+  managing-content: {}
+draft: true
+
 ---
 Forestry has a fully-featured media manager for managing all of the static assets of your site, such as images, PDFs, text files, videos, and more. You can find it under *"site"* in the sidebar of your CMS, as `Media`.
 

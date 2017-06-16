@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: “Jekyll Directory Structure Reference”
-    url: https://jekyllrb.com/docs/structure/
-tags: ""
-title: "Project Structure"
+- title: "“Jekyll Directory Structure Reference”"
+  url: https://jekyllrb.com/docs/structure/
+tags: ''
+title: Project Structure
 menu:
-  developing-with-jekyll:
+  developing-with-jekyll: {}
+draft: true
+
 ---
 In Jekyll, project structure and naming is very important. The way you structure and name your project directly effects the organization of your built static site.
 

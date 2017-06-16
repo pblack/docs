@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-tags: ""
-title: "Setting Up Deployment"
+date: '2013-07-24T00:00:00Z'
+description: ''
+tags: ''
+title: Setting Up Deployment
 menu:
-  deployment-and-management:
+  deployment-and-management: {}
+draft: true
+
 ---
 In Forestry, you can set up your CMS to deploy your site to your staging or production environment when you publish changes.
 

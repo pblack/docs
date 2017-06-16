@@ -1,9 +1,9 @@
 ---
-date: 2016-07-20T03:30:00Z
-description: ""
-draft: true
+date: '2016-07-20T03:30:00Z'
+description: ''
 tags: []
-title: "How can I control which GitHub repositories Forestry has access to?"
+title: How can I control which GitHub repositories Forestry has access to?
+draft: true
 
 ---
 Many users have restrictions on what repositories they can expose to forestry. While the GitHub API does not allow fine grain control over which repositories Forestry gets access to, there is a solution. The solution involves creating a "machine user" (really just a new GitHub account) and give it access to only the repositories you wish to expose to Forestry.

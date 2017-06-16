@@ -1,11 +1,13 @@
 ---
-date: 2016-07-18T15:51:00Z
-description: ""
-tags: ["hugo", "version"]
-title: "What versions of Hugo do you support?"
+date: '2016-07-18T15:51:00Z'
+description: ''
+tags:
+- hugo
+- version
+title: What versions of Hugo do you support?
 menu:
   faq:
-    name: "What version of Hugo do you support? "
+    name: 'What version of Hugo do you support? '
     weight: 7
 
 ---

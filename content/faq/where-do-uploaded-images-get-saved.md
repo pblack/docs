@@ -1,11 +1,11 @@
 ---
-date: 2016-07-18T20:52:00Z
-description: ""
+date: '2016-07-18T20:52:00Z'
+description: ''
 tags: []
-title: "Where do uploaded images get saved?"
+title: Where do uploaded images get saved?
 menu:
   faq:
-    name: "Where do uploaded images get saved? "
+    name: 'Where do uploaded images get saved? '
     weight: 4
 
 ---

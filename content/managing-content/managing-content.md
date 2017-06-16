@@ -1,22 +1,23 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: "Jekyll Front Matter Reference"
-    url: https://jekyllrb.com/docs/frontmatter/
-  - title: "Jekyll Posts Reference"
-    url: https://jekyllrb.com/docs/posts/
-  - title: "Jekyll Drafts Reference"
-    url: https://jekyllrb.com/docs/drafts/
-  - title: "Hugo Front Matter Reference"
-    url: https://gohugo.io/content/front-matter/
-  - title: "Hugo Content Reference"
-    url: https://gohugo.io/content/example/
-tags: ""
-title: "Managing Content"
+- title: Jekyll Front Matter Reference
+  url: https://jekyllrb.com/docs/frontmatter/
+- title: Jekyll Posts Reference
+  url: https://jekyllrb.com/docs/posts/
+- title: Jekyll Drafts Reference
+  url: https://jekyllrb.com/docs/drafts/
+- title: Hugo Front Matter Reference
+  url: https://gohugo.io/content/front-matter/
+- title: Hugo Content Reference
+  url: https://gohugo.io/content/example/
+tags: ''
+title: Managing Content
 menu:
-  managing-content:
+  managing-content: {}
+draft: true
+
 ---
 Forestry allows you to manage all of your different types of content. These are separate pages in your CMS that allow you to view all of your drafted and published [content](/docs/managing-content/editing-content) for that type of content. You can find these under *"content"* in the sidebar of your CMS.
 

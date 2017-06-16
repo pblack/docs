@@ -1,11 +1,11 @@
 ---
-date: 2016-07-13T17:58:00Z
-description: ""
+date: '2016-07-13T17:58:00Z'
+description: ''
 tags: []
-title: "How are UI elements determined  from front matter"
+title: How are UI elements determined  from front matter
 menu:
   faq:
-    name: "How UI elements are determined from front matter"
+    name: How UI elements are determined from front matter
     weight: 0
 
 ---

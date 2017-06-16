@@ -17,7 +17,7 @@ menu:
     weight: 1
   footer:
   - name: Sitemap
-    url: /all/
+    url: "/all/"
     weight: 4
   - name: Careers
     url: http://forestry.io/careers/
@@ -37,23 +37,23 @@ params:
     name: Scott Gallant
     twitter: https://twitter.com/scottgallant
   description: A Static Site CMS for Hugo and Jekyll
-  twitter_card: ''
-  menuWeights:
-    main: 0
-    footer: 1
-    getting-started: 2
-    managing-content: 3
-    site-configuration: 4
-    developing-with-jekyll: 5
-    developing-with-hugo: 6
+  menuweights:
     deployment-and-management: 7
-    troubleshooting: 8
+    developing-with-hugo: 6
+    developing-with-jekyll: 5
     faq: 9
-    other: 91
+    footer: 1
     front-matter-fields: 92
+    getting-started: 2
+    main: 0
+    managing-content: 3
+    other: 91
+    site-configuration: 4
+    troubleshooting: 8
+  twitter_card: ''
 sitemap:
   ChangeFreq: ''
   Filename: sitemap.xml
   Priority: "-1"
 permalinks:
-  other: /:filename
+  other: "/:filename"

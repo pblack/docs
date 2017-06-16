@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
-title: "Intro to Hugo"
+tags: ''
+title: Intro to Hugo
 menu:
-  developing-with-hugo:
+  developing-with-hugo: {}
+draft: true
+
 ---
 Hugo is a *fast* static site generator, with a *lot* of enterprise features. If you’re building a large business, publication, or community website Hugo is likely the right choice due to features likes localization, RSS Feed & Sitemap generation, and much more.
 

@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: "A brief overview of what Static Sites are"
-draft: "true"
-tags: ""
-title: "What is a Static Site?"
+date: '2013-07-24T00:00:00Z'
+description: A brief overview of what Static Sites are
+tags: ''
+title: What is a Static Site?
 menu:
-  getting-started:
+  getting-started: {}
+draft: true
+
 ---
 Static sites are websites built using static, unchanging files. They require no server processing time to deliver the content to the user, which makes them very fast and performant.
 

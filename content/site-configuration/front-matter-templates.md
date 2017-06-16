@@ -1,18 +1,19 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: "All Front Matter Field Types"
-    url: "/docs/front-matter-fields/text-field/"
-  - title: "Jekyll Defaults"
-    url: https://jekyllrb.com/docs/configuration/#front-matter-defaults
-  - title: "Hugo Archetypes"
-    url: https://gohugo.io/content/archetypes/
-tags: ""
-title: "Front Matter Templates"
+- title: All Front Matter Field Types
+  url: "/docs/front-matter-fields/text-field/"
+- title: Jekyll Defaults
+  url: https://jekyllrb.com/docs/configuration/#front-matter-defaults
+- title: Hugo Archetypes
+  url: https://gohugo.io/content/archetypes/
+tags: ''
+title: Front Matter Templates
 menu:
-  site-configuration:
+  site-configuration: {}
+draft: true
+
 ---
 In Forestry, the user interface for the content and data file editor can be customized using *Front Matter Templates*. 
 

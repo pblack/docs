@@ -1,11 +1,13 @@
 ---
-date: 2016-07-18T15:52:00Z
-description: ""
-tags: ["jekyll", "version"]
-title: "What versions of Jekyll do you support?"
+date: '2016-07-18T15:52:00Z'
+description: ''
+tags:
+- jekyll
+- version
+title: What versions of Jekyll do you support?
 menu:
   faq:
-    name: "What versions of Jekyll do you support? "
+    name: 'What versions of Jekyll do you support? '
     weight: 5
 
 ---

@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-tags: ""
-title: "Previewing"
+date: '2013-07-24T00:00:00Z'
+description: ''
+tags: ''
+title: Previewing
 menu:
-  deployment-and-management:
+  deployment-and-management: {}
+draft: true
+
 ---
 Forestry allows you to preview changes to your site before you save them by saving as a draft or publishing.
 

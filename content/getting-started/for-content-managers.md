@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: "Introduction to Forestry for Content Managers"
-draft: "true"
-tags: ""
-title: "Forestry for Content Managers"
+date: '2013-07-24T00:00:00Z'
+description: Introduction to Forestry for Content Managers
+tags: ''
+title: Forestry for Content Managers
 menu:
-  getting-started:
+  getting-started: {}
+draft: true
+
 ---
 Forestry is a modern CMS (content management system) for websites. It powers websites of all sizes from portfolios to blogs, marketing websites, eCommerce sites, and enterprise websites.
 

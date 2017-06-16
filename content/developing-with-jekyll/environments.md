@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-related: 
-  - title: "Jekyll Build Command Options"
-    url: https://jekyllrb.com/docs/configuration/#build-command-options
-tags: ""
-title: "Environments"
+date: '2013-07-24T00:00:00Z'
+description: ''
+related:
+- title: Jekyll Build Command Options
+  url: https://jekyllrb.com/docs/configuration/#build-command-options
+tags: ''
+title: Environments
 menu:
-  developing-with-jekyll:
+  developing-with-jekyll: {}
+draft: true
+
 ---
 They are three unique developer environments when working with a Jekyll site in Forestry:
 

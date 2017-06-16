@@ -1,16 +1,17 @@
 ---
-date: 2013-07-24
-description: "Introduction to Forestry for Developers"
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: Introduction to Forestry for Developers
 related:
-  - title: "More on Backups"
-    url: /docs/deployment-and-management/backups
-  - title: "More on Deployment"
-    url: /docs/deployment-and-management/setting-up-deployment
-tags: ""
-title: "Forestry for Developers"
+- title: More on Backups
+  url: "/docs/deployment-and-management/backups"
+- title: More on Deployment
+  url: "/docs/deployment-and-management/setting-up-deployment"
+tags: ''
+title: Forestry for Developers
 menu:
-  getting-started:
+  getting-started: {}
+draft: true
+
 ---
 Forestry allows developers to build static sites using the technologies and tools they prefer, while still generating a fully-functioning CMS for their team.
 

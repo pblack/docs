@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-tags: ""
-title: "Managing Users"
+date: '2013-07-24T00:00:00Z'
+description: ''
+tags: ''
+title: Managing Users
 menu:
-  deployment-and-management:
+  deployment-and-management: {}
+draft: true
+
 ---
 In Forestry, users are managed on a per-site basis. On free plans, you can only have 1 user.
 

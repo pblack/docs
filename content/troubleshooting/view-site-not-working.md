@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
-title: "View Site Not Working"
+tags: ''
+title: View Site Not Working
 menu:
-  troubleshooting:
+  troubleshooting: {}
+draft: true
+
 ---
 The `View Site` button located in the sidebar opens a new page at the URL you set in the `Site URL` setting, located in `Settings` under the `General` tab.
 

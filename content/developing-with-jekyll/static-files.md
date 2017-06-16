@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: "Jekyll Static Files Docs"
-    url: http://jekyllrb.com/docs/static-files/
-tags: ""
-title: "Static Files"
+- title: Jekyll Static Files Docs
+  url: http://jekyllrb.com/docs/static-files/
+tags: ''
+title: Static Files
 menu:
-  developing-with-jekyll:
+  developing-with-jekyll: {}
+draft: true
+
 ---
 In Jekyll, any file in your project that does not have YAML front matter is treated as a static file, and is included in your built site.
 

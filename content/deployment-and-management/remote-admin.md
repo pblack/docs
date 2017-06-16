@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-tags: ""
-title: "Remote Admin"
+date: '2013-07-24T00:00:00Z'
+description: ''
+tags: ''
+title: Remote Admin
 menu:
-  deployment-and-management:
+  deployment-and-management: {}
+draft: true
+
 ---
 Forestry allows you to add a Remote Administration page to your site, so that users can access and manage the site without leaving your domain.
 

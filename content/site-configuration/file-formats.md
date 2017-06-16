@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
-title: "File Formats"
+tags: ''
+title: File Formats
 menu:
-  site-configuration:
+  site-configuration: {}
+draft: true
+
 ---
 # File formats
 On a per site basis, you can configure what format new content created in Forestry should be created in.

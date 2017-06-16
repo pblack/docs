@@ -1,18 +1,19 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related:
-  - title: “Hugo GoTemplates Reference”
-    url: https://gohugo.io/templates/go-templates/
-  - title: “Hugo Ace Templates Reference”
-    url: https://gohugo.io/templates/ace/
-  - title: “Hugo Amber Templates Reference”
-    url: https://gohugo.io/templates/amber/
-tags: ""
-title: "Templating"
+- title: "“Hugo GoTemplates Reference”"
+  url: https://gohugo.io/templates/go-templates/
+- title: "“Hugo Ace Templates Reference”"
+  url: https://gohugo.io/templates/ace/
+- title: "“Hugo Amber Templates Reference”"
+  url: https://gohugo.io/templates/amber/
+tags: ''
+title: Templating
 menu:
-  developing-with-hugo:
+  developing-with-hugo: {}
+draft: true
+
 ---
 Hugo allows users to build layouts and themes using one of multiple templating languages. By default, Hugo uses GoLang’s GoTemplates.
 

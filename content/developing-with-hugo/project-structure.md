@@ -1,22 +1,23 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-related: 
-  - title: “Hugo Structure Reference”
-    url: https://gohugo.io/overview/source-directory/
-  - title: “Hugo Support File Formats”
-    url:  https://gohugo.io/content/supported-formats/
-  - title: “Hugo Sections Reference”
-    url: https://gohugo.io/content/sections/
-  - title: “Hugo Content Types Reference”
-    url: https://gohugo.io/content/types/
-  - title: “Hugo Archetypes Reference”
-    url: https://gohugo.io/content/archetypes/
-tags: ""
-title: "Project Structure"
+date: '2013-07-24T00:00:00Z'
+description: ''
+related:
+- title: "“Hugo Structure Reference”"
+  url: https://gohugo.io/overview/source-directory/
+- title: "“Hugo Support File Formats”"
+  url: https://gohugo.io/content/supported-formats/
+- title: "“Hugo Sections Reference”"
+  url: https://gohugo.io/content/sections/
+- title: "“Hugo Content Types Reference”"
+  url: https://gohugo.io/content/types/
+- title: "“Hugo Archetypes Reference”"
+  url: https://gohugo.io/content/archetypes/
+tags: ''
+title: Project Structure
 menu:
-  developing-with-hugo:
+  developing-with-hugo: {}
+draft: true
+
 ---
 In Hugo, project structure and naming is fairly rigid other than content structure. You must follow the Hugo guidelines for where content, layouts, data, and static assets must be stored.
 

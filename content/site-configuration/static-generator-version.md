@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
-title: "Static Generator Version"
+tags: ''
+title: Static Generator Version
 menu:
-  site-configuration:
+  site-configuration: {}
+draft: true
+
 ---
 On a per site basis, you can configure which version of your static site generator we use to build your site when previewing and publishing. 
 

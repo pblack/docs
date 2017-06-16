@@ -1,14 +1,15 @@
 ---
-date: 2013-07-24
-description: "How to deploy your static site using Forestry & GitHub Pages"
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: How to deploy your static site using Forestry & GitHub Pages
 related:
-  - title: 'GitHub "Hello World" Guide'
-    url: https://guides.github.com/activities/hello-world/
-  - title: GitHub Pages Whitelist
-    url: https://pages.github.com/versions/
-tags: ""
-title: "Deploying with GitHub Pages"
+- title: GitHub "Hello World" Guide
+  url: https://guides.github.com/activities/hello-world/
+- title: GitHub Pages Whitelist
+  url: https://pages.github.com/versions/
+tags: ''
+title: Deploying with GitHub Pages
+draft: true
+
 ---
 With Forestry, you can deploy your static site using a branch on a GitHub repository. This requires you set up your site using a Git repository.
 

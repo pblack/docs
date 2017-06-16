@@ -1,11 +1,12 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
-tags: ""
-title: "Backups"
+date: '2013-07-24T00:00:00Z'
+description: ''
+tags: ''
+title: Backups
 menu:
-  deployment-and-management:
+  deployment-and-management: {}
+draft: true
+
 ---
 ## If You Imported Your Site With Git
 If you set up and imported your site with Git, then backups are automatic!

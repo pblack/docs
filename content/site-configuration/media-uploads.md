@@ -1,12 +1,13 @@
 ---
-date: 2013-07-24
-description: ""
-draft: "true"
+date: '2013-07-24T00:00:00Z'
+description: ''
 related: []
-tags: ""
-title: "Media Uploads"
+tags: ''
+title: Media Uploads
 menu:
-  site-configuration:
+  site-configuration: {}
+draft: true
+
 ---
 In the settings for site’s CMS, you can configure how the media manager handles uploaded media.
 
