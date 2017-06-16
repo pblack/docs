@@ -14,8 +14,6 @@ menu:
     weight: 3
 
 ---
-
-
 Forestry allows developers to build static sites using the technologies and tools they prefer, while still generating a fully-functioning CMS for their team.
 
 Developers are able to set up whatever build process works for them (npm, gulp, grunt, Webpack, Paver, etc) to handle tasks like minifying images, processing JS and CSS, modifying files, and executing their static site generator of choice.
