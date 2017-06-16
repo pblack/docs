@@ -6,7 +6,6 @@ title: Forestry for Content Managers
 menu:
   getting-started:
     weight: 2
-draft: true
 
 ---
 Forestry is a modern CMS (content management system) for websites. It powers websites of all sizes from portfolios to blogs, marketing websites, eCommerce sites, and enterprise websites.
