@@ -25,7 +25,7 @@ Jekyll is one of the oldest static site generators available. Built by [GitHub][
 ### Don’t choose Jekyll if you:
 
 * Are building a smaller site that needs a lot of enterprise features, as Jekyll doesn’t support these out-of-the-box.
-* Have a site with mmore than 500 pages, as Jekyll can be slow with large page counts.
+* Have a site with more than 500 pages, as Jekyll can be slow with large page counts.
 
 ## Getting Started
 To get started developing for Jekyll, you’ll need a basic understanding of HTML and [Liquid][2], Jekyll templating language. You’ll also likely want to [set up your local development environment][3].
