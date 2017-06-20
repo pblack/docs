@@ -38,4 +38,4 @@ It’s a better way to build websites.
 
 Hugo and Jekyll are both *great* choices for a Static Site. Depending on your needs however, one may suit you better.
 
-Check out the introductions for [Jekyll](https://app.forestry.io/docs/developing-with-jekyll/intro) and [Hugo](https://app.forestry.io/docs/developing-with-hugo/intro).
+Check out the introductions for [Jekyll](https://forestry.io/docs/developing-with-jekyll/intro) and [Hugo](https://forestry.io/docs/developing-with-hugo/intro).
