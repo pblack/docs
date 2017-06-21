@@ -2,11 +2,12 @@
 Categories = []
 date = "2017-06-20T20:03:09Z"
 description = ""
-draft = true
 tags = []
 title = "Environments"
 
 +++
+
+
 They are three unique developer environments when working with a Hugo site in Forestry:
 
 * **Local environment** this is your local development environment on your own machine. See [Local Development](https://app.forestry.io/docs/developing-with-hugo/local-development) for more info.
