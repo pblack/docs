@@ -20,7 +20,8 @@ In order to make development easier, Forestry sets an environment variable based
 
 This allows you to set up conditional code in your layouts in order to handle paths, content, or functionality dependant on a specific environment.
 
-This variable is accessible in your templates with the `getenv` function: `{{ getenv "ENV" }}`.
+This variable is accessible in your templates with the `getenv` function:
+<span style="font-size: 1rem;">&nbsp;</span>`{{ getenv "ENV" }}`<span style="font-size: 1rem;">.</span>
 
 The values are:
 
