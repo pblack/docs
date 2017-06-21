@@ -21,13 +21,15 @@ In order to make development easier, Forestry sets an environment variable based
 
 This allows you to set up conditional code in your layouts in order to handle paths, content, or functionality dependant on a specific environment.
 
-This variable is accessible in your templates as `{{ jekyll.environment }}`.
+This variable is accessible in your templates with the `getenv` function: `{{ getenv "ENVIRONMENT" }}`.
 
 The values are:
 
 ```
-Local environment: "development"
+Local environment: undefined
 Staging environment: "staging"
 Production environment: "production"
 
 ```
+
+**Note:** in Hugo the local environment variable is undefined because Hugo does not set this environment variable by default.
