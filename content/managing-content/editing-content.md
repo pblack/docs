@@ -13,6 +13,8 @@ menu:
     weight: 2
 
 ---
+
+
 Forestry has a fully-featured content editor that allows you to edit your page’s *front matter* (or "fields") and *content body*.
 
 ## Front Matter
@@ -50,11 +52,14 @@ The content body allows you to edit your content with in three different modes:
 The content editor allows you to save changes to your content. Depending on how you imported your site, this stores in your content in different ways:
 
 * If your site was imported with Git, we sync all of your changes back to Git
+
 * If your site was imported as a zip archive or from a demo site, we store your changes in the cloud.
 
-More importantly, the editor allows you to save changes in two ways:
+More importantly, the editor allows you to save changes in three ways:
 
+* As working copies, which are stored in the cloud until you save them as a draft or publish them. *Working copies are shared with your team.*
 * As drafts, which aren’t included when your site is built and deployed
+
 * As published pages, which are included when your site is built and deployed
 
 ## Previewing Changes
