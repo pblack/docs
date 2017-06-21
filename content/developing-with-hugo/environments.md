@@ -2,8 +2,10 @@
 Categories = []
 date = "2017-06-20T20:03:09Z"
 description = ""
+related = []
 tags = []
 title = "Environments"
+type = "default"
 
 +++
 
@@ -16,11 +18,12 @@ They are three unique developer environments when working with a Hugo site in Fo
 
 * **Production environment** this is the environment Forestry publishes your site to. See [Setting Up Deployment](/docs/deployment-and-management/setting-up-deployment) for more info.
 
-In order to make development easier, Forestry sets an environment variable based on the environment you’re in.
+In order to make development easier, Forestry sets the environment variable `HUGO_ENV` based on the environment you’re in.
 
 This allows you to set up conditional code in your layouts in order to handle paths, content, or functionality dependant on a specific environment.
 
 This variable is accessible in your templates with the `getenv` function:
+
 <span style="font-size: 1rem;">&nbsp;</span>`{{ getenv "ENV" }}`<span style="font-size: 1rem;">.</span>
 
 The values are:
