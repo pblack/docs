@@ -19,8 +19,6 @@ menu:
     weight: 2
 
 ---
-
-
 In Hugo, project structure and naming is fairly rigid other than content structure. You must follow the Hugo guidelines for where content, layouts, data, and static assets must be stored.
 
 Inside your content folder, you create the structure and organization that works for you.
@@ -43,8 +41,8 @@ For example, a Hugo site may look like this:
 ├── static/
 |   ├── screen.css
 |   └── main.js
-'' ├── themes/
-'' |   └── example-theme
+├── themes/
+|   └── example-theme
 
 ```
 
@@ -68,14 +66,10 @@ Any files found inside the `_data/` folder are parsed as data files and are disp
 
 ## Front Matter Templates
 
-Upon initial import, we will parse the all of the "Archetypes" in the `archetypes/` folder.
-
-We then create a *[Front Matter Template](/docs/site-configuration/front-matter-templates)* with for each Archetype using all of the fields found.
-
-After import, any fields manually added to an Archetype will *not* be automatically added to your *Front Matter Templates*. More information on this in the [Front Matter Template doc](/docs/site-configuration/front-matter-templates).
-
-**Note: **as of Hugo 0.24, Archetypes can now be built as GoTemplates. Forestry does *not*support GoTemplates in Front Matter Templates, and will ignore these templates, or treat the default values as strings.
+Upon initial import, we will parse your site to generate [Front Matter Templates][1]. More details found in the [Front Matter Templates][1] doc.
 
 ## Themes
 
 We will also parse the Archetypes of your theme folder when importing your site.
+
+[1]: /docs/site-configuration/front-matter-templates
