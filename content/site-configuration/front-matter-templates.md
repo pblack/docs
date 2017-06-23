@@ -50,13 +50,25 @@ To learn more about Front Matter Template Fields, see the section below.
 
 Front Matter Templates can be created automatically when importing your site. How this is done depends on which static site generator you are using.
 
+Forestry can only create Front Matter Templates from your site’s source. Any changes to the template from within Forestry will not be written back to your config files.
+
 **Jekyll**
-New templates will be created based off the [defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your config file. A new Front Matter Template will be created for each scope in your defaults section.
+
+Upon initial import, new Front Matter Templates will be created based off the [defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) in your config file. 
+
+A new Front Matter Template will be created for each scope in your defaults section.
+
+After import, any fields added to your Jekyll defaults will not be automatically added to your Front Matter Templates.
 
 **Hugo**
-Templates for Hugo sites are created from your sites [archetype](https://gohugo.io/content/archetypes/) files. Each archetype file will result in a Front Matter Template.
 
-**Note: **Forestry can only read in Front Matter Templates from your site’s source. Any changes to the template from within Forestry will not be written back to your config files.
+Upon initial import, we will parse the all of the "Archetypes" in the archetypes/ folder.
+
+We then create a Front Matter Template with for each Archetype using all of the fields found.
+
+After import, any fields added to an Archetype will not be automatically added to your Front Matter Templates.
+
+**Note:** as of Hugo 0.24, Archetypes can now be built as GoTemplates. Forestry does not support GoTemplates in Front Matter Templates, and will ignore these templates, or treat the default values as strings.
 
 ### CREATING TEMPLATES FROM EXISTING PAGES
 
