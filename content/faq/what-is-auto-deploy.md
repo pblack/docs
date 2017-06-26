@@ -8,8 +8,6 @@ menu:
     weight: 9
 
 ---
-With Auto-deploy enabled, Forestry will automatically build and deploy your site every time you push changes to your repository.
 
-![][image-1]
 
-[image-1]:	/docs/forestryio/images/Auto-deploy-1.png
+If your site was imported using a Git repository, Forestry can also handle automatic deployment as changes are pushed to the source repository using [Auto Deploy](/docs/deployment-and-management/setting-up-deployment).
