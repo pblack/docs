@@ -11,6 +11,8 @@ menu:
     weight: 6
 
 ---
-Forestry will use whatever version of Jekyll is specified in your Gemfile. 
 
-If you don't specify a version, Forestry will use the default version used in GitHub Pages:   Currently **Jekyll 3.1.6**.
+
+Forestry will use whatever version of Jekyll is specified in your Gemfile.
+
+If you don't specify a version, Forestry will use the default version used in GitHub Pages.
