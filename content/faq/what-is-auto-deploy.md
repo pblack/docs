@@ -2,7 +2,7 @@
 date: '2016-09-04T22:16:00Z'
 description: ''
 tags: []
-title: What is Auto-deploy?
+title: What is Auto Deploy?
 menu:
   faq:
     weight: 9
