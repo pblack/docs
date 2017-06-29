@@ -2,14 +2,18 @@
 date: '2013-07-24T00:00:00Z'
 description: ''
 related:
+- title: Configuring Media Uploads
+  url: "/docs/site-configuration/media-uploads/"
 - title: Jekyll Configuration Guide
   url: https://jekyllrb.com/docs/configuration/
 - title: Hugo Configuration Guide
   url: https://gohugo.io/overview/configuration/
 - title: Hugo URL Function Reference
   url: https://gohugo.io/templates/functions/#urls
-tags: ''
+tags: []
 title: Assets Not Loading
+type: default
+Categories: []
 menu:
   troubleshooting:
     weight: 2
