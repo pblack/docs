@@ -21,3 +21,4 @@ Account Settings can be accessed from two locations:
 From the Account Settings page, you can view your historical invoices by going to the `Invoices` tab.
 
 To view the actual invoice, click `View invoice`.
+
