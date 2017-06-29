@@ -44,11 +44,9 @@ In order to solve this problem, Forestry sets the base URL of your site based on
 ## Absolute URLs with Jekyll
 In Jekyll, baseURL is the base *path* your site should be served from. In order words, if your site is located at `http://example.com/blog/` than baseURL is `/blog`.
 
-In order to properly set up an absolute URL with Jekyll, a url should be built as follows:
+In order to properly set up an absolute URL with Jekyll, a url should be built using Jekyll's built-in `absolute_url` filter as follows:
 
-`<link src="{{ "main.css | prepend {{ site.url }} ~ {{ site.baseurl }}" rel="stylesheet" type="text/css">`
-
-*In this code we take the relative path to your css file, `main.css`, and we use `prepend` to add a string in front of it. That string is the combination of the site's URL, and the baseURL you set up in your config file. We use the `~` operator to add the two strings together.*
+`<link src="{{ "main.css | absolute_url }}" rel="stylesheet" type="text/css">`
 
 ## Absolute URLs with Hugo
 In Hugo, baseURL is the full path to your site, including domain. In order words, it’s `http://example.com/blog`.
