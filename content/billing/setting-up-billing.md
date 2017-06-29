@@ -6,7 +6,6 @@ title: Setting Up Billing
 menu:
   billing:
     weight: 0
-draft: true
 
 ---
 If you’re ready to upgrade your site to a bigger plan, follow the guide below.
