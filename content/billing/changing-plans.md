@@ -1,12 +1,13 @@
 ---
 date: '2017-06-28T00:00:00Z'
-description: 
-tags:
+description: ''
+tags: []
 title: Changing Plan
 menu:
   billing:
     weight: 0
 draft: true
+
 ---
 You can upgrade or downgrade a site's plan from `Account Settings`.
 

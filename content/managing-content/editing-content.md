@@ -13,8 +13,6 @@ menu:
     weight: 2
 
 ---
-
-
 Forestry has a fully-featured content editor that allows you to edit your page’s *front matter* (or "fields") and *content body*.
 
 ## Front Matter

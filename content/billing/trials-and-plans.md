@@ -1,12 +1,13 @@
 ---
 date: '2017-06-28T00:00:00Z'
-description: 
-tags:
-related:
+description: ''
+tags: []
+related: ''
+title: Trials & Plans
 menu:
   billing:
     weight: 0
-title: Trials & Plans
+
 ---
 Forestry’s billing works on a per-site basis. This means that your *plan* applies to the site you added it to.
 

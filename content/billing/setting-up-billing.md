@@ -1,12 +1,13 @@
 ---
 date: '2017-06-28T00:00:00Z'
-description: 
-tags:
+description: ''
+tags: []
 title: Setting Up Billing
 menu:
   billing:
     weight: 0
 draft: true
+
 ---
 If you’re ready to upgrade your site to a bigger plan, follow the guide below.
 

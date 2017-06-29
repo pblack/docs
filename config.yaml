@@ -38,14 +38,14 @@ params:
     twitter: https://twitter.com/scottgallant
   description: A Static Site CMS for Hugo and Jekyll
   menuweights:
+    billing: 7
+    deployment-and-management: 5
+    developing-with-hugo: 4
+    developing-with-jekyll: 3
     getting-started: 0
     managing-content: 1
     site-configuration: 2
-    developing-with-jekyll: 3
-    developing-with-hugo: 4
-    deployment-and-management: 5
     troubleshooting: 6
-    billing: 7
   twitter_card: https://forestry.io/assets/images/twitter_card_default.png
 sitemap:
   ChangeFreq: ''

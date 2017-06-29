@@ -1,12 +1,13 @@
 ---
 date: '2017-06-28T00:00:00Z'
-description: 
-tags:
+description: ''
+tags: []
 title: Managing Payment Information
 menu:
   billing:
     weight: 0
 draft: true
+
 ---
 Payment information for an account is managed from `Account Settings`.
 

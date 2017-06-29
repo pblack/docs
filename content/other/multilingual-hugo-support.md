@@ -1,6 +1,6 @@
 +++
 Categories = []
-date = "2017-06-22T12:10:14+00:00"
+date = "2017-06-22T12:10:14Z"
 description = ""
 draft = true
 related = []
@@ -8,8 +8,6 @@ tags = []
 title = "Multilingual Hugo Support"
 
 +++
-
-
 There are two ways to handle multilingual content in Hugo.
 
 1) Separate your content into different directories based on language and create a different config file for each language.   With this method you're required to build each language separately. Running **hugo --config="config_en.toml"** would build the english version of your site, outputted to a /en/ directory (path is configurable)
