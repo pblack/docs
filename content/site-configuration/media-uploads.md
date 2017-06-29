@@ -1,9 +1,13 @@
 ---
 date: '2013-07-24T00:00:00Z'
 description: ''
-related: []
-tags: ''
+related:
+- title: Assets not loading
+  url: "/docs/troubleshooting/assets-not-loading/"
+tags: []
 title: Media Uploads
+type: default
+Categories: []
 menu:
   site-configuration:
     weight: 2
