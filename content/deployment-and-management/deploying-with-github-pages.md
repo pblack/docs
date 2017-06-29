@@ -35,6 +35,7 @@ If you are using method one, then all you need to do is enable GitHub pages for 
 GitHub will build your Jekyll site each time a new commit happens and serve it automatically.
 
 Please ensure that your `Connection` is set to `Commit to source repo only` in the `Hosting` tab of your site's settings.
+*This is to prevent automatically overwriting your source code with your built site.*
 
 ### Using method 2
 If you are using non-whitelisted Jekyll plugins, or have additional steps to your build process that GitHub pages doesn’t support, proceed to the next section.
