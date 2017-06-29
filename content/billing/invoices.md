@@ -5,7 +5,7 @@ tags: []
 title: Invoices
 menu:
   billing:
-    weight: 0
+    weight: 5
 
 ---
 

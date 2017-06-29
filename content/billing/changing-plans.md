@@ -5,7 +5,7 @@ tags: []
 title: Changing Plan
 menu:
   billing:
-    weight: 0
+    weight: 4
 
 ---
 

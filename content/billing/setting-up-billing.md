@@ -5,7 +5,7 @@ tags: []
 title: Setting Up Billing
 menu:
   billing:
-    weight: 0
+    weight: 2
 
 ---
 If you’re ready to upgrade your site to a bigger plan, follow the guide below.

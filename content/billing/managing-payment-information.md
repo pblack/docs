@@ -5,7 +5,7 @@ tags: []
 title: Managing Payment Information
 menu:
   billing:
-    weight: 0
+    weight: 3
 
 ---
 

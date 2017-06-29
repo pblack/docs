@@ -5,7 +5,7 @@ tags: []
 title: Transferring Site Ownership & Billing
 menu:
   billing:
-    weight: 0
+    weight: 6
 
 ---
 If you’ve set up a site with Forestry, and are not the owner and/or contact who is managing billing, we can assist with this.

@@ -6,7 +6,7 @@ related: ''
 title: Trials & Plans
 menu:
   billing:
-    weight: 0
+    weight: 1
 
 ---
 Forestry’s billing works on a per-site basis. This means that your *plan* applies to the site you added it to.
