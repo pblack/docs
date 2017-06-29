@@ -8,8 +8,6 @@ menu:
     weight: 3
 
 ---
-
-
 Payment information for an account is managed from `Account Settings`.
 
 Account Settings can be accessed from two locations:

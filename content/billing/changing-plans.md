@@ -8,8 +8,6 @@ menu:
     weight: 4
 
 ---
-
-
 You can upgrade or downgrade a site's plan from `Account Settings`.
 
 Account Settings can be accessed from two locations:
