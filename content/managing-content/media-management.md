@@ -3,9 +3,9 @@ date: '2013-07-24T00:00:00Z'
 description: ''
 related:
 - title: Image Gallery Field
-  url: /docs/front-matter-fields/multi-file-upload/
+  url: "/docs/front-matter-fields/multi-file-upload/"
 - title: Image/File Upload Field
-  url: /docs/front-matter-fields/file-upload/
+  url: "/docs/front-matter-fields/file-upload/"
 tags: ''
 title: Media Management
 menu:
