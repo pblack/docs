@@ -2,9 +2,9 @@
 date: '2013-07-24T00:00:00Z'
 description: ''
 related:
-- title: "Jekyll Directory Structure Reference"
+- title: Jekyll Directory Structure Reference
   url: https://jekyllrb.com/docs/structure/
-- title: "Installing Gem-based Themes"
+- title: Installing Gem-based Themes
   url: https://jekyllrb.com/docs/themes/#installing-a-theme
 tags: ''
 title: Project Structure
