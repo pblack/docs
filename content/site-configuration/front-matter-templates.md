@@ -15,7 +15,7 @@ menu:
     weight: 1
 
 ---
-In Forestry, the user interface for the content and data file editor can be customized using *Front Matter Templates*.
+In Forestry, the user interface for the content editor can be customized using *Front Matter Templates*.
 
 In static sites, custom data for pages can be created by adding front matter to the top of the content file. This front matter can then be used to customize the content, appearance, and layout of a page inside of the page template.
 
@@ -23,7 +23,7 @@ In static sites, custom data for pages can be created by adding front matter to 
 
 ## How Front Matter Templates Work
 
-You can create Front Matter Templates *per site*. These templates can then be configured to apply to specific content types, pages, or data files.
+You can create Front Matter Templates *per site*. These templates can then be configured to apply to specific content types or pages.
 
 When we first import your static site into Forestry and generate your CMS, we generate Front Matter Templates for you based on your configuration. From then on, any changes made to your site configuration or content files *will not* be reflected in your CMS.
 
@@ -35,20 +35,9 @@ It’s important to note that any additional front matter fields added to a cont
 
 Front Matter Templates can be created through the Forestry UI, or automatically created when importing a site with existing default fields (in your Jekyll `_config.yml` file or Hugo Archetype file).
 
-### CREATING TEMPLATES THROUGH THE FORESTRY UI
+### AUTOMATICALLY CREATED TEMPLATES ON FIRST-IMPORT
 
-Click on the Front Matter link in the sidebar to get to the list of available templates (this is only visible to people with *developer* access).
-
-Here we have just one template, the **default** template.
-Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form.
-
-Give your new template a name and add default fields that you want to be displayed with pages that use this template.
-
-To learn more about Front Matter Template Fields, see the section below.
-
-### AUTOMATICALLY CREATE TEMPLATES WHEN IMPORTING A SITE
-
-Front Matter Templates can be created automatically when importing your site. How this is done depends on which static site generator you are using.
+Front Matter Templates are created automatically when importing your site for the first time. How this is done depends on which static site generator you are using.
 
 Forestry can only create Front Matter Templates from your site’s source. Any changes to the template from within Forestry will not be written back to your config files.
 
@@ -70,12 +59,22 @@ After import, any fields added to an Archetype will not be automatically added t
 
 **Note:** as of Hugo 0.24, Archetypes can now be built as GoTemplates. Forestry does not support GoTemplates in Front Matter Templates, and will ignore these templates, or treat the default values as strings.
 
-### CREATING TEMPLATES FROM EXISTING PAGES
+### CREATING NEW TEMPLATES IN FORESTRY
 
-Front Matter Template can be created from an existing page’s front matter.
-Click the "Missing or Extra Fields?" button on the right side of the page.
+Click on the Front Matter link in the sidebar to get to the list of available templates (this is only visible to people with *developer* access).
 
-This will pop a new modal asking you if you want to create a new template. Clicking "Create Template" will create a new Front Matter Template based off the page you are viewing, and then redirect you to the edit page for the template.
+Here we have just one template, the **default** template.
+Clicking on the green **"Add Template"** button at the top of the page will take you to the new Front Matter Template form.
+
+Give your new template a name and add default fields that you want to be displayed with pages that use this template.
+
+To learn more about Front Matter Template Fields, see the section below.
+
+### CREATING NEW TEMPLATES FROM EXISTING PAGES
+
+Front Matter Template can be created from an existing page’s front matter, by selecting "Create Template" from the page's options `...`.
+
+This will pop a new modal asking you if you want to create a new template. Clicking "Create Template" will create a new Front Matter Template based off the page you are viewing, and then redirect you to the editor for the template.
 
 **Note:** that fields in the new template will mostly be simple types, like text, date, boolean, and date.
 
