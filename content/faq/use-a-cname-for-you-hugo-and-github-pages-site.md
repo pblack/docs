@@ -8,6 +8,6 @@ menu:
     weight: 10
 
 ---
-When building your site, the existing contents are replaced with the new site. This will cause your CNAME file to be removed.
+When building your site, the existing contents are replaced with the new build. This will cause your CNAME file to be removed.
 
 Any file that is stored in the `/static/` directory will be copied into your built site as-is, so place your CNAME file at `/static/CNAME` in your Hugo project to have it persist during builds.
