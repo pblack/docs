@@ -8,13 +8,13 @@
 			<h1>{{ .Title }} <a href="https://github.com/forestryio/docs/edit/master/content/{{ .Source.File.Path }}" target="_new" class="doc-edit"><span class="icon icon-mode-edit"></span></a></h1>
 			<p class="intro">{{ .Description | markdownify }}</p>
       <p>{{ .Content }}</p>
-      <h2>What's it look like?</h2>
+      <h2>Field UI</h2>
       <img class="center" src="{{ .Params.image }}" />
 
       {{ if .Params.options }}
       <h2>Options</h2>
       Here are the extra options available when creating a field of this
-      type in a Front Matter Template. 
+      type in a Front Matter Template.
       {{ range .Params.options }}
         <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
         <p>{{ .description }}</p>
@@ -23,7 +23,7 @@
 
        <div class="tab-panel tab-panel--output">
          <h2 class="tab-panel__label">Output</h2>
-         Forestry will output the collected value to your page's 
+         Forestry will output the collected value to your page's
          front matter in the following format:
          {{ range $format, $code := .Params.output }}
          <div class="tab tab--{{$format}}">
@@ -35,7 +35,7 @@
 
       <div class="tab-panel tab-panel--how-to-use">
         <h2 class="tab-panel__label">How to Use</h2>
-        Here are some simple examples of how to use the data output from 
+        Here are some simple examples of how to use the data output from
         this field type in your themes.
         {{ range $engine, $code := .Params.how_to_use }}
         <div class="tab tab--{{$engine}}">
