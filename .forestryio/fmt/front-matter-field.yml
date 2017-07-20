@@ -1,0 +1,85 @@
+---
+- name: type
+  type: text
+  label: type
+  description: ''
+  hidden: true
+  default: fields
+- name: title
+  type: text
+  label: Title
+  description: The name of the field type
+  config:
+    required: true
+- name: description
+  type: ''
+  label: Description
+  description: A short description of why you would use this field type
+- name: image
+  type: ''
+  label: Image
+  description: An image or gif of the field in use
+- name: options
+  type: ''
+  label: Field Options
+  description: ''
+  fields:
+  - name: name
+    type: text
+    label: Name
+    description: ''
+  - name: description
+    type: text
+    label: Description
+  - name: type
+    type: ''
+    label: Type
+    default: Text
+    config:
+      source:
+        type: simple
+      options:
+      - Text
+      - Textarea
+      - Number
+      - Toggle
+      - Select
+      - Tags List
+      - Sortable List
+- name: output
+  type: ''
+  label: Output
+  fields:
+  - type: ''
+    label: JSON
+    name: json
+  - name: toml
+    type: ''
+    label: TOML
+  - name: yaml
+    type: ''
+    label: YAML
+- name: how_to_use
+  type: ''
+  label: How to Use
+  fields:
+  - type: ''
+    label: Hugo
+    name: hugo
+  - name: jekyll
+    type: ''
+    label: Jekyll
+- name: subtypes
+  type: ''
+  label: Subtypes
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - name: page
+    type: ''
+    label: Page
+    config:
+      source:
+        type: pages
+        section: setting-up-a-site

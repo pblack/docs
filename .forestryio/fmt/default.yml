@@ -1,0 +1,42 @@
+---
+- name: title
+  default: ''
+  label: Title
+  hidden: false
+  type: text
+- name: date
+  default: ''
+  label: Date
+  hidden: false
+  type: datetime
+- name: description
+  default: ''
+  label: Description
+  hidden: false
+  type: text
+- name: tags
+  default: []
+  label: Tags
+  hidden: false
+  type: tag_list
+- name: Categories
+  default: []
+  label: Categories
+  hidden: false
+  type: list
+- type: ''
+  label: Related
+  name: related
+  description: Setup internal and external links related to this doc
+  fields:
+  - name: title
+    type: text
+    label: Title
+    config:
+      required: true
+  - type: text
+    label: URL
+    name: url
+    config:
+      required: true
+  config: {}
