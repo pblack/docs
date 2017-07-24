@@ -28,15 +28,18 @@ In Forestry, users can be given one of four roles. These affect what the user ca
 1. **The Owner** is the primary account holder for that site. They can:
 	1. Edit and publish content
 	2. Manage other users
-	3. Can manage the site settings
-	4. Can delete the site (this is irreversible)
+	3. Manage billing/plan for the site
+	4. Can manage the site settings
+	5. Can delete the site (this is irreversible)
 2. **Developers** are the second highest permission for a site. They can:
 	1. Edit and publish content
 	2. Manage other users
-	3. Can manage the site settings  
-3. **Site owners** are the managers of a site. They can:
+	3. Manage billing/plan for the site
+	4. Can manage the site settings 
+3. **Site managers** are the managers of a site. They can:
 	1. Edit and publish content
 	2. Manage other users
+	3. Manage billing/plan for the site
 3. **Content Editors** are the writers for the site. They can only:
 	1. Edit and publish content
 
