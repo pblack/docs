@@ -1,0 +1,31 @@
+---
+sections: []
+pages:
+- all.html
+hide_body: true
+fields:
+- name: title
+  default: ''
+  label: Title
+  hidden: false
+  type: text
+- name: date
+  default: ''
+  label: Date
+  hidden: false
+  type: datetime
+- name: Categories
+  default: []
+  label: Categories
+  hidden: false
+  type: list
+- name: description
+  default: ''
+  label: Description
+  hidden: false
+  type: text
+- name: tags
+  default: []
+  label: Tags
+  hidden: false
+  type: tag_list

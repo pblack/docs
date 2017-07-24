@@ -1,0 +1,89 @@
+---
+sections: []
+pages: []
+hide_body: false
+fields:
+- name: type
+  type: text
+  label: type
+  description: ''
+  hidden: true
+  default: fields
+- name: title
+  type: text
+  label: Title
+  description: The name of the field type
+  config:
+    required: true
+- name: description
+  type: textarea
+  label: Description
+  description: A short description of why you would use this field type
+- name: image
+  type: file
+  label: Image
+  description: An image or gif of the field in use
+- name: options
+  type: field_group_list
+  label: Field Options
+  description: ''
+  fields:
+  - name: name
+    type: text
+    label: Name
+    description: ''
+  - name: description
+    type: text
+    label: Description
+  - name: type
+    type: select
+    label: Type
+    default: Text
+    config:
+      source:
+        type: simple
+      options:
+      - Text
+      - Textarea
+      - Number
+      - Toggle
+      - Select
+      - Tags List
+      - Sortable List
+- name: output
+  type: field_group
+  label: Output
+  fields:
+  - type: textarea
+    label: JSON
+    name: json
+  - name: toml
+    type: textarea
+    label: TOML
+  - name: yaml
+    type: textarea
+    label: YAML
+- name: how_to_use
+  type: field_group
+  label: How to Use
+  fields:
+  - type: textarea
+    label: Hugo
+    name: hugo
+  - name: jekyll
+    type: textarea
+    label: Jekyll
+- name: subtypes
+  type: field_group_list
+  label: Subtypes
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - name: page
+    type: select
+    label: Page
+    config:
+      source:
+        type: pages
+        section: setting-up-a-site
