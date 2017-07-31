@@ -13,4 +13,5 @@ jekyll = "<p>\n{{ page.description}}\n</p>\n<code>{{ page.code_example }}</code>
 json = "{\n  description: \"Hello\\nWorld\",\n  code_sample: \"var message = 'Bonjour';\\nconsole.log(message)\"\n}"
 toml = "+++ \ndescription = \"Hello\\nWorld\"\ncode_sample = \"var message = 'Bonjour';\\nconsole.log(message)\"\n+++ \n"
 yaml = "---\ndescription: \"Hello\\nWorld\"\ncode_sample: \"var message = 'Bonjour';\\nconsole.log(message)\"\n---"
+
 +++
