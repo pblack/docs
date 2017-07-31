@@ -1,5 +1,4 @@
 ---
-sections: []
 pages:
 - site-configuration/media-uploads.md
 - developing-with-hugo/environments.md
