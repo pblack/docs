@@ -17,7 +17,7 @@ For information on our plans, see our [plans page](https://forestry.io/plans/).
 
 ## How Sites Work
 
-For each user, there are two types of sites :
+For each user, there are two types of sites:
 
 * **Owned Sites:** sites that you are the **Site Owner** of.
 
