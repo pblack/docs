@@ -1,4 +1,21 @@
 ---
+pages:
+- faq/why-is-there-a-file-called-forestryio-in-my-project.md
+- faq/why-does-forestry-need-so-many-permissions-for-github.md
+- faq/why-does-forestry-builds-jekyll-sites-instead-of-letting-github-pages-do-the-builds.md
+- faq/github-organization-access.md
+- faq/what-changes-will-forestry-make-to-my-repository.md
+- faq/where-do-uploaded-images-get-saved.md
+- faq/what-versions-of-jekyll-do-you-support.md
+- faq/what-versions-of-jekyll-and-plugins-does-forestry-support.html
+- faq/what-versions-of-hugo-do-you-support.md
+- faq/what-is-auto-deploy.md
+- faq/what-ruby-versions-does-forestry-support.md
+- faq/use-a-cname-for-you-hugo-and-github-pages-site.md
+- faq/how-do-i-download-a-backup-of-my-site.md
+- faq/how-can-i-control-which-github-repositories-forestry-has-access-to.md
+- faq/how-ui-elements-are-determined-from-front-matter.md
+- faq/do-i-need-to-upload-my-compiled-site-to-forestry.md
 hide_body: false
 fields:
 - name: title
