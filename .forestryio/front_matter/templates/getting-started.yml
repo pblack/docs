@@ -1,12 +1,4 @@
 ---
-pages:
-- getting-started/what-is-a-static-site.md
-- getting-started/intro.md
-- getting-started/importing-a-site.md
-- getting-started/help-and-support.md
-- getting-started/for-developers.md
-- getting-started/for-content-managers.md
-- getting-started/forestry-features.md
 hide_body: false
 fields:
 - name: title

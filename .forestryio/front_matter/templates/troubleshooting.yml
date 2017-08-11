@@ -1,12 +1,4 @@
 ---
-pages:
-- troubleshooting/github-3rd-party-access.md
-- troubleshooting/view-site-not-working.md
-- troubleshooting/image-paths-are-broken.md
-- troubleshooting/hugo-site-failing-to-build.md
-- troubleshooting/failed-imports.md
-- troubleshooting/broken-images-or-css.md
-- troubleshooting/failed-publish-preview-draft.md
 hide_body: false
 fields:
 - name: title
