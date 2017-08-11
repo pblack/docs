@@ -1,5 +1,5 @@
 ---
-date: '2013-07-24T00:00:00Z'
+date: 2013-07-24 00:00:00 +0000
 description: How to get help with your Forestry CMS
 related:
 - url: https://forestry.io/plans

@@ -1,5 +1,5 @@
 ---
-date: '2016-09-04T22:16:00Z'
+date: 2016-09-04 22:16:00 +0000
 description: ''
 tags: []
 title: What is Auto Deploy?

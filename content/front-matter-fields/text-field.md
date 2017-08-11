@@ -1,6 +1,6 @@
 ---
 Categories: ''
-date: '2017-02-22T12:54:02Z'
+date: 2017-02-22 12:54:02 +0000
 description: Allows users to enter a single-line of text as front matter field.
 tags: ''
 type: fields

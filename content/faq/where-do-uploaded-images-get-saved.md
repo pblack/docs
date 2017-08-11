@@ -1,5 +1,5 @@
 ---
-date: '2016-07-18T20:52:00Z'
+date: 2016-07-18 20:52:00 +0000
 description: ''
 tags: []
 title: Where do uploaded images get saved?

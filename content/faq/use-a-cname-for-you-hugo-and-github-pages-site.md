@@ -1,5 +1,5 @@
 ---
-date: '2017-02-07T15:58:47-05:00'
+date: 2017-02-07 15:58:47 -0500
 description: Hugo will keep everything in the static folder when compiling your site
 tags: []
 title: Using a CNAME with Hugo

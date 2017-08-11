@@ -1,5 +1,5 @@
 ---
-date: '2016-07-18T15:45:00Z'
+date: 2016-07-18 15:45:00 +0000
 description: ''
 tags: ''
 title: Why is there a file called .forestryio in my project?

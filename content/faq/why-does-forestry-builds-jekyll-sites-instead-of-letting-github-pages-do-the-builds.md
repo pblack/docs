@@ -1,5 +1,5 @@
 ---
-date: '2016-07-19T04:40:00Z'
+date: 2016-07-19 04:40:00 +0000
 description: ''
 tags: []
 title: Why does Forestry builds Jekyll sites instead of letting GitHub Pages do the

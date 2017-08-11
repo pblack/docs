@@ -1,5 +1,5 @@
 ---
-date: '2016-07-21T02:49:00Z'
+date: 2016-07-21 02:49:00 +0000
 description: ''
 tags: []
 title: What Ruby versions does Forestry support?

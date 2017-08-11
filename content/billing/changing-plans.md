@@ -1,5 +1,5 @@
 ---
-date: '2017-06-28T00:00:00Z'
+date: 2017-06-28 00:00:00 +0000
 description: ''
 tags: []
 title: Changing Plan

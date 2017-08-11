@@ -1,5 +1,5 @@
 ---
-date: '2016-06-14T17:13:00Z'
+date: 2016-06-14 17:13:00 +0000
 description: ''
 tags: []
 title: Why do I have to allow access to my GitHub organization?

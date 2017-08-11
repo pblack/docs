@@ -1,5 +1,5 @@
 ---
-date: '2016-07-21T05:50:00Z'
+date: 2016-07-21 05:50:00 +0000
 description: ''
 tags: ''
 title: Why does Forestry need so many permissions for GitHub?

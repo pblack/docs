@@ -1,5 +1,5 @@
 ---
-date: '2016-07-20T03:30:00Z'
+date: 2016-07-20 03:30:00 +0000
 description: ''
 tags: []
 title: How can I control which GitHub repositories Forestry has access to?

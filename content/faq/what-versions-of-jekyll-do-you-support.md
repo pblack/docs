@@ -1,5 +1,5 @@
 ---
-date: '2016-07-18T15:52:00Z'
+date: 2016-07-18 15:52:00 +0000
 description: ''
 tags:
 - jekyll
