@@ -20,7 +20,7 @@ fields:
   label: Description
   description: A short description of why you would use this field type
   config:
-    wysiwyg: true
+    wysiwyg: ''
 - name: image
   type: file
   label: Image
@@ -34,9 +34,12 @@ fields:
     type: text
     label: Name
     description: ''
-  - name: description
-    type: text
+  - type: textarea
+    name: description
     label: Description
+    description: ''
+    config:
+      wysiwyg: true
   - name: type
     type: select
     label: Type
@@ -52,9 +55,9 @@ fields:
       - Select
       - Tags List
       - Sortable List
-  - name: options
+  - name: suboptions
     type: field_group_list
-    label: Field Options
+    label: Sub-options
     description: ''
     fields:
     - name: name
@@ -79,6 +82,8 @@ fields:
           - Select
           - Tags List
           - Sortable List
+    config:
+      labelField: name
 - name: output
   type: field_group
   label: Output
