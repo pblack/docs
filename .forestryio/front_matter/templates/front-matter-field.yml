@@ -48,6 +48,33 @@ fields:
       - Select
       - Tags List
       - Sortable List
+  - name: options
+    type: field_group_list
+    label: Field Options
+    description: ''
+    fields:
+      - name: name
+        type: text
+        label: Name
+        description: ''
+      - name: description
+        type: text
+        label: Description
+      - name: type
+        type: select
+        label: Type
+        default: Text
+        config:
+          source:
+            type: simple
+            options:
+              - Text
+              - Textarea
+              - Number
+              - Toggle
+              - Select
+              - Tags List
+              - Sortable List
 - name: output
   type: field_group
   label: Output

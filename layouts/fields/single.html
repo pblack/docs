@@ -18,6 +18,14 @@
       {{ range .Params.options }}
         <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
         <p>{{ .description }}</p>
+        {{ with .suboptions }}
+        <div class="pl3">
+          {{ range . }}
+          <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
+          <p>{{ .description }}</p>
+          {{ range }}
+        </div>
+        {{ end }}
       {{ end }}
       {{ end }}
 
