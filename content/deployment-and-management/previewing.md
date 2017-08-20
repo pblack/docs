@@ -2,10 +2,10 @@
 date: 2013-07-24 00:00:00 +0000
 description: ''
 related:
-- title: "Jekyll Asset Pipeline"
-  url: /developing-with-jekyll/asset-pipeline/
-- title: "Hugo Asset Pipeline"
-  url: /developing-with-hugo/asset-pipeline/
+- title: Jekyll Asset Pipeline
+  url: "/developing-with-jekyll/asset-pipeline/"
+- title: Hugo Asset Pipeline
+  url: "/developing-with-hugo/asset-pipeline/"
 tags: ''
 title: Previewing
 menu:
