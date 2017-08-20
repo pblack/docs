@@ -19,6 +19,8 @@ fields:
   type: textarea
   label: Description
   description: A short description of why you would use this field type
+  config:
+    wysiwyg: true
 - name: image
   type: file
   label: Image
@@ -55,28 +57,28 @@ fields:
     label: Field Options
     description: ''
     fields:
-      - name: name
-        type: text
-        label: Name
-        description: ''
-      - name: description
-        type: text
-        label: Description
-      - name: type
-        type: select
-        label: Type
-        default: Text
-        config:
-          source:
-            type: simple
-            options:
-              - Text
-              - Textarea
-              - Number
-              - Toggle
-              - Select
-              - Tags List
-              - Sortable List
+    - name: name
+      type: text
+      label: Name
+      description: ''
+    - name: description
+      type: text
+      label: Description
+    - name: type
+      type: select
+      label: Type
+      default: ''
+      config:
+        source:
+          type: simple
+          options:
+          - Text
+          - Textarea
+          - Number
+          - Toggle
+          - Select
+          - Tags List
+          - Sortable List
 - name: output
   type: field_group
   label: Output
