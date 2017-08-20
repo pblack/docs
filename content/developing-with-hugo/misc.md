@@ -12,7 +12,7 @@ tags: ''
 title: Misc
 menu:
   developing-with-hugo:
-    weight: 8
+    weight: 9
 
 ---
 ## Sitemap

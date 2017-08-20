@@ -7,7 +7,7 @@ tags = []
 title = "Environments"
 type = "default"
 [menu.developing-with-hugo]
-weight = 1
+weight = 6
 
 +++
 They are three unique developer environments when working with a Hugo site in Forestry:
