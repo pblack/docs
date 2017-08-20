@@ -1,4 +1,6 @@
 ---
+pages:
+- front-matter-fields/text-field-1.md
 hide_body: false
 fields:
 - name: type
