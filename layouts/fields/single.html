@@ -23,7 +23,7 @@
           {{ range . }}
           <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
           <p>{{ .description }}</p>
-          {{ range }}
+          {{ end }}
         </div>
         {{ end }}
       {{ end }}
