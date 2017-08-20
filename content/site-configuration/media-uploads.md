@@ -22,9 +22,7 @@ You can configure:
 * **Content Body File URL:** how we should format the media URLs added to the body
 
 ### UPLOAD FOLDER
-The upload folder is the actual directory we store your images in your repository.
-
-Unless you have a special build process, this *should* live inside the `/static` folder so that your images are included in your built site.
+The upload folder is the actual directory we store your images in your repository at the time of upload. Please note that changing this setting will not move previously uploaded files.
 
 ### FRONT MATTER FILE URL
 When you set up a Front Matter Template with an image upload, gallery or similar front matter field type, you may want to specify the folder you want files saved in and the url you want to serve them from. 
