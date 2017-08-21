@@ -8,7 +8,7 @@ tags: ''
 type: fields
 title: Number Field
 image: "/docs/assets/images/Number%20Preview.jpg"
-weight: 1
+weight: 3
 config:
   code_samples:
     yaml: |
@@ -16,6 +16,7 @@ config:
       name: [String]
       label: [String]
       description: [String] 
+      hidden: [true|false]
       config:
         min: [Number]
         max: [Number]
@@ -36,9 +37,9 @@ options:
     type: Number
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.price }}</h1> "
+    - code: "<p>{{ .Params.price }}</p>"
   jekyll: 
-    - code: "<h1>{{ page.price }}</h1>"
+    - code: "<p>{{ page.price }}</p>"
 subtypes: ''
 output:
   json: "{ \n  \"price\": \"value\"\n} \n"

@@ -6,14 +6,15 @@ tags: ''
 type: fields
 title: Select Field
 image: "/docs/assets/images/Select%20Preview.jpg"
-weight: 1
+weight: 5
 config:
   code_samples:
     yaml: |
-      type: boolean
+      type: select
       name: [String]
       label: [String]
       description: [String] 
+      hidden: [true|false]
       config:
           source:
             type: [simple|data|pages]

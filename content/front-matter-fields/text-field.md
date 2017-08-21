@@ -13,8 +13,10 @@ config:
       type: text
       name: [String]
       label: [String]
-      description: [String] 
+      description: [String]
       hidden: [true|false]
+      config:
+        required: [true|false]
 options_image: "/docs/assets/images/Required-Hidden%20Options.jpg"
 options:
 - name: Hidden

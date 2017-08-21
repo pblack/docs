@@ -8,7 +8,7 @@ tags: ''
 type: fields
 title: Toggle Field
 image: "/docs/assets/images/Toggle%20Preview.jpg"
-weight: 1
+weight: 4
 config:
   code_samples:
     yaml: |
@@ -16,6 +16,7 @@ config:
       name: [String]
       label: [String]
       description: [String] 
+      hidden: [true|false]
 options_image: "/docs/assets/images/Hidden-only%20Options.jpg"
 options:
   - name: Hidden
@@ -23,12 +24,37 @@ options:
     type: Toggle
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.is_featured }}</h1> "
+    - code |
+        // Show a banner if featured
+        
+        {{ if .Params.is_featured }}
+          <img src="{{ .Params.banner }}">
+        {{ end }}
+    - code: |
+      // Gets all pages that are featured
+
+      {{ range where .Site.Pages "Params.is_featured" "true" }}
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Summary }}</p>
+      {{ end }}
   jekyll: 
-    - code: "<h1>{{ page.is_featured }}</h1>"
-subtypes: ''
+    - code: |
+        // Show a banner if featured
+
+        {% if page.is_featured %}
+          <img src="{{ page.banner }}">
+        {% endif %}
+    - code: |
+        // Get all posts that are featured
+
+        {% for post in site.posts %}
+          {% if post.is_featured %}
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.summary }}</p>
+          {% endif %}
+        {% endfor %}
 output:
-  json: "{ \n  \"is_featured\": \"value\"\n} \n"
-  toml: "+++ \nis_featured = \"value\"\n+++ \n"
-  yaml: "--- \nis_featured: value \n--- \n"
+  json: "{ \n  \"is_featured\": \"true\"\n} \n"
+  toml: "+++ \nis_featured = \"true\"\n+++ \n"
+  yaml: "--- \nis_featured: true \n--- \n"
 ---

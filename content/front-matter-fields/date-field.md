@@ -8,7 +8,7 @@ tags: ''
 type: fields
 title: Date Field
 image: "/docs/assets/images/Date%20Preview.jpg"
-weight: 1
+weight: 6
 config:
   code_samples:
     yaml: |
@@ -16,6 +16,7 @@ config:
       name: [String]
       label: [String]
       description: [String] 
+      hidden: [true|false]
       config:
         date_format: [String]
         time_format: [String] 

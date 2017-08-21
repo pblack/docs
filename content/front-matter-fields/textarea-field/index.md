@@ -8,7 +8,7 @@ tags: ''
 type: fields
 title: Textarea Field
 image: "/docs/assets/images/Textarea%20Preview.jpg"
-weight: 1
+weight: 2
 config:
   code_samples:
     yaml: |
@@ -16,6 +16,7 @@ config:
       name: [String]
       label: [String]
       description: [String] 
+      hidden: [true|false]
       config:
         wysiwyg: [true|false]
 options_image: "/docs/assets/images/Textarea%20Options.jpg"
@@ -32,10 +33,10 @@ output:
   yaml: "--- \ndescription: value \n--- \n"
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.description }}</h1> "
+    - code: "<p>{{ .Params.description }}</p>"
   jekyll: 
-    - code: "<h1>{{ page.description }}</h1>"
+    - code: "<p>{{ page.description }}</p>"
 subtypes:
-  - name: WYSIWYG Textarea
+  - name: Textarea Field (WYSIWYG)
     page: /front-matter-fields/textarea-field/wysiwyg
 ---
