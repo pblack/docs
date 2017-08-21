@@ -4,6 +4,9 @@ date: 2017-08-20T15:25:43+00:00
 description: "Allows configuration of Forestry in your site’s source code"
 tags: []
 title: Config as Code
+menu:
+  site-configuration:
+    weight: 10
 ---
 Forestry stores the settings and configuration of the CMS for each site in a `.forestrio/` folder in your site’s source code. This allows developers to create default configurations that can be shared between multiple sites, and to deliver source code with Forestry CMS pre-configured.
 
