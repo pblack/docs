@@ -1,18 +1,18 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related:
-- title: "“Jekyll Usage Guide”"
-  url: https://jekyllrb.com/docs/usage/
-- title: "“Using Jekyll with GitHub Pages”"
-  url: https://help.github.com/articles/using-jekyll-with-pages/
-tags: ''
-title: Local Development
+description: ""
 menu:
   developing-with-jekyll:
     weight: 7
-
+related:
+- title: “Jekyll Usage Guide”
+  url: https://jekyllrb.com/docs/usage/
+- title: “Using Jekyll with GitHub Pages”
+  url: https://help.github.com/articles/using-jekyll-with-pages/
+tags: ""
+title: Local Development
 ---
+
 Jekyll allows you to work on your site in a local environment on your computer. It requires you to have `Ruby`, `RubyGems` and `Bundler` installed.
 
 For detailed instructions on installing Ruby for your operating system, see the [Ruby Docs][1].

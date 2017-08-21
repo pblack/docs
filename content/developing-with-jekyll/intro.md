@@ -1,18 +1,18 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related:
-- title: "“Jekyll Documentation”"
-  url: http://jekyllrb.com/docs
-- title: "“Jekyll Quickstart Guide”"
-  url: http://jekyllrb.com/docs/quickstart/
-tags: ''
-title: Intro to Jekyll
+description: ""
 menu:
   developing-with-jekyll:
     weight: 1
-
+related:
+- title: “Jekyll Documentation”
+  url: http://jekyllrb.com/docs
+- title: “Jekyll Quickstart Guide”
+  url: http://jekyllrb.com/docs/quickstart/
+tags: ""
+title: Intro to Jekyll
 ---
+
 Jekyll is one of the oldest static site generators available. Built by [GitHub][1], it has tons of community support and is very stable. Additional features can be added onto Jekyll through the use of plugins. It also uses the tempting language [Liquid][2], which feels very familiar to developers and is also used by Shopify and other large-scale applications. 
 
 ### Choose Jekyll if you:

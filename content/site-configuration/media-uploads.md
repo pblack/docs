@@ -1,18 +1,18 @@
 ---
-date: 2013-07-24 00:00:00 +0000
-description: ''
-related:
-- title: Assets not loading
-  url: "/docs/troubleshooting/assets-not-loading/"
-tags: []
-title: Media Uploads
-type: default
 Categories: []
+date: 2013-07-24 00:00:00 +0000
+description: ""
 menu:
   site-configuration:
     weight: 2
-
+related:
+- title: Assets not loading
+  url: /docs/troubleshooting/assets-not-loading/
+tags: []
+title: Media Uploads
+type: default
 ---
+
 In the settings for site’s CMS, you can configure how the media manager handles uploaded media.
 
 You can configure:

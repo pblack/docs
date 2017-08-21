@@ -1,13 +1,14 @@
-+++
-Categories = []
-date = "2016-08-20T00:31:00Z"
-description = "Tell Forestry where to put your images."
-tags = []
-title = "Custom image upload folder"
-[old_menu.setting_up_a_site]
-weight = 4
+---
+Categories: []
+date: 2016-08-20T00:31:00Z
+description: Tell Forestry where to put your images.
+old_menu:
+  setting_up_a_site:
+    weight: 4
+tags: []
+title: Custom image upload folder
+---
 
-+++
 Forestry has a simple interface for dragging images into your pages and posts. 
 
 ![](/docs/forestryio/images/image-upload.gif)

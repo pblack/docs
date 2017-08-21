@@ -1,16 +1,16 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related:
-- title: Jekyll Build Command Options
-  url: https://jekyllrb.com/docs/configuration/#build-command-options
-tags: ''
-title: Environments
+description: ""
 menu:
   developing-with-jekyll:
     weight: 6
-
+related:
+- title: Jekyll Build Command Options
+  url: https://jekyllrb.com/docs/configuration/#build-command-options
+tags: ""
+title: Environments
 ---
+
 There are three unique developer environments when working with a Jekyll site in Forestry:
 
 * **Local environment** this is your local development environment on your own machine. See [Local Development](/docs/developing-with-jekyll/local-development) for more info.

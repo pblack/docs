@@ -1,18 +1,18 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
+description: ""
+menu:
+  developing-with-jekyll:
+    weight: 2
 related:
 - title: Jekyll Directory Structure Reference
   url: https://jekyllrb.com/docs/structure/
 - title: Installing Gem-based Themes
   url: https://jekyllrb.com/docs/themes/#installing-a-theme
-tags: ''
+tags: ""
 title: Project Structure
-menu:
-  developing-with-jekyll:
-    weight: 2
-
 ---
+
 In Jekyll, project structure and naming is very important. The way you structure and name your project directly effects the organization of your built static site.
 
 For example, a Jekyll site may look like this:

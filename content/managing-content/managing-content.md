@@ -1,6 +1,9 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
+description: ""
+menu:
+  managing-content:
+    weight: 1
 related:
 - title: Jekyll Front Matter Reference
   url: https://jekyllrb.com/docs/frontmatter/
@@ -12,13 +15,10 @@ related:
   url: https://gohugo.io/content/front-matter/
 - title: Hugo Content Reference
   url: https://gohugo.io/content/example/
-tags: ''
+tags: ""
 title: Managing Content
-menu:
-  managing-content:
-    weight: 1
-
 ---
+
 Forestry allows you to manage all of your different types of content. These are separate pages in your CMS that allow you to view all of your drafted and published [content](/docs/managing-content/editing-content) for that type of content. You can find these under *"content"* in the sidebar of your CMS.
 
 ## Managing your content

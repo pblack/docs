@@ -1,14 +1,14 @@
 ---
+Categories: []
 date: 2013-07-24 00:00:00 +0000
 description: A guide to getting started with Forestry
-tags: []
-title: Importing a site
-Categories: []
 menu:
   getting-started:
     weight: 4
-
+tags: []
+title: Importing a site
 ---
+
 ## Setting Up Your First Site
 
 Before you can begin using Forestry’s CMS, you need to first import a site built using Jekyll or Hugo for us to build your custom CMS around.

@@ -1,15 +1,15 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related: ''
-tags: ''
-title: Failed Imports
+description: ""
+draft: true
 menu:
   troubleshooting:
     weight: 4
-draft: true
-
+related: ""
+tags: ""
+title: Failed Imports
 ---
+
 # Failed imports
 When importing your site, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
 

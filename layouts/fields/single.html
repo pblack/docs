@@ -6,58 +6,91 @@
 	<div class="pure-u-1 pure-u-md-3-4">
 		<div class="content">
 			<h1>{{ .Title }} <a href="https://github.com/forestryio/docs/edit/master/content/{{ .Source.File.Path }}" target="_new" class="doc-edit"><span class="icon icon-mode-edit"></span></a></h1>
-			<p class="intro">{{ .Description | markdownify }}</p>
-      <p>{{ .Content }}</p>
-      <h2>Field UI</h2>
-      <img class="center" src="{{ .Params.image }}" />
+			<p class="intro">{{ .Description | markdownify }}</p> 
 
       {{ if .Params.options }}
-      <h2>Options</h2>
-      Here are the extra options available when creating a field of this
-      type in a Front Matter Template.
-      {{ range .Params.options }}
-        <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
-        <p>{{ .description }}</p>
-        {{ with .suboptions }}
-        <div class="pl3">
-          {{ range . }}
+        <h2>Options</h2>
+        {{ if .Params.options_image }}
+          <img src="{{ .Params.options_image }}" alt="{{ .Title }} options preview" />
+        {{ end }}
+        <p>{{ .Title | pluralize }} have the following options:</p>
+        {{ range .Params.options }}
           <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
-          <p>{{ .description }}</p>
-          {{ end }}
-        </div>
+          {{ .description | markdownify }}
         {{ end }}
       {{ end }}
+
+      <h2>Field UI</h2>
+      {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="{{ .Title }} UI" />
       {{ end }}
 
+       {{ if .Params.output }}
        <div class="tab-panel tab-panel--output">
          <h2 class="tab-panel__label">Output</h2>
-         Forestry will output the collected value to your page's
-         front matter in the following format:
+         <p>{{ .Title | pluralize }} will be output in your front matter using the "name" option as follows:</p>
          {{ range $format, $code := .Params.output }}
          <div class="tab tab--{{$format}}">
            <h3>{{ $format }}</h3>
-           <pre><code>{{ $code }}</code></pre>
+           <pre><code class="hljs {{ $format | lower }}">{{ $code }}</code></pre>
         </div>
         {{ end }}
       </div>
+      {{ end }}
 
+      {{ if .Params.how_to_use }}
       <div class="tab-panel tab-panel--how-to-use">
-        <h2 class="tab-panel__label">How to Use</h2>
-        Here are some simple examples of how to use the data output from
-        this field type in your themes.
-        {{ range $engine, $code := .Params.how_to_use }}
-        <div class="tab tab--{{$engine}}">
-          <h3 class="tab tab__label">{{ $engine}}</h3>
-           <pre><code>{{ $code }}</code></pre>
-        </div>
+        <h2 class="tab-panel__label">Templating</h2>
+        <p>Here are some simple examples of how to use the data output from
+        {{ .Title | pluralize }} in your themes.</p>
+        {{ range $engine, $value := .Params.how_to_use }}
+          <div class="tab tab--{{$engine}}">
+            <h3 class="tab tab__label">{{ $engine}}</h3>
+            {{ range $value }}
+              {{ if .description }}
+                {{ . | markdownify }}
+              {{ end }}
+              {{ if .code }}
+                <pre><code class="hljs html">{{ .code }}</code></pre>
+              {{ end }} 
+            {{ end }}
+          </div>
         {{ end }}
       </div>
+      {{ end }}
+
+      {{ if .Params.config }}
+      <div class="tab-panel tab-panel--config">
+        <h2 class="tab-panel__label">Config as Code</h2>
+        <p>{{ .Title | pluralize }} have the following configuration:</p>
+        {{ range $format, $code := .Params.config.code_samples }}
+         <div class="tab tab--{{$format}}">
+           <h3>{{ $format }}</h3>
+           <pre><code class="hljs {{ $format | lower }}">{{ $code }}</code></pre>
+        </div>
+        {{ end }}
+        {{ with .Params.config.instructions }}
+        {{ . | markdownify }}
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ if .Content }}
+      <div class="tab-panel tab-panel--notes">
+        <h2 class="tab-panel__label">Other Information</h2>
+        {{ .Content }}
+      </div>
+      {{ end }}
 
       {{ if .Params.subtypes }}
-        <h2>Subtypes</h2>
+        <h2>Sub-types</h2>
+        <ol>
         {{ range sort .Params.subtypes }}
-          {{ .name }}
+          {{ if and .name .page }}
+          <li><a href="{{ .page | relURL }}">{{ .name }}</a></li>
+          {{ end }}
         {{ end }}
+        </ol>
       {{ end }}
 
 		</div>

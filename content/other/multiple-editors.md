@@ -1,13 +1,14 @@
-+++
-Categories = ""
-date = "2017-03-07T12:32:13Z"
-description = "Currently, Forestry.io does not support simultaneous, multi-user editing. "
-tags = ""
-title = "Multiple Editors"
-[old_menu.editing_content]
-weight = 3
+---
+Categories: ""
+date: 2017-03-07T12:32:13Z
+description: 'Currently, Forestry.io does not support simultaneous, multi-user editing. '
+old_menu:
+  editing_content:
+    weight: 3
+tags: ""
+title: Multiple Editors
+---
 
-+++
 When 2 people edit the same page, Forestry.io applies a "last in last out" rule.
 
 ## Example: two editors in Forestry

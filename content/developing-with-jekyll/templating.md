@@ -1,14 +1,14 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related: []
-tags: ''
-title: Templating
+description: ""
 menu:
   developing-with-jekyll:
     weight: 3
-
+related: []
+tags: ""
+title: Templating
 ---
+
 Jekyll allows users to build their HTML templates using the template language *Liquid* built and used by the popular eCommerce application [Shopify][1].
 
 ## Liquid

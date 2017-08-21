@@ -1,13 +1,13 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-tags: ''
-title: Managing Users
+description: ""
 menu:
   deployment-and-management:
     weight: 3
-
+tags: ""
+title: Managing Users
 ---
+
 In Forestry, users are managed on a per-site basis. On free plans, you can only have 1 user.
 
 If you are on a paid plan, you can invite additional users to your site. This can be done from your [Sites Dashboard][1].

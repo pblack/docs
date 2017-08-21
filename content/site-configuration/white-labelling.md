@@ -1,14 +1,14 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related: []
-tags: ''
-title: White-labelling
+description: ""
 menu:
   site-configuration:
     weight: 6
-
+related: []
+tags: ""
+title: White-labelling
 ---
+
 Forestry allows users to white-label their custom CMS by uploading their own logo in the site settings. This is great for freelancers or businesses that want to provide their customers with a powerful CMS for their Static Site while maintaining their own business branding.
 
 ## White-label Standards

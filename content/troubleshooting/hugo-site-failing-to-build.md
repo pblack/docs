@@ -1,14 +1,15 @@
-+++
-Categories = ""
-date = "2017-03-04T06:47:49Z"
-description = ""
-draft = true
-tags = ""
-title = "Hugo site failing to build"
-[menu.troubleshooting]
-weight = 8
+---
+Categories: ""
+date: 2017-03-04T06:47:49Z
+description: ""
+draft: true
+menu:
+  troubleshooting:
+    weight: 8
+tags: ""
+title: Hugo site failing to build
+---
 
-+++
 There are several reason your Hugo site may be failing to build on Forestry. Here are a few of the most common ones and the reasons.
 
 ### You are using deprecated features
