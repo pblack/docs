@@ -5,7 +5,7 @@ description: Allows users to enter a single-line of text
 tags: ''
 type: fields
 title: Text Field
-image: "/docs/assets/images/Text%20Preview.jpg"
+image: "/docs/assets/images/Text%20Field%20Preview.jpg"
 weight: 1
 config:
   code_samples:
