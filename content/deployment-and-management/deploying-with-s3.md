@@ -86,14 +86,19 @@ Now you must set up a *permission policy* for the new user. This dictates how th
 
 * Set the `Effect` to `Allow`
 * Set the `AWS Service` to `Amazon S3`
-* Set `Actions` to `All Actions`
+* From `Actions` enable: 
+   * `s3:PutObject`
+   * `s3:GetObject`
+   * `s3:DeleteObject`
 * Set the `Amazon Resource Name (ARN)` to `arn:aws:s3:::your-bucket-name/*`. *Ensure you change `your-bucket-name` to the name of your bucket*
 
 **Statement 2**
 
 * Set the `Effect` to `Allow`
 * Set the `AWS Service` to `Amazon S3`
-* Set `Actions` to `All Actions`
+* From `Actions` enable: 
+   * `s3:ListBucket`
+   * `s3:GetBucketLocation`
 * Set the `Amazon Resource Name (ARN)` to `arn:aws:s3:::your-bucket-name`. *Ensure you change `your-bucket-name` to the name of your bucket*
 
 * Now click `Next`, give your policy a name *(e.g, forestry-policy) *, and then click `Create Policy`
