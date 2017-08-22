@@ -47,9 +47,10 @@ Now we need to properly configure the bucket with a *permission policy* that wil
 
 * Navigate to the `Permissions` tab, and then to `Bucket Policy`.
 * Copy and paste the policy below into the bucket policy editor.
-* Replace `example.com` with the name of your bucket *(e.g, forestry.io)*.
+* Replace `example.com` in the `Resource` field with the name of your bucket *(e.g, forestry.io)*.
 * Click `Save`
 
+```
 {
   "Version": "2012-10-17",
     "Statement": [
@@ -62,6 +63,7 @@ Now we need to properly configure the bucket with a *permission policy* that wil
     }
     ]
 }
+```
 
 
 ## Setting Up An IAM User
