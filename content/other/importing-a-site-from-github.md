@@ -16,4 +16,4 @@ To import a site from GitHub, you just need to click on the GitHub button when y
 ### GitHub Organizations
 If you're trying to connect to a repository from your GitHub organization, ensure that you have enabled [3rd-party access](https://help.github.com/articles/enabling-third-party-application-restrictions-for-your-organization/). 
 
-Forestry also allows you to host your sites for free on GitHub, with [Github pages](https://pages.github.com/). This is a great workflow for those who are already using GitHub, and best of all it's free! We have a doc [here](/docs/deployment-and-hosting/hosting-with-github-pages/) you can use to get started.
+Forestry also allows you to host your sites for free on GitHub, with [Github pages](https://pages.github.com/). This is a great workflow for those who are already using GitHub, and best of all it's free! We have a doc [here](/docs/deployment-and-management/deploying-with-github-pages/) you can use to get started.
