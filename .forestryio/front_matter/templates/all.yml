@@ -1,7 +1,7 @@
 ---
 pages:
-- site-configuration/config-as-code.md
 - all.html
+- site-configuration/config-as-code.md
 hide_body: true
 fields:
 - name: title

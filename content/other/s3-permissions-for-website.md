@@ -2,6 +2,7 @@
 categories = ["Hosting"]
 date = "2016-05-24T13:43:00Z"
 description = "If you are hosting your website on S3, ensure you set up a bucket policy that will allow public access for all files. "
+draft = true
 tags = ["s3", "hosting"]
 title = "S3 Permissions for Website"
 
