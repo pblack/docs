@@ -2,6 +2,7 @@
 Categories = []
 date = "2016-07-21T23:10:00Z"
 description = "Forestry supports editing with WYSIWYG, Markdown and HTML."
+draft = true
 tags = []
 title = "Markdown Vs. WYSIWYG editors"
 [old_menu.editing_content]
