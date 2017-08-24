@@ -24,19 +24,19 @@ options:
     type: Toggle
 how_to_use:
   hugo: 
-    - code |
-        // Show a banner if featured
+    - code: |
+        "// Show a banner if featured
         
         {{ if .Params.is_featured }}
           <img src="{{ .Params.banner }}">
-        {{ end }}
+        {{ end }}"
     - code: |
-      // Gets all pages that are featured
+        // Gets all pages that are featured
 
-      {{ range where .Site.Pages "Params.is_featured" "true" }}
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Summary }}</p>
-      {{ end }}
+        {{ range where .Site.Pages "Params.is_featured" "true" }}
+          <h1>{{ .Title }}</h1>
+          <p>{{ .Summary }}</p>
+        {{ end }}"
   jekyll: 
     - code: |
         // Show a banner if featured
