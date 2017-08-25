@@ -1,6 +1,6 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
+description: 'Edit front matter and markdown content'
 related:
 - title: Jekyll Collections
   url: https://jekyllrb.com/docs/collections/

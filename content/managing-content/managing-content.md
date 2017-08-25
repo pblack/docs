@@ -1,6 +1,6 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
+description: 'Adding, removing, and publishing your content'
 related:
 - title: Jekyll Front Matter Reference
   url: https://jekyllrb.com/docs/frontmatter/
