@@ -8,6 +8,8 @@ menu:
     weight: 5
 
 ---
+
+
 A historical list of all invoices for your account is available in `Account Settings`.
 
 Account Settings can be accessed from two locations:
