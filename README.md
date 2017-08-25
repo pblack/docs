@@ -1,7 +1,7 @@
 ## setup
-- from the `promosite` directory
+- from the `docs` directory
 - `npm i` will install all dependencies
-- 'git clone git@github.com:forestryio/forestry-doc-theme.git hugo/themes/forestry-doc-theme' to the `./themes/` directory
+- `git clone git@github.com:forestryio/forestry-doc-theme.git themes/forestry-doc-theme` from the project root
 
 ## gulp commands
 

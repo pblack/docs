@@ -47,9 +47,10 @@ Now we need to properly configure the bucket with a *permission policy* that wil
 
 * Navigate to the `Permissions` tab, and then to `Bucket Policy`.
 * Copy and paste the policy below into the bucket policy editor.
-* Replace `example.com` with the name of your bucket *(e.g, forestry.io)*.
+* Replace `example.com` in the `Resource` field with the name of your bucket *(e.g, forestry.io)*.
 * Click `Save`
 
+```
 {
   "Version": "2012-10-17",
     "Statement": [
@@ -62,6 +63,7 @@ Now we need to properly configure the bucket with a *permission policy* that wil
     }
     ]
 }
+```
 
 
 ## Setting Up An IAM User
@@ -86,14 +88,19 @@ Now you must set up a *permission policy* for the new user. This dictates how th
 
 * Set the `Effect` to `Allow`
 * Set the `AWS Service` to `Amazon S3`
-* Set `Actions` to `All Actions`
+* From `Actions` enable: 
+   * `s3:PutObject`
+   * `s3:GetObject`
+   * `s3:DeleteObject`
 * Set the `Amazon Resource Name (ARN)` to `arn:aws:s3:::your-bucket-name/*`. *Ensure you change `your-bucket-name` to the name of your bucket*
 
 **Statement 2**
 
 * Set the `Effect` to `Allow`
 * Set the `AWS Service` to `Amazon S3`
-* Set `Actions` to `All Actions`
+* From `Actions` enable: 
+   * `s3:ListBucket`
+   * `s3:GetBucketLocation`
 * Set the `Amazon Resource Name (ARN)` to `arn:aws:s3:::your-bucket-name`. *Ensure you change `your-bucket-name` to the name of your bucket*
 
 * Now click `Next`, give your policy a name *(e.g, forestry-policy) *, and then click `Create Policy`

@@ -2,6 +2,7 @@
 Categories = []
 date = "2016-08-20T00:31:00Z"
 description = "Tell Forestry where to put your images."
+draft = true
 tags = []
 title = "Custom image upload folder"
 [old_menu.setting_up_a_site]
