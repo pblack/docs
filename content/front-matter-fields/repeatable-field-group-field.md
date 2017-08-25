@@ -10,14 +10,16 @@ weight: 12
 config:
   code_samples:
     yaml: |
-      type: list
+      type: field_group_list
       name: [String]
       label: [String]
       description: [String]
       hidden: [true|false]
       fields: [Array]
-    instructions: |
-      The `fields` array accepts the YAML configuration for any field.
+      config:
+        labelField: [String]
+  instructions: |
+      The `fields` array accepts the YAML configuration for any field type.
 options_image: "/docs/assets/images/Repeatable%20Field%20Group%20Options.jpg"
 options:
 - name: Hidden

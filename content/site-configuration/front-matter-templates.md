@@ -20,7 +20,7 @@ Front Matter Templates allow you to control what data is displayed in the CMS, a
 
 Front matter templates can be accessed from the sidebar under `Front Matter` by users with the `developer` role or higher.
 
-The configuration for Front Matter Templates is stored in your site’s source at `/.forestryio/front_matter/templates/` in individual YAML files. See [Config as Code](/site-configuration/config-as-code#front-matte-templates) for more information.
+The configuration for Front Matter Templates is stored in your site’s source at `/.forestryio/front_matter/templates/` in individual YAML files. See [Config Files](/site-configuration/config-files#front-matter-templates) for more information.
 
 ## Creating Front Matter Templates
 Front Matter Templates can be created from scratch, or can be created using the fields from an existing page without a Front Matter Template.
@@ -43,7 +43,7 @@ Front Matter Templates can be applied to all content in a Jekyll collection or H
 Applying or changing a Front Matter Template follows a “no modification” rule, it will not remove or modify values that already exist in your content files.
 
 ## Section & Collection Defaults
-To apply a Front Matter Template to an entire section or collection, you must edit the section or collection defaults in the `settings.yml` configuration file. See [Config as Code](/site-configuration/config-as-code#front-matter-templates) for more information.
+To apply a Front Matter Template to an entire section or collection, you must edit the section or collection defaults in the `settings.yml` configuration file. See [Config Files](/site-configuration/config-files#front-matter-templates) for more information.
 
 ## Page Templates
 To apply a Front Matter Template to a single page, navigate to the page you want to apply the Front Matter Template to, and click the `...` button in the page’s toolbar. In options dropdown, click `Change Template`

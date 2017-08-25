@@ -26,10 +26,28 @@ options:
   description: Toggle between allowing list items to be added through a text field, or a select field with pre-defined options.
   type: Toggle
 how_to_use:
-  hugo: 
-    - code: "<h1>{{ .Params.ingredients }}</h1> "
+  hugo:
+    - code: |
+        <p>{{ delimit .Params.ingredients ", " }}</p>
+        // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
+    - code: |
+        <h2>Ingredients:</h2>
+        <ul>
+        {{ range .Params.ingredients }}
+          <li>{{ . }}</li>
+        {{ end }}
+        </ul> 
   jekyll: 
-    - code: "<h1>{{ page.ingredients }}</h1>"
+    - code: |
+        <p>{{ page.ingredients | array_to_sentence_string }}</p>
+        // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
+    - code: |
+        <h2>Authors:</h2>
+        <ul>
+          {% for ingredient in page.ingredients }}
+            <li>{{ ingredient }}</li>
+          {{ endfor }}
+        </ul> 
 subtypes: ''
 output:
   json: |

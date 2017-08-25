@@ -17,16 +17,8 @@ config:
       hidden: [true|false]
       config:
           source:
-            type: [simple|data|pages]
-            file: [String] // type: data
-            path: [String] // type: data
-          options: [Array] // type: simple
-  instructions: |
-    `file` only applies when `type` is set to `data`. The value is filename of the data file desired. If the data file is inside a subdirectory, include the path as well.
-
-    `path` only applies when `type` is set to `data`. The value is the key in the data file to pull values from.
-
-    `options` only applies when `type` is set to `simple`. Provide an array of string values.
+            type: simple
+          options: [Array]
 options_image: "/docs/assets/images/Select%20Custom%20Options.jpg"
 options:
 - name: Hidden
@@ -39,16 +31,21 @@ options:
   description: Source select options manually, from pages, or from a data file.
   type: Select
 - name: Options
-  description: Provide the options available for the "custom" source type.
+  description: Provide the options available for the custom/simple source type.
   type: Tags List
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.author }}</h1> "
+    - code: "<p>{{ .Params.author }}</p>"
   jekyll: 
-    - code: "<h1>{{ page.author }}</h1>"
+    - code: "<p>{{ page.author }}</p>"
 subtypes: ''
 output:
   json: "{ \n  \"author\": \"value\"\n} \n"
   toml: "+++ \nauthor = \"value\"\n+++ \n"
   yaml: "--- \nauthor: value \n--- \n"
+subtypes:
+  - name: Select Field (Pages)
+    page: /front-matter-fields/select-field/pages
+  - name: Select Field (Data)
+    page: /front-matter-fields/select-field/data
 ---

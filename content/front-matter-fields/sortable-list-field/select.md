@@ -32,7 +32,7 @@ how_to_use:
         </ul>
     - code: |
         <p>{{ delimit .Params.authors ", " }}</p>
-        // Becomes James Appleseed, John Doe
+        // Becomes <p>James Appleseed, John Doe</p>
   jekyll: 
     - code: |
         <h2>Authors:</h2>
@@ -43,6 +43,6 @@ how_to_use:
         </ul>
     - code: |
           <p>{{ page.authors | array_to_sentence_string }}</p>
-          // Becomes James Appleseed, John Doe
+          // Becomes <p>James Appleseed, John Doe</p>
 ---
 The sortable list select sub-type uses the same `config` options as the [select field and its sub-types](/docs/front-matter-fields/select-field/).

@@ -33,4 +33,7 @@ An example of Liquid:
 	</html>
 ```
 
+See the [Front Matter Fields documentation][2] for examples of how to use Forestry in your templates.
+
 [1]:	https://shopify.com
+[2]: /docs/site-configuration/front-matter-templates#field-types

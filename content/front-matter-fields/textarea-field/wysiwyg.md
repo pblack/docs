@@ -11,7 +11,7 @@ hidden: true
 output:
   json: "{ \n  \"description\": \"<b>Bold formatted text</b>\"\n} \n"
   toml: "+++ \ndescription = \"<b>Bold formatted text</b>\"\n+++ \n"
-  yaml: "--- \ndescription: value \n--- \n"
+  yaml: "--- \ndescription: <b>Bold formatted text</b>\n--- \n"
 how_to_use:
   hugo: 
     - code: "<p>{{ .Params.description }}</p>"

@@ -1,5 +1,5 @@
 {{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ partial "nav-neg.html" . }}
 {{ partial "sub-header.html" . }}
 <div class="container pure-g">
 	{{ partial "sidenav.html" . }}
@@ -13,7 +13,7 @@
         {{ if .Params.options_image }}
           <img src="{{ .Params.options_image }}" alt="{{ .Title }} options preview" />
         {{ end }}
-        <p>{{ .Title | pluralize }} have the following options:</p>
+        <p>This field has the following options:</p>
         {{ range .Params.options }}
           <h3>{{ .name }} <small style="float: right;">{{ .type }}</small></h3>
           {{ .description | markdownify }}
@@ -28,11 +28,11 @@
        {{ if .Params.output }}
        <div class="tab-panel tab-panel--output">
          <h2 class="tab-panel__label">Output</h2>
-         <p>{{ .Title | pluralize }} will be output in your front matter using the "name" option as follows:</p>
+         <p>This field will be output in your front matter using the <code>name</code> option as follows:</p>
          {{ range $format, $code := .Params.output }}
          <div class="tab tab--{{$format}}">
            <h3>{{ $format }}</h3>
-           <pre><code class="hljs {{ $format | lower }}">{{ $code }}</code></pre>
+           <pre><code class=" {{ $format | lower }}">{{ $code }}</code></pre>
         </div>
         {{ end }}
       </div>
@@ -42,17 +42,21 @@
       <div class="tab-panel tab-panel--how-to-use">
         <h2 class="tab-panel__label">Templating</h2>
         <p>Here are some simple examples of how to use the data output from
-        {{ .Title | pluralize }} in your themes.</p>
+        this field in your themes.</p>
         {{ range $engine, $value := .Params.how_to_use }}
           <div class="tab tab--{{$engine}}">
-            <h3 class="tab tab__label">{{ $engine}}</h3>
-            {{ range $value }}
-              {{ if .description }}
-                {{ . | markdownify }}
+            <h3 class="tab tab__label">{{ $engine }}</h3>
+            {{ $len := sub ($value | len) 1 }}
+            {{ range $index, $value := $value }}
+              {{ if $value.description }}
+                {{ $value.description | markdownify }}
               {{ end }}
-              {{ if .code }}
-                <pre><code class="hljs html">{{ .code }}</code></pre>
-              {{ end }} 
+              {{ if $value.code }}
+                <pre><code class="html">{{ $value.code }}</code></pre>
+              {{ end }}
+              {{ if lt $index $len }}
+                <hr class="mv4">
+              {{ end }}
             {{ end }}
           </div>
         {{ end }}
@@ -61,16 +65,16 @@
 
       {{ if .Params.config }}
       <div class="tab-panel tab-panel--config">
-        <h2 class="tab-panel__label">Config as Code</h2>
-        <p>{{ .Title | pluralize }} have the following configuration:</p>
+        <h2 class="tab-panel__label">Usage in Config Files</h2>
+        <p>This field has the following configuration:</p>
         {{ range $format, $code := .Params.config.code_samples }}
          <div class="tab tab--{{$format}}">
            <h3>{{ $format }}</h3>
-           <pre><code class="hljs {{ $format | lower }}">{{ $code }}</code></pre>
+           <pre><code>{{ $code }}</code></pre>
         </div>
         {{ end }}
         {{ with .Params.config.instructions }}
-        {{ . | markdownify }}
+          {{ . | markdownify }}
         {{ end }}
       </div>
       {{ end }}
@@ -96,4 +100,5 @@
 		</div>
 	</div>
 </div>
+{{ partial "foot.html" . }}
 {{ partial "footer.html" . }}

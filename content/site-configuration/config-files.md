@@ -3,17 +3,17 @@ Categories: []
 date: 2017-08-20T15:25:43+00:00
 description: "Allows configuration of Forestry in your site’s source code"
 tags: []
-title: Config as Code
+title: Config Files
 menu:
   site-configuration:
     weight: 10
 ---
 Forestry stores the settings and configuration of the CMS for each site in a `.forestrio/` folder in your site’s source code. This allows developers to create default configurations that can be shared between multiple sites, and to deliver source code with Forestry CMS pre-configured.
 
-When importing a new site, a `.forestryio/` folder will be added to your site’s source. Any changes made to your CMS’ configuration will be committed to your site’s sourcein this folder.
+When importing a new site, a `.forestry/` folder will be added to your site’s source. Any changes made to your CMS’ configuration will be committed to your site’s sourcein this folder.
 
 ## Site Settings
-Your site settings are configured from `.forestryio/settings.yml`.
+Your site settings are configured from `.forestry/settings.yml`.
 
 The following is an example of `settings.yml` for a Hugo site.
 
@@ -124,7 +124,7 @@ collections:
 This allows you to configure the version of Hugo your site uses. This is limited to the latest versions of Hugo [supported by Forestry](https://forestry.io/docs/faq/what-versions-of-hugo-do-you-support/).
 
 ## Front Matter Templates
-The configuration files for Front Matter Templates is found in `.forestryio/front_matter/templates/`. Each Front Matter Template is stored as a separate file.
+The configuration files for Front Matter Templates is found in `.forestry/front_matter/templates/`. Each Front Matter Template is stored as a separate file.
 
 When importing a site for the first time in Forestry, these configuration files will take precedence over autogeneration from any Jekyll defaults or Hugo archetypes.
 
@@ -154,8 +154,6 @@ fields:
   type: list
 ---
 ```
-
-
 
 ### Options
 
@@ -189,13 +187,26 @@ The array of fields in this front matter template. They follow a standard format
 - `config` `object` Field-specific configuration options
 - `fields` `array` An array of fields. For field groups and repeatable field groups only.
 
-For a comprehensive overview of field configuration, see the [field type documentation](/docs/site-configuration/front-matter-fields#field-types).
+For a comprehensive overview of field configuration, see the [field type documentation](/docs/site-configuration/front-matter-templates#field-types).
 
-### Removing & Renaming Files
+### Removing Files
 
 To prevent the accidental deletion of Front Matter Templates, Front Matter Templates **must** be removed using the interface in the CMS.
 
-To prevent accidental deletion, any configuration files removed from the repo will remain in the CMS and be re-added to your site’s source on the next save or publish unless removed in Forestry. 
+Any configuration files removed from the repo will remain in the CMS and be re-added to your site’s source on the next save or publish unless removed in Forestry.
 
-Renaming configuration files is treated as the creation of a new Front Matter Template. In this scenario, both the original and new templates will exist in the CMS, and the original will be re-added to your site’s source on the next save or publish unless removed in Forestry.
+### Renaming Files
+Changing the name of a Front Matter Template in Forestry will rename the config file in the repository.
 
+Changing the file name of a config file in your repository will rename the Front Matter Template in Forestry. Instead, a new Front Matter Template will be created with the new name, and the original template will remain in Forestry.
+
+### Adding New Files
+New Front Matter Templates can be added to your repository, and will be added to the CMS upon import.
+
+Front Matter Template config files have a strict naming convention:
+
+- File names must be all lowercase
+- File names must use dashes in place of spaces
+- File names can not contain underscores or other special characters
+
+E.g, `Example Template` becomes `example-template.yml`

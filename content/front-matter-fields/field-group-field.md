@@ -10,7 +10,7 @@ weight: 11
 config:
   code_samples:
     yaml: |
-      type: list
+      type: field_group
       name: [String]
       label: [String]
       description: [String]
@@ -18,7 +18,7 @@ config:
       fields:
         - [Field]
   instructions: |
-    The `fields` array accepts the YAML configuration for any field.
+    The `fields` array accepts the YAML configuration for any field type.
 options_image: "/docs/assets/images/Hidden-only%20Options.jpg"
 options:
 - name: Hidden

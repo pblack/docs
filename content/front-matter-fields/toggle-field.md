@@ -25,7 +25,7 @@ options:
 how_to_use:
   hugo: 
     - code: |
-        "// Show a banner if featured
+        // Show a banner if featured
         
         {{ if .Params.is_featured }}
           <img src="{{ .Params.banner }}">
@@ -47,11 +47,9 @@ how_to_use:
     - code: |
         // Get all posts that are featured
 
-        {% for post in site.posts %}
-          {% if post.is_featured %}
+        {% for post in site.posts | where:"is_featured", "true" %}
           <h1>{{ page.title }}</h1>
           <p>{{ page.summary }}</p>
-          {% endif %}
         {% endfor %}
 output:
   json: "{ \n  \"is_featured\": \"true\"\n} \n"

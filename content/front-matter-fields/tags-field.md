@@ -24,7 +24,14 @@ options:
   type: Toggle
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.tags }}</h1> "
+    - code: |
+        {{ if .Params.tags }}
+        <ul>
+        {{ range .Params.tags }}
+          <li>{{ . }}</li>
+        {{ end }}
+        </ul> 
+        {{ end }}
   jekyll: 
     - code: "<h1>{{ page.tags }}</h1>"
 subtypes: ''
