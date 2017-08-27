@@ -10,7 +10,7 @@ menu:
 ---
 A historical list of all invoices for your account is available in `Account Settings`.
 
-Account Settings can be accessed from two locations:
+Account Settings can be accessed from two locations: 
 
 * From the dashboard, located in the top right <img src="/docs/assets/images/billing_account_dropdown.png" alt="Dashboard Dropdown" draggable="true" data-bukket-ext-bukket-draggable="true">
 
