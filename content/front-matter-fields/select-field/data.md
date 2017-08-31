@@ -56,7 +56,7 @@ how_to_use:
 
         In this scenario, we can use the value as-is.
       code: |
-          <p>{{ .params.author }}</p>
+          <p>{{ .Params.author }}</p>
     - description: |
           In this example, values are being pulled from an object, and a reference key is stored in front matter.
 
