@@ -39,7 +39,7 @@ how_to_use:
         <ul>
           {% for author in page.authors }}
             <li>{{ author }}</li>
-          {{ endfor }}
+          {% endfor %}
         </ul>
     - code: |
           <p>{{ page.authors | array_to_sentence_string }}</p>
