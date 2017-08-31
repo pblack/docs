@@ -33,14 +33,14 @@ options:
   type: Text
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.publishDate }}</h1> "
+    - code: "<time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>"
   jekyll: 
-    - code: "<h1>{{ page.publishDate }}</h1>"
+    - code: "<time datetime="{{ page.publishdate }}">{{ page.publishdate | date: "%B, %-d, %Y" }}</time>"
 subtypes: ''
 output:
-  json: "{ \n  \"publishDate\": \"YYYY-MM-DDTHH:MM:SS+-00:00\"\n} \n"
-  toml: "+++ \npublishDate = \"YYYY-MM-DDTHH:MM:SS+-00:00\"\n+++ \n"
-  yaml: "--- \npublishDate: YYYY-MM-DDTHH:MM:SS+-00:00 \n--- \n"
+  json: "{ \n  \"publishdate\": \"YYYY-MM-DDTHH:MM:SS+-00:00\"\n} \n"
+  toml: "+++ \npublishdate = \"YYYY-MM-DDTHH:MM:SS+-00:00\"\n+++ \n"
+  yaml: "--- \npublishdate: YYYY-MM-DDTHH:MM:SS+-00:00 \n--- \n"
 ---
 The date field always saves dates to front matter in a standardized format with the timezone configured in your site settings to ensure compatibility with each static site generator.
 
