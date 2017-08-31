@@ -44,7 +44,7 @@ output:
       ]
     }
   toml: "+++ \ngallery = \"/uploads/:year:/:month:/:day:/filename.ext\"\n+++ \n"
-  yaml: "--- \nbanner: /uploads/:year:/:month:/:day:/filename.ext \n--- \n"
+  yaml: "--- \ngallery: /uploads/:year:/:month:/:day:/filename.ext \n--- \n"
 
 ---
 The upload folder and permalink paths [can be configured](/docs/site-configuration/media-uploads/) if you don't desire the `/uploads/:year:/:month:/:day:/filename.ext` format.
