@@ -25,14 +25,14 @@ how_to_use:
     - code: |
         <ul>
           {{ range .Params.gallery }}
-            <img src="{{ . | relURL }}">"
+            <li><img src="{{ . | relURL }}"></li>
           {{ end }}
         </ul>
   jekyll: 
     - code: |
         <ul>
           {% for image in page.gallery %}
-            <img src="{{ image | relative_url }}">"
+            <li><img src="{{ image | relative_url }}"></li>
           {% endfor %}
         </ul>
 output:
