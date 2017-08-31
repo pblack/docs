@@ -44,9 +44,9 @@ how_to_use:
     - code: |
         <h2>Authors:</h2>
         <ul>
-          {% for ingredient in page.ingredients }}
+          {% for ingredient in page.ingredients %}
             <li>{{ ingredient }}</li>
-          {{ endfor }}
+          {% endfor %}
         </ul> 
 subtypes: ''
 output:
