@@ -1,11 +1,11 @@
-+++
-Categories = []
-date = "2016-06-09T18:08:00Z"
-description = "See the forestry through the trees"
-tags = []
-title = "Forestry Features"
+---
+Categories: []
+date: 2016-06-09T18:08:00Z
+description: See the forestry through the trees
+tags: []
+title: Forestry Features
+---
 
-+++
 ## A GUI for non-devs
 Saving changes from your Forestry CMS will:
 

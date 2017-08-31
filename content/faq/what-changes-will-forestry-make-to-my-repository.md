@@ -1,14 +1,14 @@
 ---
 date: 2016-07-18 15:55:00 +0000
-description: ''
-tags:
-- git
-title: Why did Forestry change my code!?
+description: ""
 menu:
   faq:
     weight: 3
-
+tags:
+- git
+title: Why did Forestry change my code!?
 ---
+
 As devs, we hate when people mess with our code.  So we try to do this as little as possible but sometimes it is unavoidable.
 
 ### Front matter

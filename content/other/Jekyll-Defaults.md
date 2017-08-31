@@ -1,14 +1,10 @@
-+++
-date = "2016-04-25T14:51:00Z"
-description = "Set default front matter for new pages and posts."
-draft = true
-tags = []
-title = "Default Fields For New Pages and Posts"
-[old_menu.setting_up_a_site]
-name = "Default Fields for New Pages and Posts"
-weight = 1
-
-+++
+---
+date: 2016-04-25T14:51:00Z
+description: Set default front matter for new pages and posts.
+draft: true
+tags: []
+title: Default Fields For New Pages and Posts
+---
 Forestry will make UI fields from the front matter of your posts, pages, and collections/sections.
 
 You can set up your site so Forestry will use default fields for new pages or posts. In the following example, we want all new pages to include a _Banner_ image, a _Categories_ field (array), and a _Description_ field.

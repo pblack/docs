@@ -1,13 +1,13 @@
 ---
 date: 2017-06-28 00:00:00 +0000
-description: ''
-tags: []
-title: Invoices
+description: ""
 menu:
   billing:
     weight: 5
-
+tags: []
+title: Invoices
 ---
+
 A historical list of all invoices for your account is available in `Account Settings`.
 
 Account Settings can be accessed from two locations: 

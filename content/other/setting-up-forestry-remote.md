@@ -1,14 +1,15 @@
-+++
-Categories = []
-date = "2016-11-01T16:37:05-04:00"
-description = "Log in from your domain (mysite.com/admin/)"
-draft = true
-tags = []
-title = "Setting up Forestry Remote"
-[old_menu.setting_up_a_site]
-weight = 6
+---
+Categories: []
+date: 2016-11-01T16:37:05-04:00
+description: Log in from your domain (mysite.com/admin/)
+draft: true
+old_menu:
+  setting_up_a_site:
+    weight: 6
+tags: []
+title: Setting up Forestry Remote
+---
 
-+++
 **Download** Download the single CMS file (it's just an `index.html` file).
 
 **For Hugo sites**  

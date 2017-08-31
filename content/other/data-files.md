@@ -1,15 +1,11 @@
-+++
-Categories = []
-date = "2016-07-20T23:19:00Z"
-description = "Data files can be edited from \"Chunks\" in your CMS sidebar "
-draft = true
-tags = []
-title = "Data Files "
-[old_menu.setting_up_a_site]
-name = "Setting up Data Files"
-weight = 5
-
-+++
+---
+Categories: []
+date: 2016-07-20T23:19:00Z
+description: 'Data files can be edited from "Chunks" in your CMS sidebar '
+draft: true
+tags: []
+title: 'Data Files '
+---
 Forestry supports [Hugo](https://gohugo.io/extras/datafiles/) and [Jekyll](https://jekyllrb.com/docs/datafiles/) data files. Forestry will allow you to edit data files under the **Chunks** section of your CMS.  
 
 <img src="/docs/forestryio/images/docs-chunk2.png" class="large center">

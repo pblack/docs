@@ -1,18 +1,22 @@
 ---
 date: 2013-07-24 00:00:00 +0000
+<<<<<<< HEAD
 description: Edit front matter and markdown content
+=======
+description: ""
+menu:
+  managing-content:
+    weight: 2
+>>>>>>> config-as-code
 related:
 - title: Jekyll Collections
   url: https://jekyllrb.com/docs/collections/
 - title: Hugo Sections
   url: https://gohugo.io/content/sections/
-tags: ''
+tags: ""
 title: Editing Content
-menu:
-  managing-content:
-    weight: 2
-
 ---
+
 Forestry has a fully-featured content editor that allows you to edit your page’s *front matter* (or "fields") and *content body*.
 
 ## Front Matter

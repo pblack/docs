@@ -1,20 +1,20 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related:
-- title: "“Hugo GoTemplates Reference”"
-  url: https://gohugo.io/templates/go-templates/
-- title: "“Hugo Ace Templates Reference”"
-  url: https://gohugo.io/templates/ace/
-- title: "“Hugo Amber Templates Reference”"
-  url: https://gohugo.io/templates/amber/
-tags: ''
-title: Templating
+description: ""
 menu:
   developing-with-hugo:
     weight: 3
-
+related:
+- title: “Hugo GoTemplates Reference”
+  url: https://gohugo.io/templates/go-templates/
+- title: “Hugo Ace Templates Reference”
+  url: https://gohugo.io/templates/ace/
+- title: “Hugo Amber Templates Reference”
+  url: https://gohugo.io/templates/amber/
+tags: ""
+title: Templating
 ---
+
 Hugo allows users to build layouts and themes using one of multiple templating languages. By default, Hugo uses GoLang’s GoTemplates.
 
 All of the template options are interchangeable, and can be used at the same time.
@@ -76,3 +76,7 @@ An example of Amber:
 	
 	                a[href="/"] Go To Main Page
 ```
+
+See the [Front Matter Fields documentation][1] for examples of how to use Forestry in your templates.
+
+[1]: /docs/site-configuration/front-matter-templates#field-types

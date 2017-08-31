@@ -1,16 +1,16 @@
 ---
 date: 2013-07-24 00:00:00 +0000
 description: What Hugo short codes are and how they work
-related:
-- title: "“Hugo Short Code Reference”"
-  url: https://gohugo.io/extras/shortcodes/
-tags: ''
-title: Hugo Short Codes
 menu:
   developing-with-hugo:
     weight: 8
-
+related:
+- title: “Hugo Short Code Reference”
+  url: https://gohugo.io/extras/shortcodes/
+tags: ""
+title: Hugo Short Codes
 ---
+
 You can extend the functionality of markdown in Hugo with short codes. Short codes are special templates that are called when a short code is used inside the content body.
 
 They can be used to add custom markup, format text, generate HTML elements, or pull in data from external sources.

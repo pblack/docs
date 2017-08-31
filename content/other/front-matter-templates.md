@@ -1,14 +1,12 @@
-+++
-Categories = ""
-date = "2017-01-30T09:23:05-05:00"
-description = "Front Matter Templates let you choose which front matter fields appear when editing your content."
-draft = true
-tags = ""
-title = "Front Matter Templates"
-[old_menu.setting_up_a_site]
-weight = 8
-
-+++
+---
+Categories: ""
+date: 2017-01-30T09:23:05-05:00
+description: Front Matter Templates let you choose which front matter fields appear
+  when editing your content.
+draft: true
+tags: ""
+title: Front Matter Templates
+---
 When creating a new page in Forestry, you will be asked to select a **Front Matter Template (FMT)**. This template determines which fields will be available on your new page and how they will be displayed.
 
 Front Matter Templates give you complete control over the display of your front matter fields.

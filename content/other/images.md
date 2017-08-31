@@ -1,12 +1,12 @@
-+++
-Categories = []
-date = "2016-07-21T22:41:00Z"
-description = ""
-draft = true
-tags = []
-title = "Adding Images"
+---
+Categories: []
+date: 2016-07-21T22:41:00Z
+description: ""
+draft: true
+tags: []
+title: Adding Images
+---
 
-+++
 Images may be added to posts directly in the main content body or through front matter fields. 
 
 ## Markdown Editor

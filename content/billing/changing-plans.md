@@ -1,13 +1,13 @@
 ---
 date: 2017-06-28 00:00:00 +0000
-description: ''
-tags: []
-title: Changing Plan
+description: ""
 menu:
   billing:
     weight: 4
-
+tags: []
+title: Changing Plan
 ---
+
 You can upgrade or downgrade a site's plan from `Account Settings`.
 
 Account Settings can be accessed from two locations:

@@ -1,13 +1,13 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-tags: ''
-title: Remote Admin
+description: ""
 menu:
   deployment-and-management:
     weight: 4
-
+tags: ""
+title: Remote Admin
 ---
+
 Forestry allows you to add a Remote Administration page to your site, so that users can access and manage the site without leaving your domain.
 
 This is great for large businesses or white-label solutions where you don’t want your users accessing the CMS through the Forestry website.

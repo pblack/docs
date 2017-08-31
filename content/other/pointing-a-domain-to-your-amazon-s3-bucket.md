@@ -1,13 +1,14 @@
-+++
-Categories = []
-date = "2016-09-03T16:02:00Z"
-description = "A quick guide on setting up a domain with Amazon Route 53"
-tags = []
-title = "Pointing a domain to your Amazon S3 bucket "
-[old_menu.deployment]
-weight = 6
+---
+Categories: []
+date: 2016-09-03T16:02:00Z
+description: A quick guide on setting up a domain with Amazon Route 53
+old_menu:
+  deployment:
+    weight: 6
+tags: []
+title: 'Pointing a domain to your Amazon S3 bucket '
+---
 
-+++
 ## What is DNS?
 The Domain Name System (DNS) is often a headache for the noob developers.   The purpose of DNS is to associate a readable domain name, like *forestry.io* with it's corresponding IP addresses.
 

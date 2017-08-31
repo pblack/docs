@@ -1,14 +1,14 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ''
-related: []
-tags: ''
-title: " Failed Publish, Preview, or Draft"
+description: ""
 menu:
   troubleshooting:
     weight: 3
-
+related: []
+tags: ""
+title: ' Failed Publish, Preview, or Draft'
 ---
+
 When publishing, previewing, or saving a draft, there are a multitude of reasons why your site may fail to import. Generally, they boil down to 3 reasons:
 
 - Your content files are improperly formatted.
