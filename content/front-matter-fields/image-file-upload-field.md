@@ -30,8 +30,8 @@ how_to_use:
     - code: "<img src=\"{{ .Params.banner | relURL }}\">"
     - code: "<img src=\"{{ .Params.banner | absURL }}\">"
   jekyll: 
-    - code: "<img src=\"{{ .Params.banner | relative_url }}\">"
-    - code: "<img src=\"{{ .Params.banner | absolute_url }}\">"
+    - code: "<img src=\"{{ page.banner | relative_url }}\">"
+    - code: "<img src=\"{{ page.banner | absolute_url }}\">"
 output:
   json: "{ \n  \"banner\": \"/uploads/:year:/:month:/:day:/filename.ext\"\n} \n"
   toml: "+++ \nbanner = \"/uploads/:year:/:month:/:day:/filename.ext\"\n+++ \n"
