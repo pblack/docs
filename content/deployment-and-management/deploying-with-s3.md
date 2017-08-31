@@ -4,10 +4,10 @@ description: How to deploy your static site using Amazon Web Services
 related:
 - title: Amazon Static Hosting Guide
   url: http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
-tags: ""
+tags: ''
 title: Deploying with Amazon S3
----
 
+---
 In order for Forestry to deploy your site to Amazon S3, the following must be set up:
 
 * An Amazon S3 bucket must be set up to serve your static site.

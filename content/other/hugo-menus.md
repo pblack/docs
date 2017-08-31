@@ -1,15 +1,15 @@
 ---
 Categories:
 - hugo
-date: 2016-07-19T16:17:00Z
-description: ""
-draft: true
+date: 2016-07-19 16:17:00 +0000
+description: ''
 tags:
 - hugo
-- ' old_menus'
+- " old_menus"
 title: Hugo Menus
----
+draft: true
 
+---
 Hugo has a powerful old_menu system that allows you to place content in old_menus, without a lot of work, but still provides a great deal of control. These old_menus work great with Forestry, as Forestry [allows you to edit them from your CMS](/editing-content-editing-old_menus-md).
 
 There are a few ways to add items to old_menus: 

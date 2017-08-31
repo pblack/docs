@@ -1,12 +1,12 @@
 ---
 Categories: []
-date: 2016-07-20T13:47:56-04:00
-description: ""
-draft: true
+date: 2016-07-20 13:47:56 -0400
+description: ''
+tags: []
+title: Broken Images or CSS
 menu:
   troubleshooting:
     weight: 6
-tags: []
-title: Broken Images or CSS
----
+draft: true
 
+---

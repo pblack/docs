@@ -1,14 +1,14 @@
 ---
 Categories: []
-date: 2016-07-21T01:48:00Z
+date: 2016-07-21 01:48:00 +0000
 description: 'Forestry is designed to work great with [GitHub](https://github.com/).
   You can use GitHub to keep track of the changes you make to your site, as well as
   host your site on GitHub with [GitHub-Pages](https://pages.github.com/). '
-draft: true
 tags: []
 title: Forestry and GitHub
----
+draft: true
 
+---
 Forestry is designed to work great with [GitHub](https://github.com/). You can use GitHub to keep track of the changes you make to your site, as well as host your site on GitHub with [GitHub-Pages](https://pages.github.com/). 
 
 ## Getting Started

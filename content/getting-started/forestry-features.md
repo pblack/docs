@@ -1,11 +1,11 @@
 ---
 Categories: []
-date: 2016-06-09T18:08:00Z
+date: 2016-06-09 18:08:00 +0000
 description: See the forestry through the trees
 tags: []
 title: Forestry Features
----
 
+---
 ## A GUI for non-devs
 Saving changes from your Forestry CMS will:
 

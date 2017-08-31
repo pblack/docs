@@ -1,9 +1,10 @@
 ---
-date: 2016-04-25T14:51:00Z
+date: 2016-04-25 14:51:00 +0000
 description: Set default front matter for new pages and posts.
-draft: true
 tags: []
 title: Default Fields For New Pages and Posts
+draft: true
+
 ---
 Forestry will make UI fields from the front matter of your posts, pages, and collections/sections.
 

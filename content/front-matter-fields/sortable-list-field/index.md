@@ -23,38 +23,32 @@ options:
   description: Hides this field in the UI, allowing for hidden default values.
   type: Toggle
 - name: Text/Select
-  description: Toggle between allowing list items to be added through a text field, or a select field with pre-defined options.
+  description: Toggle between allowing list items to be added through a text field,
+    or a select field with pre-defined options.
   type: Toggle
 how_to_use:
   hugo:
-    - code: |
-        <p>{{ delimit .Params.ingredients ", " }}</p>
-        // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
-    - code: |
-        <h2>Ingredients:</h2>
-        <ul>
-        {{ range .Params.ingredients }}
-          <li>{{ . }}</li>
-        {{ end }}
-        </ul> 
-  jekyll: 
-    - code: |
-        <p>{{ page.ingredients | array_to_sentence_string }}</p>
-        // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
-    - code: |
-        <h2>Ingredients:</h2>
-        <ul>
-          {% for ingredient in page.ingredients %}
-            <li>{{ ingredient }}</li>
-          {% endfor %}
-        </ul> 
-subtypes: ''
+  - code: |
+      <p>{{ delimit .Params.ingredients ", " }}</p>
+      // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
+  - code: "<h2>Ingredients:</h2>\n<ul>\n{{ range .Params.ingredients }}\n  <li>{{
+      . }}</li>\n{{ end }}\n</ul> \n"
+  jekyll:
+  - code: |
+      <p>{{ page.ingredients | array_to_sentence_string }}</p>
+      // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
+  - code: "<h2>Ingredients:</h2>\n<ul>\n  {% for ingredient in page.ingredients %}\n
+      \   <li>{{ ingredient }}</li>\n  {% endfor %}\n</ul> \n"
+subtypes:
+- name: Sortable List Field (Select)
+  page: "/front-matter-fields/sortable-list-field/select"
 output:
   json: |
     {
       ingredients: ["Butternut Squash", "Onions", "Butter", "Carrots"]
     }
-  toml: "+++ \ningredients = [\"Butternut Squash\",\"Onions\",\"Butter\",\"Carrots\"]\n+++ \n"
+  toml: "+++ \ningredients = [\"Butternut Squash\",\"Onions\",\"Butter\",\"Carrots\"]\n+++
+    \n"
   yaml: |
     ---
     ingredients:
@@ -63,7 +57,5 @@ output:
       - Butter
       - Carrots
     ---
-subtypes:
-  - name: Sortable List Field (Select)
-    page: /front-matter-fields/sortable-list-field/select
+
 ---

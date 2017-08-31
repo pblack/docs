@@ -1,15 +1,15 @@
 ---
 Categories: []
-date: 2016-07-19T04:21:00Z
-description: ""
-draft: true
+date: 2016-07-19 04:21:00 +0000
+description: ''
 old_menu:
   editing_content:
     weight: 0
 tags: []
 title: Editing Menus
----
+draft: true
 
+---
 Forestry allows you to edit old_menus for your Hugo site. To access this feature, navigate to the “Menus” tab on the left side of the screen.
 
 <span style="letter-spacing: 0.01em;">From here you can re-order old_menus by clicking and dragging the old_menu items.</span>  

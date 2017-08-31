@@ -1,12 +1,12 @@
 ---
 Categories: []
-date: 2016-07-21T03:08:00Z
-description: ""
-draft: true
+date: 2016-07-21 03:08:00 +0000
+description: ''
 tags: []
 title: Importing a site from Bitbucket
----
+draft: true
 
+---
 To import a site from Bitbucket navigate to your dashboard, and click the "Add Site" button. A modal will appear. Click on the "Bitbucket" button.
 
 [Image: Add Site modal]

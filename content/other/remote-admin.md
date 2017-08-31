@@ -1,6 +1,6 @@
 ---
 Categories: []
-date: 2016-06-23T14:21:00Z
+date: 2016-06-23 14:21:00 +0000
 description: Install the Forestry CMS on your site - mysite.com/admin/
 old_menu:
   managing_your_team:
@@ -9,8 +9,8 @@ old_menu:
     name: 'Remote Admin '
 tags: []
 title: Remote Admin
----
 
+---
 With Forestry Remote you can install the Forestry CMS on your static site and access it via <span style="color:rgba(0,0,255,0.7);">example.com/admin/</span>.  Your site can be hosted anywhere since Forestry Remote is our entire CMS in a single HTML file. 
 
 ![/docs/forestryio/images/forestry-remote-1.gif](/docs/forestryio/images/forestry-remote-1.gif)

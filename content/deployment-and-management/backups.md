@@ -1,13 +1,13 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+tags: ''
+title: Backups
 menu:
   deployment-and-management:
     weight: 5
-tags: ""
-title: Backups
----
 
+---
 ## If You Imported Your Site With Git
 If you set up and imported your site with Git, then backups are automatic!
 

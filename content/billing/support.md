@@ -1,13 +1,13 @@
 ---
 date: 2017-06-28 00:00:00 +0000
-description: ""
+description: ''
+tags: []
+title: Transferring Site Ownership & Billing
 menu:
   billing:
     weight: 6
-tags: []
-title: Transferring Site Ownership & Billing
----
 
+---
 If you’ve set up a site with Forestry, and are not the owner and/or contact who is managing billing, we can assist with this.
 
 We can either:

@@ -1,9 +1,6 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
-menu:
-  developing-with-jekyll:
-    weight: 5
+description: ''
 related:
 - title: Jekyll Assets Reference
   url: http://jekyllrb.com/docs/assets/
@@ -11,8 +8,12 @@ related:
   url: http://gulpjs.com/
 - title: Grunt.js
   url: https://gruntjs.com/
-tags: ""
+tags: ''
 title: Asset Pipeline
+menu:
+  developing-with-jekyll:
+    weight: 5
+
 ---
 If you’re planning on using any preprocessing on your assets (images, CSS, or JS) you’ll need to be careful how you implement this as it effects how Forestry builds your sites. 
 

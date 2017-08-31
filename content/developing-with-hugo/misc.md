@@ -1,20 +1,20 @@
 ---
 date: 2013-07-24 00:00:00 +0000
 description: Other things you can do with Hugo
+related:
+- title: "“Hugo Sitemap Reference”"
+  url: https://gohugo.io/templates/sitemap/
+- title: "“Hugo RSS Reference”"
+  url: https://gohugo.io/templates/rss/
+- title: "“Hugo Output Format Reference”"
+  url: https://gohugo.io/extras/output-formats/
+tags: ''
+title: Misc
 menu:
   developing-with-hugo:
     weight: 9
-related:
-- title: “Hugo Sitemap Reference”
-  url: https://gohugo.io/templates/sitemap/
-- title: “Hugo RSS Reference”
-  url: https://gohugo.io/templates/rss/
-- title: “Hugo Output Format Reference”
-  url: https://gohugo.io/extras/output-formats/
-tags: ""
-title: Misc
----
 
+---
 ## Sitemap
 Hugo comes with support for XML Sitemaps built-in.
 

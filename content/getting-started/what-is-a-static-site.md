@@ -1,13 +1,13 @@
 ---
 date: 2013-07-24 00:00:00 +0000
 description: A brief overview of what Static Sites are
+tags: ''
+title: What is a Static Site?
 menu:
   getting-started:
     weight: 5
-tags: ""
-title: What is a Static Site?
----
 
+---
 Static sites are websites built using static, unchanging files. They require no server processing time to deliver the content to the user, which makes them very fast and performant.
 
 Static site generators are the modern way of building static sites. They convert simple, text-based content files in static files ready for the web. 

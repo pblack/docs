@@ -13,9 +13,10 @@ output:
   toml: "+++ \ndescription = \"<b>Bold formatted text</b>\"\n+++ \n"
   yaml: "--- \ndescription: <b>Bold formatted text</b>\n--- \n"
 how_to_use:
-  hugo: 
-    - code: "<p>{{ .Params.description }}</p>"
-  jekyll: 
-    - code: "<p>{{ page.description }}</p>"
+  hugo:
+  - code: "<p>{{ .Params.description }}</p>"
+  jekyll:
+  - code: "<p>{{ page.description }}</p>"
+
 ---
 The WYSIWYG sub-type outputs the rich-text content as an HTML string to be used in your content.

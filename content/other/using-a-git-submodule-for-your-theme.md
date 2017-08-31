@@ -1,14 +1,14 @@
 ---
 Categories: []
-date: 2017-02-07T13:03:47-05:00
+date: 2017-02-07 13:03:47 -0500
 description: Git Submodules allow you to have a repo within your repo
 old_menu:
   setting_up_a_site:
     weight: 9
 tags: []
 title: Using a Git Submodule for Your Theme
----
 
+---
 If you have a repository for your Jekyll or Hugo project and you want use a different repository for your theme, you should set up your theme repo as a [Git Submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 To add a theme as a Git Submodule, run the following command from the root of your project:

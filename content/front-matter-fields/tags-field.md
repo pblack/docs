@@ -1,9 +1,9 @@
 ---
 aliases:
-    - /front-matter-fields/tags-list/
+- "/front-matter-fields/tags-list/"
 Categories: ''
 date: 2017-02-22 12:54:02 +0000
-description: Allows editors to add an array of tags 
+description: Allows editors to add an array of tags
 tags: ''
 type: fields
 title: Tags Field
@@ -23,28 +23,16 @@ options:
   description: Hides this field in the UI, allowing for hidden default values.
   type: Toggle
 how_to_use:
-  hugo: 
-    - code: |
-        {{ if .Params.tags }}
-        <ul>
-        {{ range .Params.tags }}
-          <li>{{ . }}</li>
-        {{ end }}
-        </ul> 
-        {{ end }}
-    - code: |
-        {{ delimit .Params.tags ", " }}
-  jekyll: 
-    - code: |
-        {% if page.tags %}
-        <ul>
-        {{ for tag in page.tags }}
-          <li>{{ tag }}</li>
-        {% endfor %}
-        </ul> 
-        {% endif %}
-    - code: |
-        {{ page.tags | array_to_sentence_string }}
+  hugo:
+  - code: "{{ if .Params.tags }}\n<ul>\n{{ range .Params.tags }}\n  <li>{{ . }}</li>\n{{
+      end }}\n</ul> \n{{ end }}\n"
+  - code: |
+      {{ delimit .Params.tags ", " }}
+  jekyll:
+  - code: "{% if page.tags %}\n<ul>\n{{ for tag in page.tags }}\n  <li>{{ tag }}</li>\n{%
+      endfor %}\n</ul> \n{% endif %}\n"
+  - code: |
+      {{ page.tags | array_to_sentence_string }}
 subtypes: ''
 output:
   json: |
@@ -58,4 +46,5 @@ output:
       - Hugo
       - Jekyll
     ---
+
 ---

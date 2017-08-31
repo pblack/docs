@@ -2,18 +2,18 @@
 Categories: []
 date: 2013-07-24 00:00:00 +0000
 description: Introduction to Forestry for Developers
+related:
+- title: More on Backups
+  url: "/docs/deployment-and-management/backups"
+- title: More on Deployment
+  url: "/docs/deployment-and-management/setting-up-deployment"
+tags: []
+title: Forestry for Developers
 menu:
   getting-started:
     weight: 3
-related:
-- title: More on Backups
-  url: /docs/deployment-and-management/backups
-- title: More on Deployment
-  url: /docs/deployment-and-management/setting-up-deployment
-tags: []
-title: Forestry for Developers
----
 
+---
 Forestry allows developers to build static sites using the technologies and tools they prefer, while still generating a fully-functioning CMS for their team.
 
 Developers are able to set up whatever build process works for them (npm, gulp, grunt, Webpack, Paver, etc) to handle tasks like minifying images, processing JS and CSS, modifying files, and executing their static site generator of choice.

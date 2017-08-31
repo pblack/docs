@@ -1,18 +1,20 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: "Front matter templates allow you to customize the editing interface in Forestry"
-menu:
-  site-configuration:
-    weight: 1
+description: Front matter templates allow you to customize the editing interface in
+  Forestry
 related:
 - title: All Front Matter Field Types
-  url: /docs/front-matter-fields/
+  url: "/docs/front-matter-fields/"
 - title: Jekyll Defaults
   url: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 - title: Hugo Archetypes
   url: https://gohugo.io/content/archetypes/
-tags: ""
+tags: ''
 title: Front Matter Templates
+menu:
+  site-configuration:
+    weight: 1
+
 ---
 In static sites, front matter (or “fields”) for pages can be added to the top of the content file. This front matter can then be used to customize the content, appearance, and layout of your site.
 

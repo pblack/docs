@@ -1,10 +1,11 @@
 ---
 Categories: []
-date: 2016-07-21T23:10:00Z
+date: 2016-07-21 23:10:00 +0000
 description: Forestry supports editing with WYSIWYG, Markdown and HTML.
-draft: true
 tags: []
 title: Markdown Vs. WYSIWYG editors
+draft: true
+
 ---
 ## WYSIWYG Vs Markdown
 

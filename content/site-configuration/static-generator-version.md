@@ -1,14 +1,14 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+related: []
+tags: ''
+title: Static Generator Version
 menu:
   site-configuration:
     weight: 5
-related: []
-tags: ""
-title: Static Generator Version
----
 
+---
 On a per site basis, you can configure which version of your static site generator we use to build your site when previewing and publishing. 
 
 You may want to do this if your site is built using an older version of your static site generator, and will not build correctly with the latest version.

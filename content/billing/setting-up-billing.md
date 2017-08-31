@@ -1,13 +1,13 @@
 ---
 date: 2017-06-28 00:00:00 +0000
-description: ""
+description: ''
+tags: []
+title: Setting Up Billing
 menu:
   billing:
     weight: 2
-tags: []
-title: Setting Up Billing
----
 
+---
 If you’re ready to upgrade your site to a bigger plan, follow the guide below.
 
 1. To set up billing for your first site, head to the [Dashboard][1].

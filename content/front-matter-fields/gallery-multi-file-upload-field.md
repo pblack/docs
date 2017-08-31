@@ -21,20 +21,20 @@ options:
   description: Hides this field in the UI, allowing for hidden default values.
   type: Toggle
 how_to_use:
-  hugo: 
-    - code: |
-        <ul>
-          {{ range .Params.gallery }}
-            <li><img src="{{ . | relURL }}"></li>
-          {{ end }}
-        </ul>
-  jekyll: 
-    - code: |
-        <ul>
-          {% for image in page.gallery %}
-            <li><img src="{{ image | relative_url }}"></li>
-          {% endfor %}
-        </ul>
+  hugo:
+  - code: |
+      <ul>
+        {{ range .Params.gallery }}
+          <li><img src="{{ . | relURL }}"></li>
+        {{ end }}
+      </ul>
+  jekyll:
+  - code: |
+      <ul>
+        {% for image in page.gallery %}
+          <li><img src="{{ image | relative_url }}"></li>
+        {% endfor %}
+      </ul>
 output:
   json: |
     {
@@ -45,5 +45,6 @@ output:
     }
   toml: "+++ \ngallery = \"/uploads/:year:/:month:/:day:/filename.ext\"\n+++ \n"
   yaml: "--- \nbanner: /uploads/:year:/:month:/:day:/filename.ext \n--- \n"
+
 ---
 The upload folder and permalink paths [can be configured](/docs/site-configuration/media-uploads/) if you don't desire the `/uploads/:year:/:month:/:day:/filename.ext` format.

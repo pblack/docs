@@ -1,6 +1,6 @@
 ---
 Categories: []
-date: 2016-08-18T17:56:00Z
+date: 2016-08-18 17:56:00 +0000
 description: "To set up your Forestry CMS, you can [import your site from a Git repository](/docs/setting-up-a-site/setting-up-a-site-from-a-git-repository/)
   (Github, Bitbucket or GitLab) or [upload a zip file of your site](/docs/setting-up-a-site/uploading-a-zip-file/).
   \ \r\n"
@@ -9,8 +9,8 @@ old_menu:
     weight: 3
 tags: []
 title: Setting up a site from a Git repository
----
 
+---
 <img src="/docs/forestryio/images/Screen Shot 2016-08-18 at 10.48.54 AM.png" class="large center">
 
 ## Importing from a repo

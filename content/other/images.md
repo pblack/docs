@@ -1,12 +1,12 @@
 ---
 Categories: []
-date: 2016-07-21T22:41:00Z
-description: ""
-draft: true
+date: 2016-07-21 22:41:00 +0000
+description: ''
 tags: []
 title: Adding Images
----
+draft: true
 
+---
 Images may be added to posts directly in the main content body or through front matter fields. 
 
 ## Markdown Editor

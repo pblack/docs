@@ -1,10 +1,11 @@
 ---
-Categories: ""
-date: 2017-03-07T12:32:13Z
+Categories: ''
+date: 2017-03-07 12:32:13 +0000
 description: 'Currently, Forestry.io does not support simultaneous, multi-user editing. '
-draft: true
-tags: ""
+tags: ''
 title: Multiple Editors
+draft: true
+
 ---
 When 2 people edit the same page, Forestry.io applies a "last in last out" rule.
 

@@ -1,18 +1,18 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
-menu:
-  managing-content:
-    weight: 5
+description: ''
 related:
 - title: Forestry's Jekyll Menu Plugin
   url: https://github.com/forestryio/jekyll-menus
 - title: Hugo Menu Reference
   url: https://gohugo.io/extras/menus/
-tags: ""
+tags: ''
 title: Menus
----
+menu:
+  managing-content:
+    weight: 5
 
+---
 Forestry has a menu management tool that allows you to easily manage your site’s navigation and menus from the CMS. You can find this under *"site"* in the sidebar of your CMS, as `Menus`.
 
 This is supported using the [Jekyll Menus plugin](https://github.com/forestryio/jekyll-menus) or using Hugo’s built-in menu feature.

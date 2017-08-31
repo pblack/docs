@@ -1,15 +1,15 @@
 ---
 Categories: []
-date: 2016-11-01T16:37:05-04:00
+date: 2016-11-01 16:37:05 -0400
 description: Log in from your domain (mysite.com/admin/)
-draft: true
 old_menu:
   setting_up_a_site:
     weight: 6
 tags: []
 title: Setting up Forestry Remote
----
+draft: true
 
+---
 **Download** Download the single CMS file (it's just an `index.html` file).
 
 **For Hugo sites**  

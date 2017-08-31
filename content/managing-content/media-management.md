@@ -1,14 +1,14 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+related: ''
+tags: ''
+title: Media Management
 menu:
   managing-content:
     weight: 4
-related: ""
-tags: ""
-title: Media Management
----
 
+---
 Forestry has a fully-featured media manager for managing all of the static assets of your site, such as images, PDFs, text files, videos, and more. You can find it under *"site"* in the sidebar of your CMS, as `Media`.
 
 ## Managing Your Media

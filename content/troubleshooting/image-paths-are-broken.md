@@ -1,15 +1,15 @@
 ---
 Categories: []
-date: 2016-10-12T12:10:00Z
-description: ""
-draft: true
+date: 2016-10-12 12:10:00 +0000
+description: ''
+tags: []
+title: Image Paths are Broken
 menu:
   troubleshooting:
     weight: 7
-tags: []
-title: Image Paths are Broken
----
+draft: true
 
+---
 Ensure that you're prepending your paths with your baseurl. 
 
 ## Jekyll

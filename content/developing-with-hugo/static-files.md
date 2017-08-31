@@ -1,16 +1,16 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+related:
+- title: "“Hugo Static Files Reference”"
+  url: https://gohugo.io/themes/creation#static
+tags: ''
+title: Static Files
 menu:
   developing-with-hugo:
     weight: 4
-related:
-- title: “Hugo Static Files Reference”
-  url: https://gohugo.io/themes/creation#static
-tags: ""
-title: Static Files
----
 
+---
 In Hugo, any files/folders found in the `static/` directory in the root of your project or the root of your site’s theme will be made available at the root of your built site.
 
 For example:

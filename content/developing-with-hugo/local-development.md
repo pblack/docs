@@ -1,16 +1,16 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+related:
+- title: "“Hugo Usage Guide”"
+  url: https://gohugo.io/overview/usage/
+tags: ''
+title: Local Development
 menu:
   developing-with-hugo:
     weight: 7
-related:
-- title: “Hugo Usage Guide”
-  url: https://gohugo.io/overview/usage/
-tags: ""
-title: Local Development
----
 
+---
 Hugo allows you to work on your site in a local environment on your computer. It requires you to install the Hugo binary on your local machine.
 
 For detailed instructions on installing Hugo for your operating system, see the [Hugo Docs][1].

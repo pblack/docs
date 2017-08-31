@@ -1,12 +1,13 @@
 ---
 Categories: []
-date: 2016-06-09T17:21:00Z
+date: 2016-06-09 17:21:00 +0000
 description: Forestry and GitHub are a great pair. Forestry let's you edit your content,
   and GitHub will keep a history of all your changes, as well as keep everything synced
   up if you make changes outside of Forestry, such as changing the theme of a site.
-draft: true
 tags: []
 title: Importing a site from GitHub
+draft: true
+
 ---
 If you are new to Git and GitHub you can get started [here](https://help.github.com/articles/set-up-git/), and follow an interactive tutorial [here](https://try.github.io/levels/1/challenges/1). It is very easy to learn the basics, and over time you will learn more of the advanced features that make Git a powerful tool.
 

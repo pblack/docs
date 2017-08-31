@@ -1,14 +1,14 @@
 ---
 date: 2016-07-13 17:58:00 +0000
-description: ""
+description: ''
+tags: []
+title: How are UI elements determined  from front matter
 menu:
   faq:
     name: How UI elements are determined from front matter
     weight: 1
-tags: []
-title: How are UI elements determined  from front matter
----
 
+---
 Let's look at the an example of front matter from a **Jekyll** post:
 <pre><code class="language-yml">`---`
 title: "Example Post"

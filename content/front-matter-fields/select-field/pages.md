@@ -10,16 +10,8 @@ image: "/docs/assets/images/Select%20Pages%20Preview.jpg"
 weight: 5
 config:
   code_samples:
-    yaml: |
-      type: select
-      name: [String]
-      label: [String]
-      description: [String] 
-      hidden: [true|false]
-      config:
-          source:
-            type: pages
-            section: [String]
+    yaml: "type: select\nname: [String]\nlabel: [String]\ndescription: [String] \nhidden:
+      [true|false]\nconfig:\n    source:\n      type: pages\n      section: [String]\n"
   instructions: |
     `section` maps to the content sections shown in the sidebar of the CMS.
 options_image: "/docs/assets/images/Select%20Page%20Options.jpg"
@@ -38,20 +30,21 @@ options:
   type: Select
 how_to_use:
   hugo:
-    - code: |
-        {{ with .Site.GetPages "page" .Params.related_page }}
-          <h2>{{ .Title }}</h2>
-          <p>{{ .Summary }}</p>
-        {{ end }}
-  jekyll: 
-    - code: |
-        {% for related_page in site.pages | where:"path", page.related_page %}
-          <h2>{{ related_page.title }}</h2>
-          <p>{{ related_page.excerpt }}</p>
-        {% endfor %}
+  - code: |
+      {{ with .Site.GetPages "page" .Params.related_page }}
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Summary }}</p>
+      {{ end }}
+  jekyll:
+  - code: |
+      {% for related_page in site.pages | where:"path", page.related_page %}
+        <h2>{{ related_page.title }}</h2>
+        <p>{{ related_page.excerpt }}</p>
+      {% endfor %}
 subtypes: ''
 output:
   json: "{ \n  \"related_page\": \"path/to/page.md\"\n} \n"
   toml: "+++ \nrelated_page = \"path/to/page.md\"\n+++ \n"
   yaml: "--- \nrelated_page: path/to/page.md \n--- \n"
+
 ---

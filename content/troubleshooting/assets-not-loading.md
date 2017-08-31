@@ -1,13 +1,10 @@
 ---
 Categories: []
 date: 2013-07-24 00:00:00 +0000
-description: ""
-menu:
-  troubleshooting:
-    weight: 2
+description: ''
 related:
 - title: Configuring Media Uploads
-  url: /docs/site-configuration/media-uploads/
+  url: "/docs/site-configuration/media-uploads/"
 - title: Jekyll Configuration Guide
   url: https://jekyllrb.com/docs/configuration/
 - title: Hugo Configuration Guide
@@ -17,8 +14,11 @@ related:
 tags: []
 title: Assets Not Loading
 type: default
----
+menu:
+  troubleshooting:
+    weight: 2
 
+---
 Sometimes you’ll find your assets aren’t loading when you preview or publish your site. This is almost always due to *pathing issues*.
 
 The best way to solve this issue is to ensure you're always using absolute URLs for the environment your viewing in.

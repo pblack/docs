@@ -1,13 +1,13 @@
 ---
 date: 2017-06-28 00:00:00 +0000
-description: ""
+description: ''
+tags: []
+title: Managing Payment Information
 menu:
   billing:
     weight: 3
-tags: []
-title: Managing Payment Information
----
 
+---
 Payment information for an account is managed from `Account Settings`.
 
 Account Settings can be accessed from two locations:

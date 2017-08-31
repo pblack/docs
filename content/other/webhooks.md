@@ -1,12 +1,12 @@
 ---
-Categories: ""
-date: 2017-02-23T21:23:33Z
+Categories: ''
+date: 2017-02-23 21:23:33 +0000
 description: Communicate with 3rd party applications
-draft: true
-tags: ""
+tags: ''
 title: Webhooks
----
+draft: true
 
+---
 >>>>>>> config-as-code
 Forestry.io now supports [webhooks](https://sendgrid.com/blog/whats-webhook/) to inform other applications when certain events happen with your Forestry.io site. 
 

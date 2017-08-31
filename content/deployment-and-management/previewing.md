@@ -1,18 +1,18 @@
 ---
 date: 2013-07-24 00:00:00 +0000
-description: ""
+description: ''
+related:
+- title: Jekyll Asset Pipeline
+  url: "/developing-with-jekyll/asset-pipeline/"
+- title: Hugo Asset Pipeline
+  url: "/developing-with-hugo/asset-pipeline/"
+tags: ''
+title: Previewing
 menu:
   deployment-and-management:
     weight: 2
-related:
-- title: Jekyll Asset Pipeline
-  url: /developing-with-jekyll/asset-pipeline/
-- title: Hugo Asset Pipeline
-  url: /developing-with-hugo/asset-pipeline/
-tags: ""
-title: Previewing
----
 
+---
 Forestry allows you to preview changes to your site before you save them by saving as a draft or publishing.
 
 Previewing runs the same commands that publishing does, which is **only** the default command for your static site generator of choice.* (e.g, `$ jekyll build` or `$ hugo build`)*
