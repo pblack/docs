@@ -32,8 +32,19 @@ how_to_use:
         {{ end }}
         </ul> 
         {{ end }}
+    - code: |
+        {{ delimit .Params.tags ", " }}
   jekyll: 
-    - code: "<h1>{{ page.tags }}</h1>"
+    - code: |
+        {% if page.tags %}
+        <ul>
+        {{ for tag in page.tags }}
+          <li>{{ tag }}</li>
+        {% endfor %}
+        </ul> 
+        {% endif %}
+    - code: |
+        {{ page.tags | array_to_sentence_string }}
 subtypes: ''
 output:
   json: |
