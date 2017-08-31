@@ -42,9 +42,9 @@ how_to_use:
     - code: |
         {% for author in page.authors %}
         <div class="author">
-          <h2>{{ name }}</h2>
-          <small>{{ bio }}</small>
-          <img src="{{ image }}" alt="Photo of {{ name }}">
+          <h2>{{ author.name }}</h2>
+          <small>{{ author.bio }}</small>
+          <img src="{{ author.image }}" alt="Photo of {{ author.name }}">
         </div>
         {% endfor %} 
 output:
