@@ -31,7 +31,7 @@ output:
   yaml: "--- \ntitle: value \n--- \n"
 how_to_use:
   hugo: 
-    - code: "<h1>{{ .Params.title }}</h1> "
+    - code: "<h1>{{ .Title }}</h1> "
   jekyll: 
     - code: "<h1>{{ page.title }}</h1>"
 subtypes: ''

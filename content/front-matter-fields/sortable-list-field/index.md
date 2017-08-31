@@ -42,11 +42,11 @@ how_to_use:
         <p>{{ page.ingredients | array_to_sentence_string }}</p>
         // Becomes <p>Butternut Squash, Onions, Butter, Carrots</p>
     - code: |
-        <h2>Authors:</h2>
+        <h2>Ingredients:</h2>
         <ul>
-          {% for ingredient in page.ingredients }}
+          {% for ingredient in page.ingredients %}
             <li>{{ ingredient }}</li>
-          {{ endfor }}
+          {% endfor %}
         </ul> 
 subtypes: ''
 output:

@@ -45,10 +45,10 @@ how_to_use:
         {{ end }}
   jekyll: 
     - code: |
-        {{ for related_page in site.pages | where:"path", page.related_page }}
+        {% for related_page in site.pages | where:"path", page.related_page %}
           <h2>{{ related_page.title }}</h2>
           <p>{{ related_page.excerpt }}</p>
-        {{ endfor }}
+        {% endfor %}
 subtypes: ''
 output:
   json: "{ \n  \"related_page\": \"path/to/page.md\"\n} \n"
