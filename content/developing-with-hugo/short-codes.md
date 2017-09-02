@@ -29,7 +29,7 @@ For example, using Hugo’s built-in figure short code, a user must enter the fo
 ## Built-in Short Codes
 Hugo ships with a collection of built-in short codes for modifying the output of your content body.
 
-For a full list of these shortcakes and how to use them, see the references below.
+For a full list of these short codes and how to use them, see the references below.
 
 ## Custom Short Codes
 Hugo also allows you to build your own short codes. See the Hugo short code documentation in the references below.
