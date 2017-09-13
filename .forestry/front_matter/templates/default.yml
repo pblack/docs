@@ -4,7 +4,6 @@ pages:
 - other/multilingual-hugo-support.md
 - developing-with-hugo/environments.md
 - site-configuration/media-uploads.md
-- deployment-and-management/test.md
 hide_body: false
 fields:
 - name: title
