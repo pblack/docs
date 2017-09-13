@@ -17,4 +17,24 @@ menu:
 ---
 Forestry does not currently support localization as a feature, but they are many community recommended methods of implementing localization.
 
-See the recommended links below for more information.
+We recommend creating multiple versions of your pages for each language. Put secondary languages in separate folders. For example:
+
+```
+.
+├── index.md
+├── /fr/index.md
+└── /es/index.md
+```
+
+Which will become:
+
+```
+.
+├── index.html
+├── fr/
+|   └── index.html
+└── es/
+    └── index.html
+```
+
+If you're looking to do more complex translation, see the recommended links below for more information.
