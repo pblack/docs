@@ -1,7 +1,4 @@
-+++
-title = ""
-
-+++
+---
 description: Edit front matter and markdown content
 menu:
   managing-content:
