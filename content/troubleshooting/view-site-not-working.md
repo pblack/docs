@@ -10,8 +10,6 @@ menu:
     weight: 1
 
 ---
-
-
 The `View Site` button opens a new tab of the live version of your site, and is located in the sidebar. It can be configured with the `Site URL` setting, located in `Settings` under the `General` tab.
 
 If this isn’t working, this means your live site hasn't been set up correctly. There are many reasons this could be the case.
