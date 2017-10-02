@@ -30,7 +30,7 @@ Installation generally has three steps:
 
 2. You must also add the plugin to the `gems` array in your Jekyll `_config.yml`.  
 
-		gems:
+		plugins:
 		- jekyll-menus
 
 3. Install the plugin and run Jekyll by running the following commands:  
@@ -39,6 +39,3 @@ Installation generally has three steps:
 		$ bundle exec jekyll serve
 
 **Note:** depending on the plugin, additional configuration may be required. Please read each plugin’s documentation carefully.
-
-[1]:	%20
-[2]:	.
