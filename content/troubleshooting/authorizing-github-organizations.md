@@ -3,7 +3,7 @@ Categories = []
 date = "2017-08-23T12:17:43Z"
 description = "Enabling 3rd-party access to Forestry for your Github organization"
 tags = []
-title = "Authorizing GitHub Organizations"
+title = "Can't Import from a GitHub Organization"
 [menu.troubleshooting]
 weight = 9
 
