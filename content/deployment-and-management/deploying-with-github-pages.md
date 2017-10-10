@@ -29,7 +29,7 @@ Jekyll is built by GitHub, and due to this you can use Jekyll with GitHub pages:
 
 \* The only caveat with option 1 is that you can only use GitHub support Jekyll plugins. [See the full list][2].
 
-### Using method 1
+## Using method 1
 If you are using method one, then all you need to do is enable GitHub pages for your master branch which contains the source files for your Jekyll site.
 
 GitHub will build your Jekyll site each time a new commit happens and serve it automatically.
@@ -43,11 +43,11 @@ gem "github-pages", group: :jekyll_plugins
 Also, please ensure that your `Connection` is set to `Commit to source repo only` in the `Hosting` tab of your site's settings.
 *This is to prevent automatically overwriting your source code with your built site.*
 
-### Using method 2
+## Using method 2
 If you are using non-whitelisted Jekyll plugins, or have additional steps to your build process that GitHub pages doesn’t support, proceed to the next section.
 
 ## Setting Up Forestry for GitHub Pages
-To deploy a static site to GitHub pages using Forestry, you must first set up a new branch on your repo, which you can do by going to your repository in GitHub and using the branch management dropdown.
+To deploy a static site to GitHub pages using Forestry, you must first set up a new branch named `gh-pages` on your repo, which you can do by going to your repository in GitHub and using the branch management dropdown.
 
 ![](/docs/assets/images/github-gh-pages-settings.png)
 
