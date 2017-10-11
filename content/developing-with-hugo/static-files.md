@@ -23,7 +23,7 @@ For example:
 	└── themes/
 	    └── example-theme/
 	        ├── static/
-	        └── script.js
+	             └── script.js
 ```
 
 Will be built as:
