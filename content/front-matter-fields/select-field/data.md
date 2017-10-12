@@ -14,9 +14,9 @@ config:
       [true|false]\nconfig:\n    source:\n      type: datafiles\n      file: [String]\n
       \     path: [String]\n"
   instructions: |
-    The value of `file` is the file path without the file extension. E.g, `data/characters.toml` becomes `characters`.
+    The value of `file` is the slugged file path. E.g, `data/characters.toml` becomes `data-characters-toml`.
 
-    The value of `path` is the key of a field in the data file that editors can select from. If left unset, all fields in the data file are available.
+    The value of `path` is the key of a field in the data file that editors can select from. If left unset, all top-level fields in the data file are available.
 options_image: "/docs/assets/images/Select%20Data%20Options.jpg"
 options:
 - name: Hidden
